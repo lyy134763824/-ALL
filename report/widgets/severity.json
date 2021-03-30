@@ -1,0 +1,41 @@
+[ {
+  "uid" : "ee038ed8e74f3100",
+  "name" : "test_add_shopping_trolley",
+  "time" : {
+    "start" : 1616740843343,
+    "stop" : 1616740843349,
+    "duration" : 6
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb8e47f376460cfb",
+  "name" : "test_delete_shopping_trolley",
+  "time" : {
+    "start" : 1616740843426,
+    "stop" : 1616740843426,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "cddd27f78c1cb566",
+  "name" : "test_edit_shopping_trolley",
+  "time" : {
+    "start" : 1616740843423,
+    "stop" : 1616740843424,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb2bceffb1286c2",
+  "name" : "test_add_1",
+  "time" : {
+    "start" : 1616740843332,
+    "stop" : 1616740843333,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

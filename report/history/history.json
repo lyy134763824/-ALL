@@ -1,0 +1,80 @@
+{
+  "348575165e0ba2efa9f035aae72090a8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cddd27f78c1cb566",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616740843423,
+        "stop" : 1616740843424,
+        "duration" : 1
+      }
+    } ]
+  },
+  "6c55b2e92bf9111f42b3b959ae7f8f04" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ee038ed8e74f3100",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'success' == 'failed'\n  - failed\n  + success",
+      "time" : {
+        "start" : 1616740843343,
+        "stop" : 1616740843349,
+        "duration" : 6
+      }
+    } ]
+  },
+  "b0e5d9241575832ac935a47951dcb7fe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fb8e47f376460cfb",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 本次不执行",
+      "time" : {
+        "start" : 1616740843426,
+        "stop" : 1616740843426,
+        "duration" : 0
+      }
+    } ]
+  },
+  "e56501b37e879c5fbae7d0a713a955c8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eb2bceffb1286c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616740843332,
+        "stop" : 1616740843333,
+        "duration" : 1
+      }
+    } ]
+  }
+}
