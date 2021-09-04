@@ -1,0 +1,11 @@
+CREATE TABLE `proxy_ip` (
+  `IP` varchar(20) DEFAULT NULL,
+  `PORT` varchar(10) DEFAULT NULL,
+  `匿名度` varchar(15) DEFAULT NULL,
+  `TYPE` varchar(10) DEFAULT NULL,
+  `位置` varchar(50) DEFAULT NULL,
+  `speed` varchar(10) DEFAULT NULL,
+  `create_time` varchar(30) DEFAULT NULL,
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=149 DEFAULT CHARSET=utf8
