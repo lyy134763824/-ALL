@@ -1,0 +1,13 @@
+[2021-04-08 16:30:38.130603] [INFO] [test_logbook3.py] [<module>] [46] test logbook
+[2021-04-08 16:34:10.355653] [INFO] [test_logbook3.py] [<module>] [46] test logbook
+[2021-04-08 16:35:21.399884] [INFO] [test_logbook3.py] [<module>] [46] test logbook
+[2021-04-08 16:39:11.813303] [INFO] [test_logbook3.py] [<module>] [46] test logbook
+[2021-04-08 16:45:40.874359] [INFO] [test_logbook3.py] [<module>] [47] test logbook
+[2021-04-08 16:45:40.878426] [ERROR] [test_logbook3.py] [<module>] [49] error
+[2021-04-08 16:46:35.377249] [INFO] [test_logbook3.py] [<module>] [47] test logbook
+[2021-04-08 16:46:35.378153] [DEBUG] [test_logbook3.py] [<module>] [48] debug
+[2021-04-08 16:46:35.378453] [ERROR] [test_logbook3.py] [<module>] [49] error
+[2021-04-08 16:47:24.710494] [INFO] [test_logbook3.py] [<module>] [47] test logbook
+[2021-04-08 16:47:24.711670] [ERROR] [test_logbook3.py] [<module>] [49] error
+[2021-04-08 16:48:06.336873] [INFO] [test_logbook3.py] [<module>] [47] test logbook
+[2021-04-08 16:48:06.338233] [ERROR] [test_logbook3.py] [<module>] [49] error

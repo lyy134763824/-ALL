@@ -1,0 +1,89 @@
+{
+  "uid" : "678caeab12722a29",
+  "name" : "test_demo2",
+  "fullName" : "test_pytest.Testadd#test_demo2",
+  "historyId" : "1305f81a07d8db2896970847812e4f1a",
+  "time" : {
+    "start" : 1617091707592,
+    "stop" : 1617091707593,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 4 == 5\n +  where 4 = inc(2)",
+  "statusTrace" : "self = <测试.test_pytest.Testadd object at 0x7f4b58d91e48>\n\n    @pytest.mark.failed\n    def test_demo2(self):\n>       assert inc(2) == 5\nE       assert 4 == 5\nE        +  where 4 = inc(2)\n\ntest_pytest.py:17: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 4 == 5\n +  where 4 = inc(2)",
+    "statusTrace" : "self = <测试.test_pytest.Testadd object at 0x7f4b58d91e48>\n\n    @pytest.mark.failed\n    def test_demo2(self):\n>       assert inc(2) == 5\nE       assert 4 == 5\nE        +  where 4 = inc(2)\n\ntest_pytest.py:17: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3dfd203bd16daf43",
+      "name" : "stdout",
+      "source" : "3dfd203bd16daf43.txt",
+      "type" : "text/plain",
+      "size" : 15
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "failed"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytest"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testadd"
+  }, {
+    "name" : "host",
+    "value" : "tedu"
+  }, {
+    "name" : "thread",
+    "value" : "35342-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a1a908644e8a508d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 4 == 5\n +  where 4 = inc(2)",
+      "time" : {
+        "start" : 1617091522043,
+        "stop" : 1617091522045,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "failed" ]
+  },
+  "source" : "678caeab12722a29.json",
+  "parameterValues" : [ ]
+}

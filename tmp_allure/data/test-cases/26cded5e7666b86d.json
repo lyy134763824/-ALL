@@ -1,0 +1,50 @@
+{
+  "uid" : "26cded5e7666b86d",
+  "name" : "test_inc",
+  "fullName" : "test_pytest#test_inc",
+  "historyId" : "d6cbe0167730598efb5d701b5f5205b3",
+  "time" : {
+    "start" : 1617091521969,
+    "stop" : 1617091521970,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 3 == 4\n +  where 3 = inc(1)",
+  "statusTrace" : "def test_inc():\n>       assert inc(1)   == 4\nE       assert 3 == 4\nE        +  where 3 = inc(1)\n\ntest_pytest.py:7: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_pytest"
+  }, {
+    "name" : "host",
+    "value" : "tedu"
+  }, {
+    "name" : "thread",
+    "value" : "35302-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "26cded5e7666b86d.json",
+  "parameterValues" : [ ]
+}

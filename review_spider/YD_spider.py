@@ -97,6 +97,7 @@ class YD_spider:
     def run(self):
         word  = input('请输入查询的单词：')
         res = self.get_post(word)
+        # res.json()  转换成JSon格式的python语法
         res2 = json.loads(res)
         res3 = res2['translateResult'][0][0]['tgt']
         print(f'结果是：{res3}')

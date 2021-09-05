@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="5" hostname="tedu" name="pytest" skipped="0" tests="6" time="0.123" timestamp="2021-03-30T13:59:58.957957"><testcase classname="test_pytest" name="test_inc" time="0.003"><failure message="assert 3 == 4&#10; +  where 3 = inc(1)">def test_inc():
+&gt;       assert inc(1)   == 4
+E       assert 3 == 4
+E        +  where 3 = inc(1)
+
+test_pytest.py:7: AssertionError</failure></testcase><testcase classname="test_pytest.Testadd" name="test_demo1" time="0.001" /><testcase classname="test_pytest.Testadd" name="test_demo2" time="0.002"><failure message="assert 4 == 5&#10; +  where 4 = inc(2)">self = &lt;测试.test_pytest.Testadd object at 0x7fb7a542f588&gt;
+
+    @pytest.mark.failed
+    def test_demo2(self):
+&gt;       assert inc(2) == 5
+E       assert 4 == 5
+E        +  where 4 = inc(2)
+
+test_pytest.py:17: AssertionError</failure></testcase><testcase classname="test_pytest.Testadd" name="test_data[1-2]" time="0.003"><failure message="assert 3 == 2&#10; +  where 3 = inc(1)">self = &lt;测试.test_pytest.Testadd object at 0x7fb7a5427e48&gt;, data = 1, expect = 2
+
+    @pytest.mark.parametrize("data,expect",[
+        (1,2),
+        (3,4),
+        (10,11),
+    ])
+    def test_data(self,data,expect):
+&gt;       assert inc(data) == expect
+E       assert 3 == 2
+E        +  where 3 = inc(1)
+
+test_pytest.py:25: AssertionError</failure></testcase><testcase classname="test_pytest.Testadd" name="test_data[3-4]" time="0.002"><failure message="assert 5 == 4&#10; +  where 5 = inc(3)">self = &lt;测试.test_pytest.Testadd object at 0x7fb7a542f8d0&gt;, data = 3, expect = 4
+
+    @pytest.mark.parametrize("data,expect",[
+        (1,2),
+        (3,4),
+        (10,11),
+    ])
+    def test_data(self,data,expect):
+&gt;       assert inc(data) == expect
+E       assert 5 == 4
+E        +  where 5 = inc(3)
+
+test_pytest.py:25: AssertionError</failure></testcase><testcase classname="test_pytest.Testadd" name="test_data[10-11]" time="0.002"><failure message="assert 12 == 11&#10; +  where 12 = inc(10)">self = &lt;测试.test_pytest.Testadd object at 0x7fb7a5438668&gt;, data = 10, expect = 11
+
+    @pytest.mark.parametrize("data,expect",[
+        (1,2),
+        (3,4),
+        (10,11),
+    ])
+    def test_data(self,data,expect):
+&gt;       assert inc(data) == expect
+E       assert 12 == 11
+E        +  where 12 = inc(10)
+
+test_pytest.py:25: AssertionError</failure></testcase></testsuite></testsuites>

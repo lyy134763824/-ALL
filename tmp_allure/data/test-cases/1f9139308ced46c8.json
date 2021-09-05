@@ -1,0 +1,104 @@
+{
+  "uid" : "1f9139308ced46c8",
+  "name" : "test_data[3-4]",
+  "fullName" : "test_pytest.Testadd#test_data",
+  "historyId" : "c0c12d5713ff9f5d1f8a1c4fb5dca273",
+  "time" : {
+    "start" : 1617091707632,
+    "stop" : 1617091707637,
+    "duration" : 5
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 5 == 4\n +  where 5 = inc(3)",
+  "statusTrace" : "self = <测试.test_pytest.Testadd object at 0x7f4b5a9f2550>, data = 3, expect = 4\n\n    @pytest.mark.parametrize(\"data,expect\",[\n        (1,2),\n        (3,4),\n        (10,11),\n    ])\n    def test_data(self,data,expect):\n        allure.attach(\"this is text\",attachment_type=allure.attachment_type.TEXT)\n        # allure.attach('this is html ',attachment_type=allure.attachment_type.HTML)\n        allure.attach('<img src=\"https://www.testing-studio.com/wp-content/uploads/2019/11/4-必备实战大纲-3.jpg\" alt=\"\" class=\"wp-image-2602\" srcset=\"https://www.testing-studio.com/wp-content/uploads/2019/11/4-必备实战大纲-3.jpg 1200w, https://www.testing-studio.com/wp-content/uploads/2019/11/4-必备实战大纲-3-300x204.jpg 300w, https://www.testing-studio.com/wp-content/uploads/2019/11/4-必备实战大纲-3-768x522.jpg 768w, https://www.testing-studio.com/wp-content/uploads/2019/11/4-必备实战大纲-3-1024x695.jpg 1024w\" sizes=\"(max-width: 1200px) 100vw, 1200px\">',attachment_type=allure.attachment_type.HTML)\n>       assert inc(data) == expect\nE       assert 5 == 4\nE        +  where 5 = inc(3)\n\ntest_pytest.py:28: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 5 == 4\n +  where 5 = inc(3)",
+    "statusTrace" : "self = <测试.test_pytest.Testadd object at 0x7f4b5a9f2550>, data = 3, expect = 4\n\n    @pytest.mark.parametrize(\"data,expect\",[\n        (1,2),\n        (3,4),\n        (10,11),\n    ])\n    def test_data(self,data,expect):\n        allure.attach(\"this is text\",attachment_type=allure.attachment_type.TEXT)\n        # allure.attach('this is html ',attachment_type=allure.attachment_type.HTML)\n        allure.attach('<img src=\"https://www.testing-studio.com/wp-content/uploads/2019/11/4-必备实战大纲-3.jpg\" alt=\"\" class=\"wp-image-2602\" srcset=\"https://www.testing-studio.com/wp-content/uploads/2019/11/4-必备实战大纲-3.jpg 1200w, https://www.testing-studio.com/wp-content/uploads/2019/11/4-必备实战大纲-3-300x204.jpg 300w, https://www.testing-studio.com/wp-content/uploads/2019/11/4-必备实战大纲-3-768x522.jpg 768w, https://www.testing-studio.com/wp-content/uploads/2019/11/4-必备实战大纲-3-1024x695.jpg 1024w\" sizes=\"(max-width: 1200px) 100vw, 1200px\">',attachment_type=allure.attachment_type.HTML)\n>       assert inc(data) == expect\nE       assert 5 == 4\nE        +  where 5 = inc(3)\n\ntest_pytest.py:28: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "66b65b92f9057d12",
+      "name" : "9c2d7765-9fd9-41cf-8df4-f11c4940e749-attachment.txt",
+      "source" : "66b65b92f9057d12.txt",
+      "type" : "text/plain",
+      "size" : 12
+    }, {
+      "uid" : "171eb17d4734a5b4",
+      "name" : "24cc7eb5-2623-405e-86b8-e3ed2f24f570-attachment.html",
+      "source" : "171eb17d4734a5b4.html",
+      "type" : "text/html",
+      "size" : 566
+    }, {
+      "uid" : "2fbd491e374ad927",
+      "name" : "stdout",
+      "source" : "2fbd491e374ad927.txt",
+      "type" : "text/plain",
+      "size" : 15
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_pytest"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testadd"
+  }, {
+    "name" : "host",
+    "value" : "tedu"
+  }, {
+    "name" : "thread",
+    "value" : "35342-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "3"
+  }, {
+    "name" : "expect",
+    "value" : "4"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a5e1cd1e4ddf43e2",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 5 == 4\n +  where 5 = inc(3)",
+      "time" : {
+        "start" : 1617091522094,
+        "stop" : 1617091522100,
+        "duration" : 6
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1f9139308ced46c8.json",
+  "parameterValues" : [ "3", "4" ]
+}

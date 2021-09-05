@@ -1,0 +1,80 @@
+{
+  "uid" : "9d80d446130983aa",
+  "name" : "test_demo1",
+  "fullName" : "test_pytest.Testadd#test_demo1",
+  "historyId" : "5803fa844623a8de29d5eba85adfb776",
+  "time" : {
+    "start" : 1617091707585,
+    "stop" : 1617091707585,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b35596531eb05f07",
+      "name" : "stdout",
+      "source" : "b35596531eb05f07.txt",
+      "type" : "text/plain",
+      "size" : 15
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "success"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytest"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testadd"
+  }, {
+    "name" : "host",
+    "value" : "tedu"
+  }, {
+    "name" : "thread",
+    "value" : "35342-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "493f08a8c9052b1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617091522038,
+        "stop" : 1617091522038,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "success" ]
+  },
+  "source" : "9d80d446130983aa.json",
+  "parameterValues" : [ ]
+}
