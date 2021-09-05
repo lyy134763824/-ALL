@@ -20,3 +20,4 @@ from urllib import parse
 sv ='day01%d1%b5%c1%b7%d3%aaall'
 sv = 'utf-8'
 print(sv)
+print('text')
