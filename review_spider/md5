@@ -1,0 +1,50 @@
+#!/usr/bin/python3
+# coding = 'utf-8'
+# 括号需要加引号输入
+# 
+import re
+import hashlib
+import sys
+
+def get_raw(raw):
+    return hashlib.md5(str(raw).encode()).hexdigest()
+
+def get_formater_str(raw):
+    return raw.strip().replace('(','').replace(')','').replace(' (','').replace(') ','')
+
+
+if __name__ == '__main__':
+    if len(sys.argv) < 2:
+        print('zhishao2')
+    is_formater = False
+    is_list1 = False
+    for i in sys.argv[1:]:
+        if sys.argv[1].startswith('-'):
+            if i.startswith('-'):
+                if i == '-l':
+                    #表示列表
+                    is_list1 = True
+                elif i == '-f':
+                    #表示执行
+                    is_formater = True
+                else:
+                    print('输错参数啦{}'.format(i))
+                    sys.exit()
+            else:
+                if is_list1 and is_formater:
+                    for line in sys.argv[3:]:
+                        print(get_raw(get_formater_str(line)))
+                    sys.exit()
+                elif is_list1 and not is_formater:
+                    for line in sys.argv[2:]:
+                        print(get_raw((line)))
+                    sys.exit()
+                elif not is_list1 and is_formater:
+                    for line in sys.argv[2:]:
+                        print(get_raw(get_formater_str(line)))
+                    sys.exit()
+        else:
+            string1 = [''+str(i) for i in sys.argv[1:] if i != ''][0]
+            print(get_raw(get_formater_str(string1)))
+            sys.exit()
+
