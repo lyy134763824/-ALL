@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # coding = 'utf-8'
 # 括号需要加引号输入
-# 
+#
 import re
 import hashlib
 import sys
@@ -14,8 +14,9 @@ def get_formater_str(raw):
 
 
 if __name__ == '__main__':
-    if len(sys.argv) < 2:
-        print('zhishao2')
+    if len(sys.argv[-1]) < 2:
+        print('长度至少2位')
+        sys.exit()
     is_formater = False
     is_list1 = False
     for i in sys.argv[1:]:
@@ -45,6 +46,6 @@ if __name__ == '__main__':
                     sys.exit()
         else:
             string1 = [''+str(i) for i in sys.argv[1:] if i != ''][0]
-            print(get_raw(get_formater_str(string1)))
+            print(get_raw((string1)))
             sys.exit()
 
