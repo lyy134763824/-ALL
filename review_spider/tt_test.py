@@ -21,4 +21,7 @@ sv ='day01%d1%b5%c1%b7%d3%aaall'
 sv = 'utf-8'
 # print(sv)
 # print('text')
-print('这是tsetssdd'.strip().replace('(','').replace(')','').replace(' (','').replace(') ',''))
+# print('这是tsetssdd'.strip().replace('(','').replace(')','').replace(' (','').replace(') ',''))
+
+if '代码' in '行政区划代码':
+    print('a')

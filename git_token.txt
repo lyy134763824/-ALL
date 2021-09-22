@@ -1,0 +1,41 @@
+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
+
+
+git remote add lyy https://github.com/lyy134763824/-ALL.git
+git remote set-url lyy https://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@github.com/lyy134763824/-ALL.git
+
+
+lrzsz ：用于传输文件/  sz + file   / rz
+
+#！ usr/bin/env python3
+
+scp file user@ip directory
+
+a  可编辑
+i 插入（当前位置插入）
+o 下一行 
+
+
+/  ： n:下一个
+
+shift+n 上一个
+set nu :显示行号
+
+yy:复制
+p:粘贴
+dd:删除
+u:撤回
+
+gg:首行
+G：最后一行
+
+
+
+du -sh  查看文件夹大小
+df -h 查看资源使用率
+
+
+
+
+
+

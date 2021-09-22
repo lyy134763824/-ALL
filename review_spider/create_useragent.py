@@ -13,7 +13,7 @@ def get_ua():
         'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
     ]
     # return ua_list[randint(0,5)]
-    return random.choice(ua_list)
+    return {'User-Agent':random.choice(ua_list)}
 
 
 def get_filename(num=0):
