@@ -30,9 +30,30 @@ gg:首行
 G：最后一行
 
 
+touch {1,5}.txt   2个txt文件
+
+{1..10}.txt   10个txt文件
+
+
+
+
 
 du -sh  查看文件夹大小
 df -h 查看资源使用率
+
+
+sudo useradd username
+sudo passwd username
+userdel username
+
+wc  -l 统计行数
+sort 文件名  对文件排序 | uniq -c  (去重）
+
+crontab -e
+2 
+ * * * * * 分0-59 时1-23 日1-31 月1-12 周0-6
+
+
 
 
 

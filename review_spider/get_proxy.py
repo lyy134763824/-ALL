@@ -18,7 +18,7 @@ TEST_URL = 'https://www.baidu.com/'
 class SpiderProxy(object):
     def  __init__(self):
         self.url = 'https://www.kuaidaili.com/free/inha/{}/'
-        self.headers = {'User-Agent': get_ua()}
+        self.headers = get_ua()
         self.db = pymysql.connect(
             '127.0.0.1',
             'lyy',
