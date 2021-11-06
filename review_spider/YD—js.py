@@ -1,5 +1,6 @@
 import time
 import json
+import os
 # var
 # e = p("#language").val().split("2")
 # , t = p("#docUploadFile").val()
@@ -44,3 +45,4 @@ print(str(int(time.time()*1000)))
 
 print(json.dumps(data))
 print('' if '' else (5,))
+print(os.path.dirname(os.path.abspath(__file__)))

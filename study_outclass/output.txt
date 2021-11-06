@@ -1,0 +1,1620 @@
+== Info: Rebuilt URL to: www.sina.com/
+== Info:   Trying 125.94.49.220...
+== Info: TCP_NODELAY set
+== Info: Connected to www.sina.com (125.94.49.220) port 80 (#0)
+=> Send header, 76 bytes (0x4c)
+0000: 47 45 54 20 2f 20 48 54 54 50 2f 31 2e 31 0d 0a GET / HTTP/1.1..
+0010: 48 6f 73 74 3a 20 77 77 77 2e 73 69 6e 61 2e 63 Host: www.sina.c
+0020: 6f 6d 0d 0a 55 73 65 72 2d 41 67 65 6e 74 3a 20 om..User-Agent: 
+0030: 63 75 72 6c 2f 37 2e 35 38 2e 30 0d 0a 41 63 63 curl/7.58.0..Acc
+0040: 65 70 74 3a 20 2a 2f 2a 0d 0a 0d 0a             ept: */*....
+<= Recv header, 17 bytes (0x11)
+0000: 48 54 54 50 2f 31 2e 31 20 32 30 30 20 4f 4b 0d HTTP/1.1 200 OK.
+0010: 0a                                              .
+<= Recv header, 17 bytes (0x11)
+0000: 53 65 72 76 65 72 3a 20 54 65 6e 67 69 6e 65 0d Server: Tengine.
+0010: 0a                                              .
+<= Recv header, 25 bytes (0x19)
+0000: 43 6f 6e 74 65 6e 74 2d 54 79 70 65 3a 20 74 65 Content-Type: te
+0010: 78 74 2f 68 74 6d 6c 0d 0a                      xt/html..
+<= Recv header, 23 bytes (0x17)
+0000: 43 6f 6e 74 65 6e 74 2d 4c 65 6e 67 74 68 3a 20 Content-Length: 
+0010: 32 34 30 30 30 0d 0a                            24000..
+<= Recv header, 24 bytes (0x18)
+0000: 43 6f 6e 6e 65 63 74 69 6f 6e 3a 20 6b 65 65 70 Connection: keep
+0010: 2d 61 6c 69 76 65 0d 0a                         -alive..
+<= Recv header, 37 bytes (0x25)
+0000: 44 61 74 65 3a 20 53 75 6e 2c 20 33 31 20 4f 63 Date: Sun, 31 Oc
+0010: 74 20 32 30 32 31 20 31 30 3a 35 33 3a 33 34 20 t 2021 10:53:34 
+0020: 47 4d 54 0d 0a                                  GMT..
+<= Recv header, 23 bytes (0x17)
+0000: 56 61 72 79 3a 20 41 63 63 65 70 74 2d 45 6e 63 Vary: Accept-Enc
+0010: 6f 64 69 6e 67 0d 0a                            oding..
+<= Recv header, 33 bytes (0x21)
+0000: 45 54 61 67 3a 20 57 2f 22 36 30 37 65 39 34 61 ETag: W/"607e94a
+0010: 33 2d 63 32 63 22 56 3d 35 39 36 35 43 33 31 0d 3-c2c"V=5965C31.
+0020: 0a                                              .
+<= Recv header, 26 bytes (0x1a)
+0000: 58 2d 50 6f 77 65 72 65 64 2d 42 79 3a 20 73 68 X-Powered-By: sh
+0010: 63 69 5f 76 31 2e 31 33 0d 0a                   ci_v1.13..
+<= Recv header, 40 bytes (0x28)
+0000: 45 78 70 69 72 65 73 3a 20 53 75 6e 2c 20 33 31 Expires: Sun, 31
+0010: 20 4f 63 74 20 32 30 32 31 20 31 30 3a 35 35 3a  Oct 2021 10:55:
+0020: 33 34 20 47 4d 54 0d 0a                         34 GMT..
+<= Recv header, 28 bytes (0x1c)
+0000: 43 61 63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 6d Cache-Control: m
+0010: 61 78 2d 61 67 65 3d 31 32 30 0d 0a             ax-age=120..
+<= Recv header, 46 bytes (0x2e)
+0000: 58 2d 56 69 61 2d 53 53 4c 3a 20 73 73 6c 2e 32 X-Via-SSL: ssl.2
+0010: 36 2e 73 69 6e 61 67 31 2e 73 68 78 2e 6c 62 2e 6.sinag1.shx.lb.
+0020: 73 69 6e 61 6e 6f 64 65 2e 63 6f 6d 0d 0a       sinanode.com..
+<= Recv header, 31 bytes (0x1f)
+0000: 45 64 67 65 2d 43 6f 70 79 2d 54 69 6d 65 3a 20 Edge-Copy-Time: 
+0010: 31 36 33 35 36 37 37 36 31 34 31 34 30 0d 0a    1635677614140..
+<= Recv header, 208 bytes (0xd0)
+0000: 56 69 61 3a 20 68 74 74 70 73 2f 31 2e 31 20 63 Via: https/1.1 c
+0010: 6e 63 2e 67 75 61 6e 67 7a 68 6f 75 2e 75 6e 69 nc.guangzhou.uni
+0020: 6f 6e 2e 35 37 20 28 41 70 61 63 68 65 54 72 61 on.57 (ApacheTra
+0030: 66 66 69 63 53 65 72 76 65 72 2f 36 2e 32 2e 31 fficServer/6.2.1
+0040: 20 5b 63 53 73 53 66 55 5d 29 2c 20 63 61 63 68  [cSsSfU]), cach
+0050: 65 37 35 2e 6c 32 63 6e 33 30 30 37 5b 31 31 39 e75.l2cn3007[119
+0060: 2c 31 31 36 2c 32 30 30 2d 30 2c 43 5d 2c 20 63 ,116,200-0,C], c
+0070: 61 63 68 65 32 31 2e 6c 32 63 6e 33 30 30 37 5b ache21.l2cn3007[
+0080: 31 31 38 2c 30 5d 2c 20 63 61 63 68 65 32 31 2e 118,0], cache21.
+0090: 6c 32 63 6e 33 30 30 37 5b 31 31 39 2c 30 5d 2c l2cn3007[119,0],
+00a0: 20 63 61 63 68 65 35 2e 63 6e 38 35 34 5b 30 2c  cache5.cn854[0,
+00b0: 30 2c 32 30 30 2d 30 2c 48 5d 2c 20 63 61 63 68 0,200-0,H], cach
+00c0: 65 31 33 2e 63 6e 38 35 34 5b 37 2c 30 5d 0d 0a e13.cn854[7,0]..
+<= Recv header, 233 bytes (0xe9)
+0000: 58 2d 56 69 61 2d 43 44 4e 3a 20 66 3d 61 6c 69 X-Via-CDN: f=ali
+0010: 63 64 6e 2c 73 3d 63 61 63 68 65 31 33 2e 63 6e cdn,s=cache13.cn
+0020: 38 35 34 2c 63 3d 32 30 33 2e 31 36 38 2e 33 30 854,c=203.168.30
+0030: 2e 34 38 3b 66 3d 65 64 67 65 2c 73 3d 63 6e 63 .48;f=edge,s=cnc
+0040: 2e 67 75 61 6e 67 7a 68 6f 75 2e 75 6e 69 6f 6e .guangzhou.union
+0050: 2e 35 35 2e 6e 62 2e 73 69 6e 61 65 64 67 65 2e .55.nb.sinaedge.
+0060: 63 6f 6d 2c 63 3d 33 36 2e 32 34 39 2e 36 39 2e com,c=36.249.69.
+0070: 32 32 33 3b 66 3d 45 64 67 65 2c 73 3d 63 6e 63 223;f=Edge,s=cnc
+0080: 2e 67 75 61 6e 67 7a 68 6f 75 2e 75 6e 69 6f 6e .guangzhou.union
+0090: 2e 35 37 2c 63 3d 31 31 32 2e 39 30 2e 36 2e 37 .57,c=112.90.6.7
+00a0: 30 3b 66 3d 65 64 67 65 2c 73 3d 63 74 63 2e 67 0;f=edge,s=ctc.g
+00b0: 75 61 6e 67 7a 68 6f 75 2e 62 73 64 2d 73 74 6f uangzhou.bsd-sto
+00c0: 72 61 67 65 2e 32 33 2e 6e 62 2e 73 69 6e 61 65 rage.23.nb.sinae
+00d0: 64 67 65 2e 63 6f 6d 2c 63 3d 31 37 32 2e 31 36 dge.com,c=172.16
+00e0: 2e 39 32 2e 32 36 3b 0d 0a                      .92.26;..
+<= Recv header, 51 bytes (0x33)
+0000: 58 2d 56 69 61 2d 45 64 67 65 3a 20 31 36 33 35 X-Via-Edge: 1635
+0010: 36 37 37 36 31 34 31 33 32 64 66 34 35 66 39 32 677614132df45f92
+0020: 34 66 30 30 36 35 61 37 30 31 65 30 33 33 38 34 4f0065a701e03384
+0030: 35 0d 0a                                        5..
+<= Recv header, 39 bytes (0x27)
+0000: 41 6c 69 2d 53 77 69 66 74 2d 47 6c 6f 62 61 6c Ali-Swift-Global
+0010: 2d 53 61 76 65 74 69 6d 65 3a 20 31 36 33 35 36 -Savetime: 16356
+0020: 37 37 36 31 34 0d 0a                            77614..
+<= Recv header, 10 bytes (0xa)
+0000: 41 67 65 3a 20 31 31 37 0d 0a                   Age: 117..
+<= Recv header, 37 bytes (0x25)
+0000: 58 2d 43 61 63 68 65 3a 20 48 49 54 20 54 43 50 X-Cache: HIT TCP
+0010: 5f 4d 45 4d 5f 48 49 54 20 64 69 72 6e 3a 2d 32 _MEM_HIT dirn:-2
+0020: 3a 2d 32 0d 0a                                  :-2..
+<= Recv header, 49 bytes (0x31)
+0000: 58 2d 53 77 69 66 74 2d 53 61 76 65 54 69 6d 65 X-Swift-SaveTime
+0010: 3a 20 53 75 6e 2c 20 33 31 20 4f 63 74 20 32 30 : Sun, 31 Oct 20
+0020: 32 31 20 31 30 3a 35 33 3a 33 34 20 47 4d 54 0d 21 10:53:34 GMT.
+0030: 0a                                              .
+<= Recv header, 24 bytes (0x18)
+0000: 58 2d 53 77 69 66 74 2d 43 61 63 68 65 54 69 6d X-Swift-CacheTim
+0010: 65 3a 20 31 32 30 0d 0a                         e: 120..
+<= Recv header, 24 bytes (0x18)
+0000: 54 69 6d 69 6e 67 2d 41 6c 6c 6f 77 2d 4f 72 69 Timing-Allow-Ori
+0010: 67 69 6e 3a 20 2a 0d 0a                         gin: *..
+<= Recv header, 37 bytes (0x25)
+0000: 45 61 67 6c 65 49 64 3a 20 37 64 35 65 33 31 61 EagleId: 7d5e31a
+0010: 31 31 36 33 35 36 37 37 37 33 31 35 33 34 35 39 1163567773153459
+0020: 34 33 65 0d 0a                                  43e..
+<= Recv header, 2 bytes (0x2)
+0000: 0d 0a                                           ..
+<= Recv data, 1636 bytes (0x664)
+0000: 3c 21 44 4f 43 54 59 50 45 20 68 74 6d 6c 3e 0a <!DOCTYPE html>.
+0010: 3c 68 74 6d 6c 3e 0a 3c 68 65 61 64 3e 0a 09 3c <html>.<head>..<
+0020: 74 69 74 6c 65 3e 68 6f 6d 65 2e 73 69 6e 61 2e title>home.sina.
+0030: 63 6f 6d 3c 2f 74 69 74 6c 65 3e 0a 09 3c 6d 65 com</title>..<me
+0040: 74 61 20 63 68 61 72 73 65 74 3d 22 75 74 66 2d ta charset="utf-
+0050: 38 22 3e 0a 09 3c 6d 65 74 61 20 6e 61 6d 65 3d 8">..<meta name=
+0060: 22 76 69 65 77 70 6f 72 74 22 20 63 6f 6e 74 65 "viewport" conte
+0070: 6e 74 3d 22 77 69 64 74 68 3d 64 65 76 69 63 65 nt="width=device
+0080: 2d 77 69 64 74 68 2c 20 69 6e 69 74 69 61 6c 2d -width, initial-
+0090: 73 63 61 6c 65 3d 31 22 20 3e 0a 0a 09 3c 6c 69 scale=1" >...<li
+00a0: 6e 6b 20 72 65 6c 3d 22 73 74 79 6c 65 73 68 65 nk rel="styleshe
+00b0: 65 74 22 20 74 79 70 65 3d 22 74 65 78 74 2f 63 et" type="text/c
+00c0: 73 73 22 20 68 72 65 66 3d 22 68 74 74 70 73 3a ss" href="https:
+00d0: 2f 2f 69 6d 61 67 65 32 2e 73 69 6e 61 2e 63 6f //image2.sina.co
+00e0: 6d 2e 63 6e 2f 69 6d 67 2f 62 65 69 6d 65 69 5f m.cn/img/beimei_
+00f0: 73 74 79 6c 65 2e 63 73 73 22 3e 0a 09 3c 73 74 style.css">..<st
+0100: 79 6c 65 3e 0a 09 09 2e 66 6f 6f 74 65 72 7b 77 yle>....footer{w
+0110: 69 64 74 68 3a 31 30 30 25 3b 6f 76 65 72 66 6c idth:100%;overfl
+0120: 6f 77 3a 68 69 64 64 65 6e 3b 74 65 78 74 2d 61 ow:hidden;text-a
+0130: 6c 69 67 6e 3a 63 65 6e 74 65 72 3b 63 6f 6c 6f lign:center;colo
+0140: 72 3a 23 39 33 39 33 39 33 3b 66 6f 6e 74 2d 73 r:#939393;font-s
+0150: 69 7a 65 3a 31 32 70 78 7d 2e 66 6f 6f 74 65 72 ize:12px}.footer
+0160: 20 70 7b 6c 69 6e 65 2d 68 65 69 67 68 74 3a 32  p{line-height:2
+0170: 30 70 78 3b 74 65 78 74 2d 61 6c 69 67 6e 3a 63 0px;text-align:c
+0180: 65 6e 74 65 72 7d 2e 66 6f 6f 74 65 72 20 70 20 enter}.footer p 
+0190: 61 3a 6c 69 6e 6b 2c 2e 66 6f 6f 74 65 72 20 70 a:link,.footer p
+01a0: 20 61 3a 76 69 73 69 74 65 64 7b 63 6f 6c 6f 72  a:visited{color
+01b0: 3a 23 39 33 39 33 39 33 3b 74 65 78 74 2d 64 65 :#939393;text-de
+01c0: 63 6f 72 61 74 69 6f 6e 3a 6e 6f 6e 65 7d 2e 66 coration:none}.f
+01d0: 6f 6f 74 65 72 20 70 20 61 3a 68 6f 76 65 72 2c ooter p a:hover,
+01e0: 2e 66 6f 6f 74 65 72 20 70 20 61 3a 61 63 74 69 .footer p a:acti
+01f0: 76 65 7b 63 6f 6c 6f 72 3a 23 66 66 38 34 30 30 ve{color:#ff8400
+0200: 3b 74 65 78 74 2d 64 65 63 6f 72 61 74 69 6f 6e ;text-decoration
+0210: 3a 75 6e 64 65 72 6c 69 6e 65 7d 2e 66 6f 6f 74 :underline}.foot
+0220: 65 72 20 2e 66 74 2d 69 6e 66 6f 7b 62 61 63 6b er .ft-info{back
+0230: 67 72 6f 75 6e 64 3a 23 66 37 66 37 66 37 3b 70 ground:#f7f7f7;p
+0240: 61 64 64 69 6e 67 3a 37 70 78 20 30 3b 6d 61 72 adding:7px 0;mar
+0250: 67 69 6e 2d 62 6f 74 74 6f 6d 3a 31 30 70 78 7d gin-bottom:10px}
+0260: 2e 66 6f 6f 74 65 72 20 2e 66 74 2d 69 6e 66 6f .footer .ft-info
+0270: 20 61 3a 6c 69 6e 6b 2c 2e 66 6f 6f 74 65 72 20  a:link,.footer 
+0280: 2e 66 74 2d 69 6e 66 6f 20 61 3a 76 69 73 69 74 .ft-info a:visit
+0290: 65 64 7b 63 6f 6c 6f 72 3a 23 37 35 38 33 39 64 ed{color:#75839d
+02a0: 7d 2e 66 6f 6f 74 65 72 20 2e 66 74 2d 69 6e 66 }.footer .ft-inf
+02b0: 6f 20 61 3a 68 6f 76 65 72 2c 2e 66 6f 6f 74 65 o a:hover,.foote
+02c0: 72 20 2e 66 74 2d 69 6e 66 6f 20 61 3a 61 63 74 r .ft-info a:act
+02d0: 69 76 65 7b 63 6f 6c 6f 72 3a 23 66 66 38 34 30 ive{color:#ff840
+02e0: 30 3b 74 65 78 74 2d 64 65 63 6f 72 61 74 69 6f 0;text-decoratio
+02f0: 6e 3a 75 6e 64 65 72 6c 69 6e 65 7d 2e 66 6f 6f n:underline}.foo
+0300: 74 65 72 20 2e 66 74 2d 6c 69 73 74 7b 6d 61 72 ter .ft-list{mar
+0310: 67 69 6e 3a 31 30 70 78 20 30 20 38 70 78 20 30 gin:10px 0 8px 0
+0320: 3b 77 69 64 74 68 3a 31 30 30 25 3b 68 65 69 67 ;width:100%;heig
+0330: 68 74 3a 35 30 70 78 7d 2e 66 6f 6f 74 65 72 20 ht:50px}.footer 
+0340: 2e 66 74 2d 6c 69 73 74 20 6c 69 7b 66 6c 6f 61 .ft-list li{floa
+0350: 74 3a 6c 65 66 74 3b 64 69 73 70 6c 61 79 3a 69 t:left;display:i
+0360: 6e 6c 69 6e 65 3b 6d 61 72 67 69 6e 3a 30 20 31 nline;margin:0 1
+0370: 70 78 20 30 20 30 7d 2e 4a 75 6d 70 54 6f 7b 70 px 0 0}.JumpTo{p
+0380: 6f 73 69 74 69 6f 6e 3a 61 62 73 6f 6c 75 74 65 osition:absolute
+0390: 3b 74 6f 70 3a 2d 31 70 78 3b 6c 65 66 74 3a 2d ;top:-1px;left:-
+03a0: 31 70 78 7d 0a 09 3c 2f 73 74 79 6c 65 3e 0a 3c 1px}..</style>.<
+03b0: 2f 68 65 61 64 3e 0a 3c 62 6f 64 79 3e 3c 21 2d /head>.<body><!-
+03c0: 2d 20 62 6f 64 79 20 63 6f 64 65 20 62 65 67 69 - body code begi
+03d0: 6e 20 2d 2d 3e 0d 0a 0d 0a 3c 21 2d 2d 20 53 55 n -->....<!-- SU
+03e0: 44 41 5f 43 4f 44 45 5f 53 54 41 52 54 20 2d 2d DA_CODE_START --
+03f0: 3e 20 0d 0a 3c 73 63 72 69 70 74 20 74 79 70 65 > ..<script type
+0400: 3d 22 74 65 78 74 2f 6a 61 76 61 73 63 72 69 70 ="text/javascrip
+0410: 74 22 3e 20 0d 0a 2f 2f 3c 21 2d 2d 0d 0a 28 66 t"> ..//<!--..(f
+0420: 75 6e 63 74 69 6f 6e 28 29 7b 76 61 72 20 61 6e unction(){var an
+0430: 3d 22 56 3d 32 2e 31 2e 31 36 22 3b 76 61 72 20 ="V=2.1.16";var 
+0440: 61 68 3d 77 69 6e 64 6f 77 2c 46 3d 64 6f 63 75 ah=window,F=docu
+0450: 6d 65 6e 74 2c 73 3d 6e 61 76 69 67 61 74 6f 72 ment,s=navigator
+0460: 2c 57 3d 73 2e 75 73 65 72 41 67 65 6e 74 2c 61 ,W=s.userAgent,a
+0470: 6f 3d 61 68 2e 73 63 72 65 65 6e 2c 6a 3d 61 68 o=ah.screen,j=ah
+0480: 2e 6c 6f 63 61 74 69 6f 6e 2e 68 72 65 66 3b 76 .location.href;v
+0490: 61 72 20 61 44 3d 22 68 74 74 70 73 3a 22 3d 3d ar aD="https:"==
+04a0: 61 68 2e 6c 6f 63 61 74 69 6f 6e 2e 70 72 6f 74 ah.location.prot
+04b0: 6f 63 6f 6c 3f 22 68 74 74 70 73 3a 2f 2f 73 22 ocol?"https://s"
+04c0: 3a 22 68 74 74 70 3a 2f 2f 22 2c 61 79 3d 22 62 :"http://",ay="b
+04d0: 65 61 63 6f 6e 2e 73 69 6e 61 2e 63 6f 6d 2e 63 eacon.sina.com.c
+04e0: 6e 22 3b 76 61 72 20 4e 3d 61 44 2b 61 79 2b 22 n";var N=aD+ay+"
+04f0: 2f 61 2e 67 69 66 3f 22 2c 7a 3d 61 44 2b 61 79 /a.gif?",z=aD+ay
+0500: 2b 22 2f 67 2e 67 69 66 3f 22 2c 52 3d 61 44 2b +"/g.gif?",R=aD+
+0510: 61 79 2b 22 2f 66 2e 67 69 66 3f 22 2c 61 67 3d ay+"/f.gif?",ag=
+0520: 61 44 2b 61 79 2b 22 2f 65 2e 67 69 66 3f 22 2c aD+ay+"/e.gif?",
+0530: 61 42 3d 61 44 2b 22 62 65 61 63 6f 6e 2e 73 69 aB=aD+"beacon.si
+0540: 6e 61 75 64 61 2e 63 6f 6d 2f 69 2e 67 69 66 3f nauda.com/i.gif?
+0550: 22 3b 76 61 72 20 61 41 3d 46 2e 72 65 66 65 72 ";var aA=F.refer
+0560: 72 65 72 2e 74 6f 4c 6f 77 65 72 43 61 73 65 28 rer.toLowerCase(
+0570: 29 3b 76 61 72 20 61 61 3d 22 53 49 4e 41 47 4c );var aa="SINAGL
+0580: 4f 42 41 4c 22 2c 59 3d 22 46 53 49 4e 41 47 4c OBAL",Y="FSINAGL
+0590: 4f 42 41 4c 22 2c 48 3d 22 41 70 61 63 68 65 22 OBAL",H="Apache"
+05a0: 2c 50 3d 22 55 4c 56 22 2c 6c 3d 22 53 55 50 22 ,P="ULV",l="SUP"
+05b0: 2c 61 45 3d 22 55 4f 52 22 2c 45 3d 22 5f 73 5f ,aE="UOR",E="_s_
+05c0: 61 63 63 22 2c 58 3d 22 5f 73 5f 74 65 6e 74 72 acc",X="_s_tentr
+05d0: 79 22 2c 6e 3d 66 61 6c 73 65 2c 61 7a 3d 66 61 y",n=false,az=fa
+05e0: 6c 73 65 2c 42 3d 28 64 6f 63 75 6d 65 6e 74 2e lse,B=(document.
+05f0: 64 6f 6d 61 69 6e 3d 3d 22 73 69 6e 61 2e 63 6f domain=="sina.co
+0600: 6d 2e 63 6e 22 29 3f 74 72 75 65 3a 66 61 6c 73 m.cn")?true:fals
+0610: 65 3b 76 61 72 20 6f 3d 30 3b 76 61 72 20 61 47 e;var o=0;var aG
+0620: 3d 66 61 6c 73 65 2c 41 3d 66 61 6c 73 65 3b 76 =false,A=false;v
+0630: 61 72 20 61 6c 3d 22 22 3b 76 61 72 20 6d 3d 31 ar al="";var m=1
+0640: 36 37 37 37 32 31 35 2c 5a 3d 30 2c 43 2c 4b 3d 6777215,Z=0,C,K=
+0650: 30 3b 76 61 72 20 72 3d 22 22 2c 62 3d 22 22 2c 0;var r="",b="",
+0660: 61 3d 22 22                                     a=""
+<= Recv data, 6800 bytes (0x1a90)
+0000: 3b 76 61 72 20 4d 3d 5b 5d 2c 53 3d 5b 5d 2c 49 ;var M=[],S=[],I
+0010: 3d 5b 5d 3b 76 61 72 20 75 3d 30 3b 76 61 72 20 =[];var u=0;var 
+0020: 76 3d 30 3b 76 61 72 20 70 3d 22 22 3b 76 61 72 v=0;var p="";var
+0030: 20 61 6d 3d 66 61 6c 73 65 3b 76 61 72 20 77 3d  am=false;var w=
+0040: 66 61 6c 73 65 3b 66 75 6e 63 74 69 6f 6e 20 4f false;function O
+0050: 28 29 7b 76 61 72 20 65 3d 64 6f 63 75 6d 65 6e (){var e=documen
+0060: 74 2e 63 72 65 61 74 65 45 6c 65 6d 65 6e 74 28 t.createElement(
+0070: 22 69 66 72 61 6d 65 22 29 3b 65 2e 73 72 63 3d "iframe");e.src=
+0080: 61 44 2b 61 79 2b 22 2f 64 61 74 61 2e 68 74 6d aD+ay+"/data.htm
+0090: 6c 3f 22 2b 6e 65 77 20 44 61 74 65 28 29 2e 67 l?"+new Date().g
+00a0: 65 74 54 69 6d 65 28 29 3b 65 2e 69 64 3d 22 73 etTime();e.id="s
+00b0: 75 64 61 44 61 74 61 46 72 61 6d 65 22 3b 65 2e udaDataFrame";e.
+00c0: 73 74 79 6c 65 2e 68 65 69 67 68 74 3d 22 30 70 style.height="0p
+00d0: 78 22 3b 65 2e 73 74 79 6c 65 2e 77 69 64 74 68 x";e.style.width
+00e0: 3d 22 31 70 78 22 3b 65 2e 73 74 79 6c 65 2e 6f ="1px";e.style.o
+00f0: 76 65 72 66 6c 6f 77 3d 22 68 69 64 64 65 6e 22 verflow="hidden"
+0100: 3b 65 2e 66 72 61 6d 65 62 6f 72 64 65 72 3d 22 ;e.frameborder="
+0110: 30 22 3b 65 2e 73 63 72 6f 6c 6c 69 6e 67 3d 22 0";e.scrolling="
+0120: 6e 6f 22 3b 64 6f 63 75 6d 65 6e 74 2e 67 65 74 no";document.get
+0130: 45 6c 65 6d 65 6e 74 73 42 79 54 61 67 4e 61 6d ElementsByTagNam
+0140: 65 28 22 68 65 61 64 22 29 5b 30 5d 2e 61 70 70 e("head")[0].app
+0150: 65 6e 64 43 68 69 6c 64 28 65 29 7d 66 75 6e 63 endChild(e)}func
+0160: 74 69 6f 6e 20 6b 28 29 7b 76 61 72 20 65 3d 64 tion k(){var e=d
+0170: 6f 63 75 6d 65 6e 74 2e 63 72 65 61 74 65 45 6c ocument.createEl
+0180: 65 6d 65 6e 74 28 22 69 66 72 61 6d 65 22 29 3b ement("iframe");
+0190: 65 2e 73 72 63 3d 61 44 2b 61 79 2b 22 2f 63 6b e.src=aD+ay+"/ck
+01a0: 63 74 6c 2e 68 74 6d 6c 22 3b 65 2e 69 64 3d 22 ctl.html";e.id="
+01b0: 63 6b 63 74 6c 46 72 61 6d 65 22 3b 65 2e 73 74 ckctlFrame";e.st
+01c0: 79 6c 65 2e 68 65 69 67 68 74 3d 22 30 70 78 22 yle.height="0px"
+01d0: 3b 65 2e 73 74 79 6c 65 2e 77 69 64 74 68 3d 22 ;e.style.width="
+01e0: 31 70 78 22 3b 65 2e 73 74 79 6c 65 2e 6f 76 65 1px";e.style.ove
+01f0: 72 66 6c 6f 77 3d 22 68 69 64 64 65 6e 22 3b 65 rflow="hidden";e
+0200: 2e 66 72 61 6d 65 62 6f 72 64 65 72 3d 22 30 22 .frameborder="0"
+0210: 3b 65 2e 73 63 72 6f 6c 6c 69 6e 67 3d 22 6e 6f ;e.scrolling="no
+0220: 22 3b 64 6f 63 75 6d 65 6e 74 2e 67 65 74 45 6c ";document.getEl
+0230: 65 6d 65 6e 74 73 42 79 54 61 67 4e 61 6d 65 28 ementsByTagName(
+0240: 22 68 65 61 64 22 29 5b 30 5d 2e 61 70 70 65 6e "head")[0].appen
+0250: 64 43 68 69 6c 64 28 65 29 7d 66 75 6e 63 74 69 dChild(e)}functi
+0260: 6f 6e 20 71 28 29 7b 76 61 72 20 65 3d 64 6f 63 on q(){var e=doc
+0270: 75 6d 65 6e 74 2e 63 72 65 61 74 65 45 6c 65 6d ument.createElem
+0280: 65 6e 74 28 22 73 63 72 69 70 74 22 29 3b 65 2e ent("script");e.
+0290: 73 72 63 3d 61 44 2b 61 79 2b 22 2f 68 2e 6a 73 src=aD+ay+"/h.js
+02a0: 22 3b 64 6f 63 75 6d 65 6e 74 2e 67 65 74 45 6c ";document.getEl
+02b0: 65 6d 65 6e 74 73 42 79 54 61 67 4e 61 6d 65 28 ementsByTagName(
+02c0: 22 68 65 61 64 22 29 5b 30 5d 2e 61 70 70 65 6e "head")[0].appen
+02d0: 64 43 68 69 6c 64 28 65 29 7d 66 75 6e 63 74 69 dChild(e)}functi
+02e0: 6f 6e 20 68 28 61 48 2c 69 29 7b 76 61 72 20 44 on h(aH,i){var D
+02f0: 3d 46 2e 67 65 74 45 6c 65 6d 65 6e 74 73 42 79 =F.getElementsBy
+0300: 4e 61 6d 65 28 61 48 29 3b 76 61 72 20 65 3d 28 Name(aH);var e=(
+0310: 69 3e 30 29 3f 69 3a 30 3b 72 65 74 75 72 6e 28 i>0)?i:0;return(
+0320: 44 2e 6c 65 6e 67 74 68 3e 65 29 3f 44 5b 65 5d D.length>e)?D[e]
+0330: 2e 63 6f 6e 74 65 6e 74 3a 22 22 7d 66 75 6e 63 .content:""}func
+0340: 74 69 6f 6e 20 61 46 28 29 7b 76 61 72 20 61 4a tion aF(){var aJ
+0350: 3d 46 2e 67 65 74 45 6c 65 6d 65 6e 74 73 42 79 =F.getElementsBy
+0360: 4e 61 6d 65 28 22 73 75 64 61 6d 65 74 61 22 29 Name("sudameta")
+0370: 3b 76 61 72 20 61 52 3d 5b 5d 3b 66 6f 72 28 76 ;var aR=[];for(v
+0380: 61 72 20 61 4f 3d 30 3b 61 4f 3c 61 4a 2e 6c 65 ar aO=0;aO<aJ.le
+0390: 6e 67 74 68 3b 61 4f 2b 2b 29 7b 76 61 72 20 61 ngth;aO++){var a
+03a0: 4b 3d 61 4a 5b 61 4f 5d 2e 63 6f 6e 74 65 6e 74 K=aJ[aO].content
+03b0: 3b 69 66 28 61 4b 29 7b 69 66 28 61 4b 2e 69 6e ;if(aK){if(aK.in
+03c0: 64 65 78 4f 66 28 22 3b 22 29 21 3d 2d 31 29 7b dexOf(";")!=-1){
+03d0: 76 61 72 20 44 3d 61 4b 2e 73 70 6c 69 74 28 22 var D=aK.split("
+03e0: 3b 22 29 3b 66 6f 72 28 76 61 72 20 61 48 3d 30 ;");for(var aH=0
+03f0: 3b 61 48 3c 44 2e 6c 65 6e 67 74 68 3b 61 48 2b ;aH<D.length;aH+
+0400: 2b 29 7b 76 61 72 20 61 50 3d 61 77 28 44 5b 61 +){var aP=aw(D[a
+0410: 48 5d 29 3b 69 66 28 21 61 50 29 7b 63 6f 6e 74 H]);if(!aP){cont
+0420: 69 6e 75 65 7d 61 52 2e 70 75 73 68 28 61 50 29 inue}aR.push(aP)
+0430: 7d 7d 65 6c 73 65 7b 61 52 2e 70 75 73 68 28 61 }}else{aR.push(a
+0440: 4b 29 7d 7d 7d 76 61 72 20 61 4d 3d 46 2e 67 65 K)}}}var aM=F.ge
+0450: 74 45 6c 65 6d 65 6e 74 73 42 79 54 61 67 4e 61 tElementsByTagNa
+0460: 6d 65 28 22 6d 65 74 61 22 29 3b 66 6f 72 28 76 me("meta");for(v
+0470: 61 72 20 61 4f 3d 30 2c 61 49 3d 61 4d 2e 6c 65 ar aO=0,aI=aM.le
+0480: 6e 67 74 68 3b 61 4f 3c 61 49 3b 61 4f 2b 2b 29 ngth;aO<aI;aO++)
+0490: 7b 76 61 72 20 61 4e 3d 61 4d 5b 61 4f 5d 3b 69 {var aN=aM[aO];i
+04a0: 66 28 61 4e 2e 6e 61 6d 65 3d 3d 22 74 61 67 73 f(aN.name=="tags
+04b0: 22 29 7b 61 52 2e 70 75 73 68 28 22 63 6f 6e 74 "){aR.push("cont
+04c0: 65 6e 74 5f 74 61 67 73 3a 22 2b 65 6e 63 6f 64 ent_tags:"+encod
+04d0: 65 55 52 49 28 61 4e 2e 63 6f 6e 74 65 6e 74 29 eURI(aN.content)
+04e0: 29 7d 7d 76 61 72 20 61 4c 3d 74 28 22 76 6a 75 )}}var aL=t("vju
+04f0: 69 64 73 22 29 3b 61 52 2e 70 75 73 68 28 22 76 ids");aR.push("v
+0500: 6a 75 69 64 73 3a 22 2b 61 4c 29 3b 76 61 72 20 juids:"+aL);var 
+0510: 65 3d 22 22 3b 76 61 72 20 61 51 3d 6a 2e 69 6e e="";var aQ=j.in
+0520: 64 65 78 4f 66 28 22 23 22 29 3b 69 66 28 61 51 dexOf("#");if(aQ
+0530: 21 3d 2d 31 29 7b 65 3d 65 73 63 61 70 65 28 6a !=-1){e=escape(j
+0540: 2e 73 75 62 73 74 72 28 61 51 2b 31 29 29 3b 61 .substr(aQ+1));a
+0550: 52 2e 70 75 73 68 28 22 68 61 73 68 74 61 67 3a R.push("hashtag:
+0560: 22 2b 65 29 7d 72 65 74 75 72 6e 20 61 52 7d 66 "+e)}return aR}f
+0570: 75 6e 63 74 69 6f 6e 20 56 28 61 4b 2c 44 2c 61 unction V(aK,D,a
+0580: 49 2c 61 48 29 7b 69 66 28 61 4b 3d 3d 22 22 29 I,aH){if(aK=="")
+0590: 7b 72 65 74 75 72 6e 22 22 7d 61 48 3d 28 61 48 {return""}aH=(aH
+05a0: 3d 3d 22 22 29 3f 22 3d 22 3a 61 48 3b 44 2b 3d =="")?"=":aH;D+=
+05b0: 61 48 3b 76 61 72 20 61 4a 3d 61 4b 2e 69 6e 64 aH;var aJ=aK.ind
+05c0: 65 78 4f 66 28 44 29 3b 69 66 28 61 4a 3c 30 29 exOf(D);if(aJ<0)
+05d0: 7b 72 65 74 75 72 6e 22 22 7d 61 4a 2b 3d 44 2e {return""}aJ+=D.
+05e0: 6c 65 6e 67 74 68 3b 76 61 72 20 69 3d 61 4b 2e length;var i=aK.
+05f0: 69 6e 64 65 78 4f 66 28 61 49 2c 61 4a 29 3b 69 indexOf(aI,aJ);i
+0600: 66 28 69 3c 61 4a 29 7b 69 3d 61 4b 2e 6c 65 6e f(i<aJ){i=aK.len
+0610: 67 74 68 7d 72 65 74 75 72 6e 20 61 4b 2e 73 75 gth}return aK.su
+0620: 62 73 74 72 69 6e 67 28 61 4a 2c 69 29 7d 66 75 bstring(aJ,i)}fu
+0630: 6e 63 74 69 6f 6e 20 74 28 65 29 7b 69 66 28 75 nction t(e){if(u
+0640: 6e 64 65 66 69 6e 65 64 3d 3d 65 7c 7c 22 22 3d ndefined==e||""=
+0650: 3d 65 29 7b 72 65 74 75 72 6e 22 22 7d 72 65 74 =e){return""}ret
+0660: 75 72 6e 20 56 28 46 2e 63 6f 6f 6b 69 65 2c 65 urn V(F.cookie,e
+0670: 2c 22 3b 22 2c 22 22 29 7d 66 75 6e 63 74 69 6f ,";","")}functio
+0680: 6e 20 61 74 28 61 49 2c 65 2c 69 2c 61 48 29 7b n at(aI,e,i,aH){
+0690: 69 66 28 65 21 3d 6e 75 6c 6c 29 7b 69 66 28 28 if(e!=null){if((
+06a0: 75 6e 64 65 66 69 6e 65 64 3d 3d 61 48 29 7c 7c undefined==aH)||
+06b0: 28 6e 75 6c 6c 3d 3d 61 48 29 29 7b 61 48 3d 22 (null==aH)){aH="
+06c0: 73 69 6e 61 2e 63 6f 6d 2e 63 6e 22 7d 69 66 28 sina.com.cn"}if(
+06d0: 28 75 6e 64 65 66 69 6e 65 64 3d 3d 69 29 7c 7c (undefined==i)||
+06e0: 28 6e 75 6c 6c 3d 3d 69 29 7c 7c 28 22 22 3d 3d (null==i)||(""==
+06f0: 69 29 29 7b 46 2e 63 6f 6f 6b 69 65 3d 61 49 2b i)){F.cookie=aI+
+0700: 22 3d 22 2b 65 2b 22 3b 64 6f 6d 61 69 6e 3d 22 "="+e+";domain="
+0710: 2b 61 48 2b 22 3b 70 61 74 68 3d 2f 22 7d 65 6c +aH+";path=/"}el
+0720: 73 65 7b 76 61 72 20 44 3d 6e 65 77 20 44 61 74 se{var D=new Dat
+0730: 65 28 29 3b 76 61 72 20 61 4a 3d 44 2e 67 65 74 e();var aJ=D.get
+0740: 54 69 6d 65 28 29 3b 61 4a 3d 61 4a 2b 38 36 34 Time();aJ=aJ+864
+0750: 30 30 30 30 30 2a 69 3b 44 2e 73 65 74 54 69 6d 00000*i;D.setTim
+0760: 65 28 61 4a 29 3b 61 4a 3d 44 2e 67 65 74 54 69 e(aJ);aJ=D.getTi
+0770: 6d 65 28 29 3b 46 2e 63 6f 6f 6b 69 65 3d 61 49 me();F.cookie=aI
+0780: 2b 22 3d 22 2b 65 2b 22 3b 64 6f 6d 61 69 6e 3d +"="+e+";domain=
+0790: 22 2b 61 48 2b 22 3b 65 78 70 69 72 65 73 3d 22 "+aH+";expires="
+07a0: 2b 44 2e 74 6f 55 54 43 53 74 72 69 6e 67 28 29 +D.toUTCString()
+07b0: 2b 22 3b 70 61 74 68 3d 2f 22 7d 7d 7d 66 75 6e +";path=/"}}}fun
+07c0: 63 74 69 6f 6e 20 66 28 44 29 7b 74 72 79 7b 76 ction f(D){try{v
+07d0: 61 72 20 69 3d 64 6f 63 75 6d 65 6e 74 2e 67 65 ar i=document.ge
+07e0: 74 45 6c 65 6d 65 6e 74 42 79 49 64 28 22 73 75 tElementById("su
+07f0: 64 61 44 61 74 61 46 72 61 6d 65 22 29 2e 63 6f daDataFrame").co
+0800: 6e 74 65 6e 74 57 69 6e 64 6f 77 2e 73 74 6f 72 ntentWindow.stor
+0810: 61 67 65 3b 72 65 74 75 72 6e 20 69 2e 67 65 74 age;return i.get
+0820: 28 44 29 7d 63 61 74 63 68 28 61 48 29 7b 72 65 (D)}catch(aH){re
+0830: 74 75 72 6e 20 66 61 6c 73 65 7d 7d 66 75 6e 63 turn false}}func
+0840: 74 69 6f 6e 20 61 72 28 44 2c 61 48 29 7b 74 72 tion ar(D,aH){tr
+0850: 79 7b 76 61 72 20 69 3d 64 6f 63 75 6d 65 6e 74 y{var i=document
+0860: 2e 67 65 74 45 6c 65 6d 65 6e 74 42 79 49 64 28 .getElementById(
+0870: 22 73 75 64 61 44 61 74 61 46 72 61 6d 65 22 29 "sudaDataFrame")
+0880: 2e 63 6f 6e 74 65 6e 74 57 69 6e 64 6f 77 2e 73 .contentWindow.s
+0890: 74 6f 72 61 67 65 3b 69 2e 73 65 74 28 44 2c 61 torage;i.set(D,a
+08a0: 48 29 3b 72 65 74 75 72 6e 20 74 72 75 65 7d 63 H);return true}c
+08b0: 61 74 63 68 28 61 49 29 7b 72 65 74 75 72 6e 20 atch(aI){return 
+08c0: 66 61 6c 73 65 7d 7d 66 75 6e 63 74 69 6f 6e 20 false}}function 
+08d0: 4c 28 29 7b 76 61 72 20 61 4a 3d 31 35 3b 76 61 L(){var aJ=15;va
+08e0: 72 20 44 3d 77 69 6e 64 6f 77 2e 53 55 44 41 2e r D=window.SUDA.
+08f0: 65 74 61 67 3b 69 66 28 21 42 29 7b 72 65 74 75 etag;if(!B){retu
+0900: 72 6e 22 2d 22 7d 69 66 28 75 3d 3d 30 29 7b 4f rn"-"}if(u==0){O
+0910: 28 29 3b 71 28 29 7d 69 66 28 44 26 26 44 21 3d ();q()}if(D&&D!=
+0920: 75 6e 64 65 66 69 6e 65 64 29 7b 77 3d 74 72 75 undefined){w=tru
+0930: 65 7d 6c 73 5f 67 69 64 3d 66 28 61 61 29 3b 69 e}ls_gid=f(aa);i
+0940: 66 28 6c 73 5f 67 69 64 3d 3d 3d 66 61 6c 73 65 f(ls_gid===false
+0950: 7c 7c 77 3d 3d 66 61 6c 73 65 29 7b 72 65 74 75 ||w==false){retu
+0960: 72 6e 20 66 61 6c 73 65 7d 65 6c 73 65 7b 61 6d rn false}else{am
+0970: 3d 74 72 75 65 7d 69 66 28 6c 73 5f 67 69 64 26 =true}if(ls_gid&
+0980: 26 6c 73 5f 67 69 64 2e 6c 65 6e 67 74 68 3e 61 &ls_gid.length>a
+0990: 4a 29 7b 61 74 28 61 61 2c 6c 73 5f 67 69 64 2c J){at(aa,ls_gid,
+09a0: 33 36 35 30 29 3b 6e 3d 74 72 75 65 3b 72 65 74 3650);n=true;ret
+09b0: 75 72 6e 20 6c 73 5f 67 69 64 7d 65 6c 73 65 7b urn ls_gid}else{
+09c0: 69 66 28 44 26 26 44 2e 6c 65 6e 67 74 68 3e 61 if(D&&D.length>a
+09d0: 4a 29 7b 61 74 28 61 61 2c 44 2c 33 36 35 30 29 J){at(aa,D,3650)
+09e0: 3b 61 7a 3d 74 72 75 65 7d 76 61 72 20 69 3d 30 ;az=true}var i=0
+09f0: 2c 61 49 3d 35 30 30 3b 76 61 72 20 61 48 3d 73 ,aI=500;var aH=s
+0a00: 65 74 49 6e 74 65 72 76 61 6c 28 28 66 75 6e 63 etInterval((func
+0a10: 74 69 6f 6e 28 29 7b 76 61 72 20 65 3d 74 28 61 tion(){var e=t(a
+0a20: 61 29 3b 69 66 28 77 29 7b 65 3d 44 7d 69 2b 3d a);if(w){e=D}i+=
+0a30: 31 3b 69 66 28 69 3e 33 29 7b 63 6c 65 61 72 49 1;if(i>3){clearI
+0a40: 6e 74 65 72 76 61 6c 28 61 48 29 7d 69 66 28 65 nterval(aH)}if(e
+0a50: 2e 6c 65 6e 67 74 68 3e 61 4a 29 7b 63 6c 65 61 .length>aJ){clea
+0a60: 72 49 6e 74 65 72 76 61 6c 28 61 48 29 3b 61 72 rInterval(aH);ar
+0a70: 28 61 61 2c 65 29 7d 7d 29 2c 61 49 29 3b 72 65 (aa,e)}}),aI);re
+0a80: 74 75 72 6e 20 77 3f 44 3a 74 28 61 61 29 7d 7d turn w?D:t(aa)}}
+0a90: 66 75 6e 63 74 69 6f 6e 20 55 28 65 2c 61 48 2c function U(e,aH,
+0aa0: 44 29 7b 76 61 72 20 69 3d 65 3b 69 66 28 69 3d D){var i=e;if(i=
+0ab0: 3d 6e 75 6c 6c 29 7b 72 65 74 75 72 6e 20 66 61 =null){return fa
+0ac0: 6c 73 65 7d 61 48 3d 61 48 7c 7c 22 63 6c 69 63 lse}aH=aH||"clic
+0ad0: 6b 22 3b 69 66 28 28 74 79 70 65 6f 66 20 44 29 k";if((typeof D)
+0ae0: 2e 74 6f 4c 6f 77 65 72 43 61 73 65 28 29 21 3d .toLowerCase()!=
+0af0: 22 66 75 6e 63 74 69 6f 6e 22 29 7b 72 65 74 75 "function"){retu
+0b00: 72 6e 7d 69 66 28 69 2e 61 74 74 61 63 68 45 76 rn}if(i.attachEv
+0b10: 65 6e 74 29 7b 69 2e 61 74 74 61 63 68 45 76 65 ent){i.attachEve
+0b20: 6e 74 28 22 6f 6e 22 2b 61 48 2c 44 29 7d 65 6c nt("on"+aH,D)}el
+0b30: 73 65 7b 69 66 28 69 2e 61 64 64 45 76 65 6e 74 se{if(i.addEvent
+0b40: 4c 69 73 74 65 6e 65 72 29 7b 69 2e 61 64 64 45 Listener){i.addE
+0b50: 76 65 6e 74 4c 69 73 74 65 6e 65 72 28 61 48 2c ventListener(aH,
+0b60: 44 2c 66 61 6c 73 65 29 7d 65 6c 73 65 7b 69 5b D,false)}else{i[
+0b70: 22 6f 6e 22 2b 61 48 5d 3d 44 7d 7d 72 65 74 75 "on"+aH]=D}}retu
+0b80: 72 6e 20 74 72 75 65 7d 66 75 6e 63 74 69 6f 6e rn true}function
+0b90: 20 61 66 28 29 7b 69 66 28 77 69 6e 64 6f 77 2e  af(){if(window.
+0ba0: 65 76 65 6e 74 21 3d 6e 75 6c 6c 29 7b 72 65 74 event!=null){ret
+0bb0: 75 72 6e 20 77 69 6e 64 6f 77 2e 65 76 65 6e 74 urn window.event
+0bc0: 7d 65 6c 73 65 7b 69 66 28 77 69 6e 64 6f 77 2e }else{if(window.
+0bd0: 65 76 65 6e 74 29 7b 72 65 74 75 72 6e 20 77 69 event){return wi
+0be0: 6e 64 6f 77 2e 65 76 65 6e 74 7d 76 61 72 20 44 ndow.event}var D
+0bf0: 3d 61 72 67 75 6d 65 6e 74 73 2e 63 61 6c 6c 65 =arguments.calle
+0c00: 65 2e 63 61 6c 6c 65 72 3b 76 61 72 20 69 3b 76 e.caller;var i;v
+0c10: 61 72 20 61 48 3d 30 3b 77 68 69 6c 65 28 44 21 ar aH=0;while(D!
+0c20: 3d 6e 75 6c 6c 26 26 61 48 3c 34 30 29 7b 69 3d =null&&aH<40){i=
+0c30: 44 2e 61 72 67 75 6d 65 6e 74 73 5b 30 5d 3b 69 D.arguments[0];i
+0c40: 66 28 69 26 26 28 69 2e 63 6f 6e 73 74 72 75 63 f(i&&(i.construc
+0c50: 74 6f 72 3d 3d 45 76 65 6e 74 7c 7c 69 2e 63 6f tor==Event||i.co
+0c60: 6e 73 74 72 75 63 74 6f 72 3d 3d 4d 6f 75 73 65 nstructor==Mouse
+0c70: 45 76 65 6e 74 7c 7c 69 2e 63 6f 6e 73 74 72 75 Event||i.constru
+0c80: 63 74 6f 72 3d 3d 4b 65 79 62 6f 61 72 64 45 76 ctor==KeyboardEv
+0c90: 65 6e 74 29 29 7b 72 65 74 75 72 6e 20 69 7d 61 ent)){return i}a
+0ca0: 48 2b 2b 3b 44 3d 44 2e 63 61 6c 6c 65 72 7d 72 H++;D=D.caller}r
+0cb0: 65 74 75 72 6e 20 69 7d 7d 66 75 6e 63 74 69 6f eturn i}}functio
+0cc0: 6e 20 67 28 69 29 7b 69 3d 69 7c 7c 61 66 28 29 n g(i){i=i||af()
+0cd0: 3b 69 66 28 21 69 2e 74 61 72 67 65 74 29 7b 69 ;if(!i.target){i
+0ce0: 2e 74 61 72 67 65 74 3d 69 2e 73 72 63 45 6c 65 .target=i.srcEle
+0cf0: 6d 65 6e 74 3b 69 2e 70 61 67 65 58 3d 69 2e 78 ment;i.pageX=i.x
+0d00: 3b 69 2e 70 61 67 65 59 3d 69 2e 79 7d 69 66 28 ;i.pageY=i.y}if(
+0d10: 74 79 70 65 6f 66 20 69 2e 6c 61 79 65 72 58 3d typeof i.layerX=
+0d20: 3d 22 75 6e 64 65 66 69 6e 65 64 22 29 7b 69 2e ="undefined"){i.
+0d30: 6c 61 79 65 72 58 3d 69 2e 6f 66 66 73 65 74 58 layerX=i.offsetX
+0d40: 7d 69 66 28 74 79 70 65 6f 66 20 69 2e 6c 61 79 }if(typeof i.lay
+0d50: 65 72 59 3d 3d 22 75 6e 64 65 66 69 6e 65 64 22 erY=="undefined"
+0d60: 29 7b 69 2e 6c 61 79 65 72 59 3d 69 2e 6f 66 66 ){i.layerY=i.off
+0d70: 73 65 74 59 7d 72 65 74 75 72 6e 20 69 7d 66 75 setY}return i}fu
+0d80: 6e 63 74 69 6f 6e 20 61 77 28 61 48 29 7b 69 66 nction aw(aH){if
+0d90: 28 74 79 70 65 6f 66 20 61 48 21 3d 3d 22 73 74 (typeof aH!=="st
+0da0: 72 69 6e 67 22 29 7b 74 68 72 6f 77 22 74 72 69 ring"){throw"tri
+0db0: 6d 20 6e 65 65 64 20 61 20 73 74 72 69 6e 67 20 m need a string 
+0dc0: 61 73 20 70 61 72 61 6d 65 74 65 72 22 7d 76 61 as parameter"}va
+0dd0: 72 20 65 3d 61 48 2e 6c 65 6e 67 74 68 3b 76 61 r e=aH.length;va
+0de0: 72 20 44 3d 30 3b 76 61 72 20 69 3d 2f 28 5c 75 r D=0;var i=/(\u
+0df0: 33 30 30 30 7c 5c 73 7c 5c 74 7c 5c 75 30 30 41 3000|\s|\t|\u00A
+0e00: 30 29 2f 3b 77 68 69 6c 65 28 44 3c 65 29 7b 69 0)/;while(D<e){i
+0e10: 66 28 21 69 2e 74 65 73 74 28 61 48 2e 63 68 61 f(!i.test(aH.cha
+0e20: 72 41 74 28 44 29 29 29 7b 62 72 65 61 6b 7d 44 rAt(D))){break}D
+0e30: 2b 3d 31 7d 77 68 69 6c 65 28 65 3e 44 29 7b 69 +=1}while(e>D){i
+0e40: 66 28 21 69 2e 74 65 73 74 28 61 48 2e 63 68 61 f(!i.test(aH.cha
+0e50: 72 41 74 28 65 2d 31 29 29 29 7b 62 72 65 61 6b rAt(e-1))){break
+0e60: 7d 65 2d 3d 31 7d 72 65 74 75 72 6e 20 61 48 2e }e-=1}return aH.
+0e70: 73 6c 69 63 65 28 44 2c 65 29 7d 66 75 6e 63 74 slice(D,e)}funct
+0e80: 69 6f 6e 20 63 28 65 29 7b 72 65 74 75 72 6e 20 ion c(e){return 
+0e90: 4f 62 6a 65 63 74 2e 70 72 6f 74 6f 74 79 70 65 Object.prototype
+0ea0: 2e 74 6f 53 74 72 69 6e 67 2e 63 61 6c 6c 28 65 .toString.call(e
+0eb0: 29 3d 3d 3d 22 5b 6f 62 6a 65 63 74 20 41 72 72 )==="[object Arr
+0ec0: 61 79 5d 22 7d 66 75 6e 63 74 69 6f 6e 20 4a 28 ay]"}function J(
+0ed0: 61 48 2c 61 4c 29 7b 76 61 72 20 61 4e 3d 61 77 aH,aL){var aN=aw
+0ee0: 28 61 48 29 2e 73 70 6c 69 74 28 22 26 22 29 3b (aH).split("&");
+0ef0: 76 61 72 20 61 4d 3d 7b 7d 3b 76 61 72 20 44 3d var aM={};var D=
+0f00: 66 75 6e 63 74 69 6f 6e 28 69 29 7b 69 66 28 61 function(i){if(a
+0f10: 4c 29 7b 74 72 79 7b 72 65 74 75 72 6e 20 64 65 L){try{return de
+0f20: 63 6f 64 65 55 52 49 43 6f 6d 70 6f 6e 65 6e 74 codeURIComponent
+0f30: 28 69 29 7d 63 61 74 63 68 28 61 50 29 7b 72 65 (i)}catch(aP){re
+0f40: 74 75 72 6e 20 69 7d 7d 65 6c 73 65 7b 72 65 74 turn i}}else{ret
+0f50: 75 72 6e 20 69 7d 7d 3b 66 6f 72 28 76 61 72 20 urn i}};for(var 
+0f60: 61 4a 3d 30 2c 61 4b 3d 61 4e 2e 6c 65 6e 67 74 aJ=0,aK=aN.lengt
+0f70: 68 3b 61 4a 3c 61 4b 3b 61 4a 2b 2b 29 7b 69 66 h;aJ<aK;aJ++){if
+0f80: 28 61 4e 5b 61 4a 5d 29 7b 76 61 72 20 61 49 3d (aN[aJ]){var aI=
+0f90: 61 4e 5b 61 4a 5d 2e 73 70 6c 69 74 28 22 3d 22 aN[aJ].split("="
+0fa0: 29 3b 76 61 72 20 65 3d 61 49 5b 30 5d 3b 76 61 );var e=aI[0];va
+0fb0: 72 20 61 4f 3d 61 49 5b 31 5d 3b 69 66 28 61 49 r aO=aI[1];if(aI
+0fc0: 2e 6c 65 6e 67 74 68 3c 32 29 7b 61 4f 3d 65 3b .length<2){aO=e;
+0fd0: 65 3d 22 24 6e 75 6c 6c 4e 61 6d 65 22 7d 69 66 e="$nullName"}if
+0fe0: 28 21 61 4d 5b 65 5d 29 7b 61 4d 5b 65 5d 3d 44 (!aM[e]){aM[e]=D
+0ff0: 28 61 4f 29 7d 65 6c 73 65 7b 69 66 28 63 28 61 (aO)}else{if(c(a
+1000: 4d 5b 65 5d 29 21 3d 74 72 75 65 29 7b 61 4d 5b M[e])!=true){aM[
+1010: 65 5d 3d 5b 61 4d 5b 65 5d 5d 7d 61 4d 5b 65 5d e]=[aM[e]]}aM[e]
+1020: 2e 70 75 73 68 28 44 28 61 4f 29 29 7d 7d 7d 72 .push(D(aO))}}}r
+1030: 65 74 75 72 6e 20 61 4d 7d 66 75 6e 63 74 69 6f eturn aM}functio
+1040: 6e 20 61 63 28 44 2c 61 49 29 7b 66 6f 72 28 76 n ac(D,aI){for(v
+1050: 61 72 20 61 48 3d 30 2c 65 3d 44 2e 6c 65 6e 67 ar aH=0,e=D.leng
+1060: 74 68 3b 61 48 3c 65 3b 61 48 2b 2b 29 7b 61 49 th;aH<e;aH++){aI
+1070: 28 44 5b 61 48 5d 2c 61 48 29 7d 7d 66 75 6e 63 (D[aH],aH)}}func
+1080: 74 69 6f 6e 20 61 6b 28 69 29 7b 76 61 72 20 65 tion ak(i){var e
+1090: 3d 6e 65 77 20 52 65 67 45 78 70 28 22 5e 68 74 =new RegExp("^ht
+10a0: 74 70 28 3f 3a 73 29 3f 3a 2f 2f 28 5b 5e 2f 5d tp(?:s)?://([^/]
+10b0: 2b 29 22 2c 22 69 6d 22 29 3b 69 66 28 69 2e 6d +)","im");if(i.m
+10c0: 61 74 63 68 28 65 29 29 7b 72 65 74 75 72 6e 20 atch(e)){return 
+10d0: 69 2e 6d 61 74 63 68 28 65 29 5b 31 5d 2e 74 6f i.match(e)[1].to
+10e0: 53 74 72 69 6e 67 28 29 7d 65 6c 73 65 7b 72 65 String()}else{re
+10f0: 74 75 72 6e 22 22 7d 7d 66 75 6e 63 74 69 6f 6e turn""}}function
+1100: 20 61 6a 28 61 4f 29 7b 74 72 79 7b 76 61 72 20  aj(aO){try{var 
+1110: 61 4c 3d 22 41 42 43 44 45 46 47 48 49 4a 4b 4c aL="ABCDEFGHIJKL
+1120: 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 61 62 MNOPQRSTUVWXYZab
+1130: 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 cdefghijklmnopqr
+1140: 73 74 75 76 77 78 79 7a 30 31 32 33 34 35 36 37 stuvwxyz01234567
+1150: 38 39 2b 2f 3d 22 3b 76 61 72 20 44 3d 22 41 42 89+/=";var D="AB
+1160: 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 CDEFGHIJKLMNOPQR
+1170: 53 54 55 56 57 58 59 5a 61 62 63 64 65 66 67 68 STUVWXYZabcdefgh
+1180: 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 ijklmnopqrstuvwx
+1190: 79 7a 30 31 32 33 34 35 36 37 38 39 2d 5f 3d 22 yz0123456789-_="
+11a0: 3b 76 61 72 20 61 51 3d 66 75 6e 63 74 69 6f 6e ;var aQ=function
+11b0: 28 65 29 7b 76 61 72 20 61 52 3d 22 22 2c 61 53 (e){var aR="",aS
+11c0: 3d 30 3b 66 6f 72 28 3b 61 53 3c 65 2e 6c 65 6e =0;for(;aS<e.len
+11d0: 67 74 68 3b 61 53 2b 2b 29 7b 61 52 2b 3d 22 25 gth;aS++){aR+="%
+11e0: 22 2b 61 48 28 65 5b 61 53 5d 29 7d 72 65 74 75 "+aH(e[aS])}retu
+11f0: 72 6e 20 64 65 63 6f 64 65 55 52 49 43 6f 6d 70 rn decodeURIComp
+1200: 6f 6e 65 6e 74 28 61 52 29 7d 3b 76 61 72 20 61 onent(aR)};var a
+1210: 48 3d 66 75 6e 63 74 69 6f 6e 28 65 29 7b 76 61 H=function(e){va
+1220: 72 20 69 3d 22 30 22 2b 65 2e 74 6f 53 74 72 69 r i="0"+e.toStri
+1230: 6e 67 28 31 36 29 3b 72 65 74 75 72 6e 20 69 2e ng(16);return i.
+1240: 6c 65 6e 67 74 68 3c 3d 32 3f 69 3a 69 2e 73 75 length<=2?i:i.su
+1250: 62 73 74 72 28 31 29 7d 3b 76 61 72 20 61 50 3d bstr(1)};var aP=
+1260: 66 75 6e 63 74 69 6f 6e 28 61 59 2c 61 56 2c 61 function(aY,aV,a
+1270: 52 29 7b 69 66 28 74 79 70 65 6f 66 28 61 59 29 R){if(typeof(aY)
+1280: 3d 3d 22 73 74 72 69 6e 67 22 29 7b 61 59 3d 61 =="string"){aY=a
+1290: 59 2e 73 70 6c 69 74 28 22 22 29 7d 76 61 72 20 Y.split("")}var 
+12a0: 61 58 3d 66 75 6e 63 74 69 6f 6e 28 61 37 2c 61 aX=function(a7,a
+12b0: 39 29 7b 66 6f 72 28 76 61 72 20 61 38 3d 30 3b 9){for(var a8=0;
+12c0: 61 38 3c 61 37 2e 6c 65 6e 67 74 68 3b 61 38 2b a8<a7.length;a8+
+12d0: 2b 29 7b 69 66 28 61 37 5b 61 38 5d 3d 3d 61 39 +){if(a7[a8]==a9
+12e0: 29 7b 72 65 74 75 72 6e 20 61 38 7d 7d 72 65 74 ){return a8}}ret
+12f0: 75 72 6e 20 2d 31 7d 3b 76 61 72 20 61 53 3d 5b urn -1};var aS=[
+1300: 5d 3b 76 61 72 20 61 36 2c 61 34 2c 61 31 3d 22 ];var a6,a4,a1="
+1310: 22 3b 76 61 72 20 61 35 2c 61 33 2c 61 30 2c 61 ";var a5,a3,a0,a
+1320: 5a 3d 22 22 3b 69 66 28 61 59 2e 6c 65 6e 67 74 Z="";if(aY.lengt
+1330: 68 25 34 21 3d 30 29 7b 7d 76 61 72 20 65 3d 2f h%4!=0){}var e=/
+1340: 5b 5e 41 2d 5a 61 2d 7a 30 2d 39 5c 2b 5c 2f 5c [^A-Za-z0-9\+\/\
+1350: 3d 5d 2f 67 3b 76 61 72 20 61 32 3d 61 4c 2e 73 =]/g;var a2=aL.s
+1360: 70 6c 69 74 28 22 22 29 3b 69 66 28 61 56 3d 3d plit("");if(aV==
+1370: 22 75 72 6c 73 61 66 65 22 29 7b 65 3d 2f 5b 5e "urlsafe"){e=/[^
+1380: 41 2d 5a 61 2d 7a 30 2d 39 5c 2d 5f 5c 3d 5d 2f A-Za-z0-9\-_\=]/
+1390: 67 3b 61 32 3d 44 2e 73 70 6c 69 74 28 22 22 29 g;a2=D.split("")
+13a0: 7d 76 61 72 20 61 55 3d 30 3b 69 66 28 61 56 3d }var aU=0;if(aV=
+13b0: 3d 22 62 69 6e 6e 61 72 79 22 29 7b 61 32 3d 5b ="binnary"){a2=[
+13c0: 5d 3b 66 6f 72 28 61 55 3d 30 3b 61 55 3c 3d 36 ];for(aU=0;aU<=6
+13d0: 34 3b 61 55 2b 2b 29 7b 61 32 5b 61 55 5d 3d 61 4;aU++){a2[aU]=a
+13e0: 55 2b 31 32 38 7d 7d 69 66 28 61 56 21 3d 22 62 U+128}}if(aV!="b
+13f0: 69 6e 6e 61 72 79 22 26 26 65 2e 65 78 65 63 28 innary"&&e.exec(
+1400: 61 59 2e 6a 6f 69 6e 28 22 22 29 29 29 7b 72 65 aY.join(""))){re
+1410: 74 75 72 6e 20 61 52 3d 3d 22 61 72 72 61 79 22 turn aR=="array"
+1420: 3f 5b 5d 3a 22 22 7d 61 55 3d 30 3b 64 6f 7b 61 ?[]:""}aU=0;do{a
+1430: 35 3d 61 58 28 61 32 2c 61 59 5b 61 55 2b 2b 5d 5=aX(a2,aY[aU++]
+1440: 29 3b 61 33 3d 61 58 28 61 32 2c 61 59 5b 61 55 );a3=aX(a2,aY[aU
+1450: 2b 2b 5d 29 3b 61 30 3d 61 58 28 61 32 2c 61 59 ++]);a0=aX(a2,aY
+1460: 5b 61 55 2b 2b 5d 29 3b 61 5a 3d 61 58 28 61 32 [aU++]);aZ=aX(a2
+1470: 2c 61 59 5b 61 55 2b 2b 5d 29 3b 61 36 3d 28 61 ,aY[aU++]);a6=(a
+1480: 35 3c 3c 32 29 7c 28 61 33 3e 3e 34 29 3b 61 34 5<<2)|(a3>>4);a4
+1490: 3d 28 28 61 33 26 31 35 29 3c 3c 34 29 7c 28 61 =((a3&15)<<4)|(a
+14a0: 30 3e 3e 32 29 3b 61 31 3d 28 28 61 30 26 33 29 0>>2);a1=((a0&3)
+14b0: 3c 3c 36 29 7c 61 5a 3b 61 53 2e 70 75 73 68 28 <<6)|aZ;aS.push(
+14c0: 61 36 29 3b 69 66 28 61 30 21 3d 36 34 26 26 61 a6);if(a0!=64&&a
+14d0: 30 21 3d 2d 31 29 7b 61 53 2e 70 75 73 68 28 61 0!=-1){aS.push(a
+14e0: 34 29 7d 69 66 28 61 5a 21 3d 36 34 26 26 61 5a 4)}if(aZ!=64&&aZ
+14f0: 21 3d 2d 31 29 7b 61 53 2e 70 75 73 68 28 61 31 !=-1){aS.push(a1
+1500: 29 7d 61 36 3d 61 34 3d 61 31 3d 22 22 3b 61 35 )}a6=a4=a1="";a5
+1510: 3d 61 33 3d 61 30 3d 61 5a 3d 22 22 7d 77 68 69 =a3=a0=aZ=""}whi
+1520: 6c 65 28 61 55 3c 61 59 2e 6c 65 6e 67 74 68 29 le(aU<aY.length)
+1530: 3b 69 66 28 61 52 3d 3d 22 61 72 72 61 79 22 29 ;if(aR=="array")
+1540: 7b 72 65 74 75 72 6e 20 61 53 7d 76 61 72 20 61 {return aS}var a
+1550: 57 3d 22 22 2c 61 54 3d 30 3b 66 6f 72 28 3b 61 W="",aT=0;for(;a
+1560: 54 3c 61 53 2e 6c 65 6e 74 68 3b 61 54 2b 2b 29 T<aS.lenth;aT++)
+1570: 7b 61 57 2b 3d 53 74 72 69 6e 67 2e 66 72 6f 6d {aW+=String.from
+1580: 43 68 61 72 43 6f 64 65 28 61 53 5b 61 54 5d 29 CharCode(aS[aT])
+1590: 7d 72 65 74 75 72 6e 20 61 57 7d 3b 76 61 72 20 }return aW};var 
+15a0: 61 49 3d 5b 5d 3b 76 61 72 20 61 4e 3d 61 4f 2e aI=[];var aN=aO.
+15b0: 73 75 62 73 74 72 28 30 2c 33 29 3b 76 61 72 20 substr(0,3);var 
+15c0: 61 4b 3d 61 4f 2e 73 75 62 73 74 72 28 33 29 3b aK=aO.substr(3);
+15d0: 73 77 69 74 63 68 28 61 4e 29 7b 63 61 73 65 22 switch(aN){case"
+15e0: 76 30 31 22 3a 66 6f 72 28 76 61 72 20 61 4a 3d v01":for(var aJ=
+15f0: 30 3b 61 4a 3c 61 4b 2e 6c 65 6e 67 74 68 3b 61 0;aJ<aK.length;a
+1600: 4a 2b 3d 32 29 7b 61 49 2e 70 75 73 68 28 70 61 J+=2){aI.push(pa
+1610: 72 73 65 49 6e 74 28 61 4b 2e 73 75 62 73 74 72 rseInt(aK.substr
+1620: 28 61 4a 2c 32 29 2c 31 36 29 29 7d 72 65 74 75 (aJ,2),16))}retu
+1630: 72 6e 20 64 65 63 6f 64 65 55 52 49 43 6f 6d 70 rn decodeURIComp
+1640: 6f 6e 65 6e 74 28 61 51 28 61 50 28 61 49 2c 22 onent(aQ(aP(aI,"
+1650: 62 69 6e 6e 61 72 79 22 2c 22 61 72 72 61 79 22 binnary","array"
+1660: 29 29 29 3b 62 72 65 61 6b 3b 63 61 73 65 22 76 )));break;case"v
+1670: 30 32 22 3a 61 49 3d 61 50 28 61 4b 2c 22 75 72 02":aI=aP(aK,"ur
+1680: 6c 73 61 66 65 22 2c 22 61 72 72 61 79 22 29 3b lsafe","array");
+1690: 72 65 74 75 72 6e 20 61 51 28 61 50 28 61 49 2c return aQ(aP(aI,
+16a0: 22 62 69 6e 6e 61 72 79 22 2c 22 61 72 72 61 79 "binnary","array
+16b0: 22 29 29 3b 62 72 65 61 6b 3b 64 65 66 61 75 6c "));break;defaul
+16c0: 74 3a 72 65 74 75 72 6e 20 64 65 63 6f 64 65 55 t:return decodeU
+16d0: 52 49 43 6f 6d 70 6f 6e 65 6e 74 28 61 4f 29 7d RIComponent(aO)}
+16e0: 7d 63 61 74 63 68 28 61 4d 29 7b 72 65 74 75 72 }catch(aM){retur
+16f0: 6e 22 22 7d 7d 76 61 72 20 61 70 3d 7b 73 63 72 n""}}var ap={scr
+1700: 65 65 6e 53 69 7a 65 3a 66 75 6e 63 74 69 6f 6e eenSize:function
+1710: 28 29 7b 72 65 74 75 72 6e 28 6d 26 38 33 38 38 (){return(m&8388
+1720: 36 30 38 3d 3d 38 33 38 38 36 30 38 29 3f 61 6f 608==8388608)?ao
+1730: 2e 77 69 64 74 68 2b 22 78 22 2b 61 6f 2e 68 65 .width+"x"+ao.he
+1740: 69 67 68 74 3a 22 22 7d 2c 63 6f 6c 6f 72 44 65 ight:""},colorDe
+1750: 70 74 68 3a 66 75 6e 63 74 69 6f 6e 28 29 7b 72 pth:function(){r
+1760: 65 74 75 72 6e 28 6d 26 34 31 39 34 33 30 34 3d eturn(m&4194304=
+1770: 3d 34 31 39 34 33 30 34 29 3f 61 6f 2e 63 6f 6c =4194304)?ao.col
+1780: 6f 72 44 65 70 74 68 3a 22 22 7d 2c 61 70 70 43 orDepth:""},appC
+1790: 6f 64 65 3a 66 75 6e 63 74 69 6f 6e 28 29 7b 72 ode:function(){r
+17a0: 65 74 75 72 6e 28 6d 26 32 30 39 37 31 35 32 3d eturn(m&2097152=
+17b0: 3d 32 30 39 37 31 35 32 29 3f 73 2e 61 70 70 43 =2097152)?s.appC
+17c0: 6f 64 65 4e 61 6d 65 3a 22 22 7d 2c 61 70 70 4e odeName:""},appN
+17d0: 61 6d 65 3a 66 75 6e 63 74 69 6f 6e 28 29 7b 72 ame:function(){r
+17e0: 65 74 75 72 6e 28 6d 26 31 30 34 38 35 37 36 3d eturn(m&1048576=
+17f0: 3d 31 30 34 38 35 37 36 29 3f 28 28 73 2e 61 70 =1048576)?((s.ap
+1800: 70 4e 61 6d 65 2e 69 6e 64 65 78 4f 66 28 22 4d pName.indexOf("M
+1810: 69 63 72 6f 73 6f 66 74 20 49 6e 74 65 72 6e 65 icrosoft Interne
+1820: 74 20 45 78 70 6c 6f 72 65 72 22 29 3e 2d 31 29 t Explorer")>-1)
+1830: 3f 22 4d 53 49 45 22 3a 73 2e 61 70 70 4e 61 6d ?"MSIE":s.appNam
+1840: 65 29 3a 22 22 7d 2c 63 70 75 3a 66 75 6e 63 74 e):""},cpu:funct
+1850: 69 6f 6e 28 29 7b 72 65 74 75 72 6e 28 6d 26 35 ion(){return(m&5
+1860: 32 34 32 38 38 3d 3d 35 32 34 32 38 38 29 3f 28 24288==524288)?(
+1870: 73 2e 63 70 75 43 6c 61 73 73 7c 7c 73 2e 6f 73 s.cpuClass||s.os
+1880: 63 70 75 29 3a 22 22 7d 2c 70 6c 61 74 66 6f 72 cpu):""},platfor
+1890: 6d 3a 66 75 6e 63 74 69 6f 6e 28 29 7b 72 65 74 m:function(){ret
+18a0: 75 72 6e 28 6d 26 32 36 32 31 34 34 3d 3d 32 36 urn(m&262144==26
+18b0: 32 31 34 34 29 3f 28 73 2e 70 6c 61 74 66 6f 72 2144)?(s.platfor
+18c0: 6d 29 3a 22 22 7d 2c 6a 73 56 65 72 3a 66 75 6e m):""},jsVer:fun
+18d0: 63 74 69 6f 6e 28 29 7b 69 66 28 6d 26 31 33 31 ction(){if(m&131
+18e0: 30 37 32 21 3d 31 33 31 30 37 32 29 7b 72 65 74 072!=131072){ret
+18f0: 75 72 6e 22 22 7d 76 61 72 20 61 49 2c 65 2c 61 urn""}var aI,e,a
+1900: 4b 2c 44 3d 31 2c 61 48 3d 30 2c 69 3d 28 73 2e K,D=1,aH=0,i=(s.
+1910: 61 70 70 4e 61 6d 65 2e 69 6e 64 65 78 4f 66 28 appName.indexOf(
+1920: 22 4d 69 63 72 6f 73 6f 66 74 20 49 6e 74 65 72 "Microsoft Inter
+1930: 6e 65 74 20 45 78 70 6c 6f 72 65 72 22 29 3e 2d net Explorer")>-
+1940: 31 29 3f 22 4d 53 49 45 22 3a 73 2e 61 70 70 4e 1)?"MSIE":s.appN
+1950: 61 6d 65 2c 61 4a 3d 73 2e 61 70 70 56 65 72 73 ame,aJ=s.appVers
+1960: 69 6f 6e 3b 69 66 28 22 4d 53 49 45 22 3d 3d 69 ion;if("MSIE"==i
+1970: 29 7b 65 3d 22 4d 53 49 45 22 3b 61 49 3d 61 4a ){e="MSIE";aI=aJ
+1980: 2e 69 6e 64 65 78 4f 66 28 65 29 3b 69 66 28 61 .indexOf(e);if(a
+1990: 49 3e 3d 30 29 7b 61 4b 3d 77 69 6e 64 6f 77 2e I>=0){aK=window.
+19a0: 70 61 72 73 65 49 6e 74 28 61 4a 2e 73 75 62 73 parseInt(aJ.subs
+19b0: 74 72 69 6e 67 28 61 49 2b 35 29 29 3b 69 66 28 tring(aI+5));if(
+19c0: 33 3c 3d 61 4b 29 7b 44 3d 31 2e 31 3b 69 66 28 3<=aK){D=1.1;if(
+19d0: 34 3c 3d 61 4b 29 7b 44 3d 31 2e 33 7d 7d 7d 7d 4<=aK){D=1.3}}}}
+19e0: 65 6c 73 65 7b 69 66 28 28 22 4e 65 74 73 63 61 else{if(("Netsca
+19f0: 70 65 22 3d 3d 69 29 7c 7c 28 22 4f 70 65 72 61 pe"==i)||("Opera
+1a00: 22 3d 3d 69 29 7c 7c 28 22 4d 6f 7a 69 6c 6c 61 "==i)||("Mozilla
+1a10: 22 3d 3d 69 29 29 7b 44 3d 31 2e 33 3b 65 3d 22 "==i)){D=1.3;e="
+1a20: 4e 65 74 73 63 61 70 65 36 22 3b 61 49 3d 61 4a Netscape6";aI=aJ
+1a30: 2e 69 6e 64 65 78 4f 66 28 65 29 3b 69 66 28 61 .indexOf(e);if(a
+1a40: 49 3e 3d 30 29 7b 44 3d 31 2e 35 7d 7d 7d 72 65 I>=0){D=1.5}}}re
+1a50: 74 75 72 6e 20 44 7d 2c 6e 65 74 77 6f 72 6b 3a turn D},network:
+1a60: 66 75 6e 63 74 69 6f 6e 28 29 7b 69 66 28 6d 26 function(){if(m&
+1a70: 36 35 35 33 36 21 3d 36 35 35 33 36 29 7b 72 65 65536!=65536){re
+1a80: 74 75 72 6e 22 22 7d 76 61 72 20 69 3d 22 22 3b turn""}var i="";
+<= Recv data, 15564 bytes (0x3ccc)
+0000: 69 3d 28 73 2e 63 6f 6e 6e 65 63 74 69 6f 6e 26 i=(s.connection&
+0010: 26 73 2e 63 6f 6e 6e 65 63 74 69 6f 6e 2e 74 79 &s.connection.ty
+0020: 70 65 29 3f 73 2e 63 6f 6e 6e 65 63 74 69 6f 6e pe)?s.connection
+0030: 2e 74 79 70 65 3a 69 3b 74 72 79 7b 46 2e 62 6f .type:i;try{F.bo
+0040: 64 79 2e 61 64 64 42 65 68 61 76 69 6f 72 28 22 dy.addBehavior("
+0050: 23 64 65 66 61 75 6c 74 23 63 6c 69 65 6e 74 43 #default#clientC
+0060: 61 70 73 22 29 3b 69 3d 46 2e 62 6f 64 79 2e 63 aps");i=F.body.c
+0070: 6f 6e 6e 65 63 74 69 6f 6e 54 79 70 65 7d 63 61 onnectionType}ca
+0080: 74 63 68 28 44 29 7b 69 3d 22 75 6e 6b 6f 77 6e tch(D){i="unkown
+0090: 22 7d 72 65 74 75 72 6e 20 69 7d 2c 6c 61 6e 67 "}return i},lang
+00a0: 75 61 67 65 3a 66 75 6e 63 74 69 6f 6e 28 29 7b uage:function(){
+00b0: 72 65 74 75 72 6e 28 6d 26 33 32 37 36 38 3d 3d return(m&32768==
+00c0: 33 32 37 36 38 29 3f 28 73 2e 73 79 73 74 65 6d 32768)?(s.system
+00d0: 4c 61 6e 67 75 61 67 65 7c 7c 73 2e 6c 61 6e 67 Language||s.lang
+00e0: 75 61 67 65 29 3a 22 22 7d 2c 74 69 6d 65 7a 6f uage):""},timezo
+00f0: 6e 65 3a 66 75 6e 63 74 69 6f 6e 28 29 7b 72 65 ne:function(){re
+0100: 74 75 72 6e 28 6d 26 31 36 33 38 34 3d 3d 31 36 turn(m&16384==16
+0110: 33 38 34 29 3f 28 6e 65 77 20 44 61 74 65 28 29 384)?(new Date()
+0120: 2e 67 65 74 54 69 6d 65 7a 6f 6e 65 4f 66 66 73 .getTimezoneOffs
+0130: 65 74 28 29 2f 36 30 29 3a 22 22 7d 2c 66 6c 61 et()/60):""},fla
+0140: 73 68 56 65 72 3a 66 75 6e 63 74 69 6f 6e 28 29 shVer:function()
+0150: 7b 69 66 28 6d 26 38 31 39 32 21 3d 38 31 39 32 {if(m&8192!=8192
+0160: 29 7b 72 65 74 75 72 6e 22 22 7d 76 61 72 20 61 ){return""}var a
+0170: 4b 3d 73 2e 70 6c 75 67 69 6e 73 2c 61 48 2c 61 K=s.plugins,aH,a
+0180: 4c 2c 61 4e 3b 69 66 28 61 4b 26 26 61 4b 2e 6c L,aN;if(aK&&aK.l
+0190: 65 6e 67 74 68 29 7b 66 6f 72 28 76 61 72 20 61 ength){for(var a
+01a0: 4a 20 69 6e 20 61 4b 29 7b 61 4c 3d 61 4b 5b 61 J in aK){aL=aK[a
+01b0: 4a 5d 3b 69 66 28 61 4c 2e 64 65 73 63 72 69 70 J];if(aL.descrip
+01c0: 74 69 6f 6e 3d 3d 6e 75 6c 6c 29 7b 63 6f 6e 74 tion==null){cont
+01d0: 69 6e 75 65 7d 69 66 28 61 48 21 3d 6e 75 6c 6c inue}if(aH!=null
+01e0: 29 7b 62 72 65 61 6b 7d 61 4e 3d 61 4c 2e 64 65 ){break}aN=aL.de
+01f0: 73 63 72 69 70 74 69 6f 6e 2e 74 6f 4c 6f 77 65 scription.toLowe
+0200: 72 43 61 73 65 28 29 3b 69 66 28 61 4e 2e 69 6e rCase();if(aN.in
+0210: 64 65 78 4f 66 28 22 66 6c 61 73 68 22 29 21 3d dexOf("flash")!=
+0220: 2d 31 29 7b 61 48 3d 61 4c 2e 76 65 72 73 69 6f -1){aH=aL.versio
+0230: 6e 3f 70 61 72 73 65 49 6e 74 28 61 4c 2e 76 65 n?parseInt(aL.ve
+0240: 72 73 69 6f 6e 29 3a 61 4e 2e 6d 61 74 63 68 28 rsion):aN.match(
+0250: 2f 5c 64 2b 2f 29 3b 63 6f 6e 74 69 6e 75 65 7d /\d+/);continue}
+0260: 7d 7d 65 6c 73 65 7b 69 66 28 77 69 6e 64 6f 77 }}else{if(window
+0270: 2e 41 63 74 69 76 65 58 4f 62 6a 65 63 74 29 7b .ActiveXObject){
+0280: 66 6f 72 28 76 61 72 20 61 49 3d 31 30 3b 61 49 for(var aI=10;aI
+0290: 3e 3d 32 3b 61 49 2d 2d 29 7b 74 72 79 7b 76 61 >=2;aI--){try{va
+02a0: 72 20 44 3d 6e 65 77 20 41 63 74 69 76 65 58 4f r D=new ActiveXO
+02b0: 62 6a 65 63 74 28 22 53 68 6f 63 6b 77 61 76 65 bject("Shockwave
+02c0: 46 6c 61 73 68 2e 53 68 6f 63 6b 77 61 76 65 46 Flash.ShockwaveF
+02d0: 6c 61 73 68 2e 22 2b 61 49 29 3b 69 66 28 44 29 lash."+aI);if(D)
+02e0: 7b 61 48 3d 61 49 3b 62 72 65 61 6b 7d 7d 63 61 {aH=aI;break}}ca
+02f0: 74 63 68 28 61 4d 29 7b 7d 7d 7d 65 6c 73 65 7b tch(aM){}}}else{
+0300: 69 66 28 57 2e 69 6e 64 65 78 4f 66 28 22 77 65 if(W.indexOf("we
+0310: 62 74 76 2f 32 2e 35 22 29 21 3d 2d 31 29 7b 61 btv/2.5")!=-1){a
+0320: 48 3d 33 7d 65 6c 73 65 7b 69 66 28 57 2e 69 6e H=3}else{if(W.in
+0330: 64 65 78 4f 66 28 22 77 65 62 74 76 22 29 21 3d dexOf("webtv")!=
+0340: 2d 31 29 7b 61 48 3d 32 7d 7d 7d 7d 72 65 74 75 -1){aH=2}}}}retu
+0350: 72 6e 20 61 48 7d 2c 6a 61 76 61 45 6e 61 62 6c rn aH},javaEnabl
+0360: 65 64 3a 66 75 6e 63 74 69 6f 6e 28 29 7b 69 66 ed:function(){if
+0370: 28 6d 26 34 30 39 36 21 3d 34 30 39 36 29 7b 72 (m&4096!=4096){r
+0380: 65 74 75 72 6e 22 22 7d 76 61 72 20 44 3d 73 2e eturn""}var D=s.
+0390: 70 6c 75 67 69 6e 73 2c 69 3d 73 2e 6a 61 76 61 plugins,i=s.java
+03a0: 45 6e 61 62 6c 65 64 28 29 2c 61 48 2c 61 49 3b Enabled(),aH,aI;
+03b0: 69 66 28 69 3d 3d 74 72 75 65 29 7b 72 65 74 75 if(i==true){retu
+03c0: 72 6e 20 31 7d 69 66 28 44 26 26 44 2e 6c 65 6e rn 1}if(D&&D.len
+03d0: 67 74 68 29 7b 66 6f 72 28 76 61 72 20 65 20 69 gth){for(var e i
+03e0: 6e 20 44 29 7b 61 48 3d 44 5b 65 5d 3b 69 66 28 n D){aH=D[e];if(
+03f0: 61 48 2e 64 65 73 63 72 69 70 74 69 6f 6e 3d 3d aH.description==
+0400: 6e 75 6c 6c 29 7b 63 6f 6e 74 69 6e 75 65 7d 69 null){continue}i
+0410: 66 28 69 21 3d 6e 75 6c 6c 29 7b 62 72 65 61 6b f(i!=null){break
+0420: 7d 61 49 3d 61 48 2e 64 65 73 63 72 69 70 74 69 }aI=aH.descripti
+0430: 6f 6e 2e 74 6f 4c 6f 77 65 72 43 61 73 65 28 29 on.toLowerCase()
+0440: 3b 69 66 28 61 49 2e 69 6e 64 65 78 4f 66 28 22 ;if(aI.indexOf("
+0450: 6a 61 76 61 20 70 6c 75 67 2d 69 6e 22 29 21 3d java plug-in")!=
+0460: 2d 31 29 7b 69 3d 70 61 72 73 65 49 6e 74 28 61 -1){i=parseInt(a
+0470: 48 2e 76 65 72 73 69 6f 6e 29 3b 63 6f 6e 74 69 H.version);conti
+0480: 6e 75 65 7d 7d 7d 65 6c 73 65 7b 69 66 28 77 69 nue}}}else{if(wi
+0490: 6e 64 6f 77 2e 41 63 74 69 76 65 58 4f 62 6a 65 ndow.ActiveXObje
+04a0: 63 74 29 7b 69 3d 28 6e 65 77 20 41 63 74 69 76 ct){i=(new Activ
+04b0: 65 58 4f 62 6a 65 63 74 28 22 4a 61 76 61 57 65 eXObject("JavaWe
+04c0: 62 53 74 61 72 74 2e 49 73 49 6e 73 74 61 6c 6c bStart.IsInstall
+04d0: 65 64 22 29 21 3d 6e 75 6c 6c 29 7d 7d 72 65 74 ed")!=null)}}ret
+04e0: 75 72 6e 20 69 3f 31 3a 30 7d 7d 3b 76 61 72 20 urn i?1:0}};var 
+04f0: 61 64 3d 7b 70 61 67 65 49 64 3a 66 75 6e 63 74 ad={pageId:funct
+0500: 69 6f 6e 28 69 29 7b 76 61 72 20 44 3d 69 7c 7c ion(i){var D=i||
+0510: 72 2c 61 4b 3d 22 2d 39 39 39 39 2d 30 2d 30 2d r,aK="-9999-0-0-
+0520: 31 22 3b 69 66 28 28 75 6e 64 65 66 69 6e 65 64 1";if((undefined
+0530: 3d 3d 44 29 7c 7c 28 22 22 3d 3d 44 29 29 7b 74 ==D)||(""==D)){t
+0540: 72 79 7b 76 61 72 20 61 48 3d 68 28 22 70 75 62 ry{var aH=h("pub
+0550: 6c 69 73 68 69 64 22 29 3b 69 66 28 22 22 21 3d lishid");if(""!=
+0560: 61 48 29 7b 76 61 72 20 61 4a 3d 61 48 2e 73 70 aH){var aJ=aH.sp
+0570: 6c 69 74 28 22 2c 22 29 3b 69 66 28 61 4a 2e 6c lit(",");if(aJ.l
+0580: 65 6e 67 74 68 3e 30 29 7b 69 66 28 61 4a 2e 6c ength>0){if(aJ.l
+0590: 65 6e 67 74 68 3e 3d 33 29 7b 61 4b 3d 22 2d 39 ength>=3){aK="-9
+05a0: 39 39 39 2d 30 2d 22 2b 61 4a 5b 31 5d 2b 22 2d 999-0-"+aJ[1]+"-
+05b0: 22 2b 61 4a 5b 32 5d 7d 44 3d 61 4a 5b 30 5d 7d "+aJ[2]}D=aJ[0]}
+05c0: 7d 65 6c 73 65 7b 44 3d 22 30 22 7d 7d 63 61 74 }else{D="0"}}cat
+05d0: 63 68 28 61 49 29 7b 44 3d 22 30 22 7d 44 3d 44 ch(aI){D="0"}D=D
+05e0: 2b 61 4b 7d 72 65 74 75 72 6e 20 44 7d 2c 73 65 +aK}return D},se
+05f0: 73 73 69 6f 6e 43 6f 75 6e 74 3a 66 75 6e 63 74 ssionCount:funct
+0600: 69 6f 6e 28 29 7b 76 61 72 20 65 3d 74 28 22 5f ion(){var e=t("_
+0610: 73 5f 75 70 61 22 29 3b 69 66 28 65 3d 3d 22 22 s_upa");if(e==""
+0620: 29 7b 65 3d 30 7d 72 65 74 75 72 6e 20 65 7d 2c ){e=0}return e},
+0630: 65 78 63 75 74 65 43 6f 75 6e 74 3a 66 75 6e 63 excuteCount:func
+0640: 74 69 6f 6e 28 29 7b 72 65 74 75 72 6e 20 53 55 tion(){return SU
+0650: 44 41 2e 73 75 64 61 43 6f 75 6e 74 7d 2c 72 65 DA.sudaCount},re
+0660: 66 65 72 72 65 72 3a 66 75 6e 63 74 69 6f 6e 28 ferrer:function(
+0670: 29 7b 69 66 28 6d 26 32 30 34 38 21 3d 32 30 34 ){if(m&2048!=204
+0680: 38 29 7b 72 65 74 75 72 6e 22 22 7d 76 61 72 20 8){return""}var 
+0690: 65 3d 2f 5e 5b 5e 5c 3f 26 23 5d 2a 2e 73 77 66 e=/^[^\?&#]*.swf
+06a0: 28 5b 5c 3f 23 5d 29 3f 2f 3b 69 66 28 28 61 41 ([\?#])?/;if((aA
+06b0: 3d 3d 22 22 29 7c 7c 28 61 41 2e 6d 61 74 63 68 =="")||(aA.match
+06c0: 28 65 29 29 29 7b 76 61 72 20 69 3d 56 28 6a 2c (e))){var i=V(j,
+06d0: 22 72 65 66 22 2c 22 26 22 2c 22 22 29 3b 69 66 "ref","&","");if
+06e0: 28 69 21 3d 22 22 29 7b 72 65 74 75 72 6e 20 65 (i!=""){return e
+06f0: 73 63 61 70 65 28 69 29 7d 7d 72 65 74 75 72 6e scape(i)}}return
+0700: 20 65 73 63 61 70 65 28 61 41 29 7d 2c 69 73 48  escape(aA)},isH
+0710: 6f 6d 65 70 61 67 65 3a 66 75 6e 63 74 69 6f 6e omepage:function
+0720: 28 29 7b 69 66 28 6d 26 31 30 32 34 21 3d 31 30 (){if(m&1024!=10
+0730: 32 34 29 7b 72 65 74 75 72 6e 22 22 7d 76 61 72 24){return""}var
+0740: 20 44 3d 22 22 3b 74 72 79 7b 46 2e 62 6f 64 79  D="";try{F.body
+0750: 2e 61 64 64 42 65 68 61 76 69 6f 72 28 22 23 64 .addBehavior("#d
+0760: 65 66 61 75 6c 74 23 68 6f 6d 65 50 61 67 65 22 efault#homePage"
+0770: 29 3b 44 3d 46 2e 62 6f 64 79 2e 69 73 48 6f 6d );D=F.body.isHom
+0780: 65 50 61 67 65 28 6a 29 3f 22 59 22 3a 22 4e 22 ePage(j)?"Y":"N"
+0790: 7d 63 61 74 63 68 28 69 29 7b 44 3d 22 75 6e 6b }catch(i){D="unk
+07a0: 6f 77 6e 22 7d 72 65 74 75 72 6e 20 44 7d 2c 50 own"}return D},P
+07b0: 47 4c 53 3a 66 75 6e 63 74 69 6f 6e 28 29 7b 72 GLS:function(){r
+07c0: 65 74 75 72 6e 28 6d 26 35 31 32 3d 3d 35 31 32 eturn(m&512==512
+07d0: 29 3f 68 28 22 73 74 65 6e 63 69 6c 22 29 3a 22 )?h("stencil"):"
+07e0: 22 7d 2c 5a 54 3a 66 75 6e 63 74 69 6f 6e 28 29 "},ZT:function()
+07f0: 7b 69 66 28 6d 26 32 35 36 21 3d 32 35 36 29 7b {if(m&256!=256){
+0800: 72 65 74 75 72 6e 22 22 7d 76 61 72 20 65 3d 68 return""}var e=h
+0810: 28 22 73 75 62 6a 65 63 74 69 64 22 29 3b 65 2e ("subjectid");e.
+0820: 72 65 70 6c 61 63 65 28 22 2c 22 2c 22 2e 22 29 replace(",",".")
+0830: 3b 65 2e 72 65 70 6c 61 63 65 28 22 3b 22 2c 22 ;e.replace(";","
+0840: 2c 22 29 3b 72 65 74 75 72 6e 20 65 73 63 61 70 ,");return escap
+0850: 65 28 65 29 7d 2c 6d 65 64 69 61 54 79 70 65 3a e(e)},mediaType:
+0860: 66 75 6e 63 74 69 6f 6e 28 29 7b 72 65 74 75 72 function(){retur
+0870: 6e 28 6d 26 31 32 38 3d 3d 31 32 38 29 3f 68 28 n(m&128==128)?h(
+0880: 22 6d 65 64 69 61 69 64 22 29 3a 22 22 7d 2c 64 "mediaid"):""},d
+0890: 6f 6d 43 6f 75 6e 74 3a 66 75 6e 63 74 69 6f 6e omCount:function
+08a0: 28 29 7b 72 65 74 75 72 6e 28 6d 26 36 34 3d 3d (){return(m&64==
+08b0: 36 34 29 3f 46 2e 67 65 74 45 6c 65 6d 65 6e 74 64)?F.getElement
+08c0: 73 42 79 54 61 67 4e 61 6d 65 28 22 2a 22 29 2e sByTagName("*").
+08d0: 6c 65 6e 67 74 68 3a 22 22 7d 2c 69 66 72 61 6d length:""},ifram
+08e0: 65 43 6f 75 6e 74 3a 66 75 6e 63 74 69 6f 6e 28 eCount:function(
+08f0: 29 7b 72 65 74 75 72 6e 28 6d 26 33 32 3d 3d 33 ){return(m&32==3
+0900: 32 29 3f 46 2e 67 65 74 45 6c 65 6d 65 6e 74 73 2)?F.getElements
+0910: 42 79 54 61 67 4e 61 6d 65 28 22 69 66 72 61 6d ByTagName("ifram
+0920: 65 22 29 2e 6c 65 6e 67 74 68 3a 22 22 7d 7d 3b e").length:""}};
+0930: 76 61 72 20 61 76 3d 7b 76 69 73 69 74 6f 72 49 var av={visitorI
+0940: 64 3a 66 75 6e 63 74 69 6f 6e 28 29 7b 76 61 72 d:function(){var
+0950: 20 69 3d 31 35 3b 76 61 72 20 65 3d 74 28 61 61  i=15;var e=t(aa
+0960: 29 3b 69 66 28 65 2e 6c 65 6e 67 74 68 3e 69 26 );if(e.length>i&
+0970: 26 75 3d 3d 30 29 7b 72 65 74 75 72 6e 20 65 7d &u==0){return e}
+0980: 65 6c 73 65 7b 72 65 74 75 72 6e 7d 7d 2c 66 76 else{return}},fv
+0990: 69 73 69 74 6f 72 49 64 3a 66 75 6e 63 74 69 6f isitorId:functio
+09a0: 6e 28 65 29 7b 69 66 28 21 65 29 7b 76 61 72 20 n(e){if(!e){var 
+09b0: 65 3d 74 28 59 29 3b 72 65 74 75 72 6e 20 65 7d e=t(Y);return e}
+09c0: 65 6c 73 65 7b 61 74 28 59 2c 65 2c 33 36 35 30 else{at(Y,e,3650
+09d0: 29 7d 7d 2c 73 65 73 73 69 6f 6e 49 64 3a 66 75 )}},sessionId:fu
+09e0: 6e 63 74 69 6f 6e 28 29 7b 76 61 72 20 65 3d 74 nction(){var e=t
+09f0: 28 48 29 3b 69 66 28 22 22 3d 3d 65 29 7b 76 61 (H);if(""==e){va
+0a00: 72 20 69 3d 6e 65 77 20 44 61 74 65 28 29 3b 65 r i=new Date();e
+0a10: 3d 4d 61 74 68 2e 72 61 6e 64 6f 6d 28 29 2a 31 =Math.random()*1
+0a20: 30 30 30 30 30 30 30 30 30 30 30 30 30 2b 22 2e 0000000000000+".
+0a30: 22 2b 69 2e 67 65 74 54 69 6d 65 28 29 7d 72 65 "+i.getTime()}re
+0a40: 74 75 72 6e 20 65 7d 2c 66 6c 61 73 68 43 6f 6f turn e},flashCoo
+0a50: 6b 69 65 3a 66 75 6e 63 74 69 6f 6e 28 65 29 7b kie:function(e){
+0a60: 69 66 28 65 29 7b 7d 65 6c 73 65 7b 72 65 74 75 if(e){}else{retu
+0a70: 72 6e 20 70 7d 7d 2c 6c 61 73 74 56 69 73 69 74 rn p}},lastVisit
+0a80: 3a 66 75 6e 63 74 69 6f 6e 28 29 7b 76 61 72 20 :function(){var 
+0a90: 44 3d 74 28 48 29 3b 76 61 72 20 61 49 3d 74 28 D=t(H);var aI=t(
+0aa0: 50 29 3b 76 61 72 20 61 48 3d 61 49 2e 73 70 6c P);var aH=aI.spl
+0ab0: 69 74 28 22 3a 22 29 3b 76 61 72 20 61 4a 3d 22 it(":");var aJ="
+0ac0: 22 2c 69 3b 69 66 28 61 48 2e 6c 65 6e 67 74 68 ",i;if(aH.length
+0ad0: 3e 3d 36 29 7b 69 66 28 44 21 3d 61 48 5b 34 5d >=6){if(D!=aH[4]
+0ae0: 29 7b 69 3d 6e 65 77 20 44 61 74 65 28 29 3b 76 ){i=new Date();v
+0af0: 61 72 20 65 3d 6e 65 77 20 44 61 74 65 28 77 69 ar e=new Date(wi
+0b00: 6e 64 6f 77 2e 70 61 72 73 65 49 6e 74 28 61 48 ndow.parseInt(aH
+0b10: 5b 30 5d 29 29 3b 61 48 5b 31 5d 3d 77 69 6e 64 [0]));aH[1]=wind
+0b20: 6f 77 2e 70 61 72 73 65 49 6e 74 28 61 48 5b 31 ow.parseInt(aH[1
+0b30: 5d 29 2b 31 3b 69 66 28 69 2e 67 65 74 4d 6f 6e ])+1;if(i.getMon
+0b40: 74 68 28 29 21 3d 65 2e 67 65 74 4d 6f 6e 74 68 th()!=e.getMonth
+0b50: 28 29 29 7b 61 48 5b 32 5d 3d 31 7d 65 6c 73 65 ()){aH[2]=1}else
+0b60: 7b 61 48 5b 32 5d 3d 77 69 6e 64 6f 77 2e 70 61 {aH[2]=window.pa
+0b70: 72 73 65 49 6e 74 28 61 48 5b 32 5d 29 2b 31 7d rseInt(aH[2])+1}
+0b80: 69 66 28 28 28 69 2e 67 65 74 54 69 6d 65 28 29 if(((i.getTime()
+0b90: 2d 65 2e 67 65 74 54 69 6d 65 28 29 29 2f 38 36 -e.getTime())/86
+0ba0: 34 30 30 30 30 30 29 3e 3d 37 29 7b 61 48 5b 33 400000)>=7){aH[3
+0bb0: 5d 3d 31 7d 65 6c 73 65 7b 69 66 28 69 2e 67 65 ]=1}else{if(i.ge
+0bc0: 74 44 61 79 28 29 3c 65 2e 67 65 74 44 61 79 28 tDay()<e.getDay(
+0bd0: 29 29 7b 61 48 5b 33 5d 3d 31 7d 65 6c 73 65 7b )){aH[3]=1}else{
+0be0: 61 48 5b 33 5d 3d 77 69 6e 64 6f 77 2e 70 61 72 aH[3]=window.par
+0bf0: 73 65 49 6e 74 28 61 48 5b 33 5d 29 2b 31 7d 7d seInt(aH[3])+1}}
+0c00: 61 4a 3d 61 48 5b 30 5d 2b 22 3a 22 2b 61 48 5b aJ=aH[0]+":"+aH[
+0c10: 31 5d 2b 22 3a 22 2b 61 48 5b 32 5d 2b 22 3a 22 1]+":"+aH[2]+":"
+0c20: 2b 61 48 5b 33 5d 3b 61 48 5b 35 5d 3d 61 48 5b +aH[3];aH[5]=aH[
+0c30: 30 5d 3b 61 48 5b 30 5d 3d 69 2e 67 65 74 54 69 0];aH[0]=i.getTi
+0c40: 6d 65 28 29 3b 61 74 28 50 2c 61 48 5b 30 5d 2b me();at(P,aH[0]+
+0c50: 22 3a 22 2b 61 48 5b 31 5d 2b 22 3a 22 2b 61 48 ":"+aH[1]+":"+aH
+0c60: 5b 32 5d 2b 22 3a 22 2b 61 48 5b 33 5d 2b 22 3a [2]+":"+aH[3]+":
+0c70: 22 2b 44 2b 22 3a 22 2b 61 48 5b 35 5d 2c 33 36 "+D+":"+aH[5],36
+0c80: 30 29 7d 65 6c 73 65 7b 61 4a 3d 61 48 5b 35 5d 0)}else{aJ=aH[5]
+0c90: 2b 22 3a 22 2b 61 48 5b 31 5d 2b 22 3a 22 2b 61 +":"+aH[1]+":"+a
+0ca0: 48 5b 32 5d 2b 22 3a 22 2b 61 48 5b 33 5d 7d 7d H[2]+":"+aH[3]}}
+0cb0: 65 6c 73 65 7b 69 3d 6e 65 77 20 44 61 74 65 28 else{i=new Date(
+0cc0: 29 3b 61 4a 3d 22 3a 31 3a 31 3a 31 22 3b 61 74 );aJ=":1:1:1";at
+0cd0: 28 50 2c 69 2e 67 65 74 54 69 6d 65 28 29 2b 61 (P,i.getTime()+a
+0ce0: 4a 2b 22 3a 22 2b 44 2b 22 3a 22 2c 33 36 30 29 J+":"+D+":",360)
+0cf0: 7d 72 65 74 75 72 6e 20 61 4a 7d 2c 75 73 65 72 }return aJ},user
+0d00: 4e 69 63 6b 3a 66 75 6e 63 74 69 6f 6e 28 29 7b Nick:function(){
+0d10: 69 66 28 61 6c 21 3d 22 22 29 7b 72 65 74 75 72 if(al!=""){retur
+0d20: 6e 20 61 6c 7d 76 61 72 20 44 3d 75 6e 65 73 63 n al}var D=unesc
+0d30: 61 70 65 28 74 28 6c 29 29 3b 69 66 28 44 21 3d ape(t(l));if(D!=
+0d40: 22 22 29 7b 76 61 72 20 69 3d 56 28 44 2c 22 61 ""){var i=V(D,"a
+0d50: 67 22 2c 22 26 22 2c 22 22 29 3b 76 61 72 20 65 g","&","");var e
+0d60: 3d 56 28 44 2c 22 75 73 65 72 22 2c 22 26 22 2c =V(D,"user","&",
+0d70: 22 22 29 3b 76 61 72 20 61 48 3d 56 28 44 2c 22 "");var aH=V(D,"
+0d80: 75 69 64 22 2c 22 26 22 2c 22 22 29 3b 76 61 72 uid","&","");var
+0d90: 20 61 4a 3d 56 28 44 2c 22 73 65 78 22 2c 22 26  aJ=V(D,"sex","&
+0da0: 22 2c 22 22 29 3b 76 61 72 20 61 49 3d 56 28 44 ","");var aI=V(D
+0db0: 2c 22 64 6f 62 22 2c 22 26 22 2c 22 22 29 3b 61 ,"dob","&","");a
+0dc0: 6c 3d 69 2b 22 3a 22 2b 65 2b 22 3a 22 2b 61 48 l=i+":"+e+":"+aH
+0dd0: 2b 22 3a 22 2b 61 4a 2b 22 3a 22 2b 61 49 3b 72 +":"+aJ+":"+aI;r
+0de0: 65 74 75 72 6e 20 61 6c 7d 65 6c 73 65 7b 72 65 eturn al}else{re
+0df0: 74 75 72 6e 22 22 7d 7d 2c 75 73 65 72 4f 72 69 turn""}},userOri
+0e00: 67 69 6e 3a 66 75 6e 63 74 69 6f 6e 28 29 7b 69 gin:function(){i
+0e10: 66 28 6d 26 34 21 3d 34 29 7b 72 65 74 75 72 6e f(m&4!=4){return
+0e20: 22 22 7d 76 61 72 20 65 3d 74 28 61 45 29 3b 76 ""}var e=t(aE);v
+0e30: 61 72 20 69 3d 65 2e 73 70 6c 69 74 28 22 3a 22 ar i=e.split(":"
+0e40: 29 3b 69 66 28 69 2e 6c 65 6e 67 74 68 3e 3d 32 );if(i.length>=2
+0e50: 29 7b 72 65 74 75 72 6e 20 69 5b 30 5d 7d 65 6c ){return i[0]}el
+0e60: 73 65 7b 72 65 74 75 72 6e 22 22 7d 7d 2c 61 64 se{return""}},ad
+0e70: 76 43 6f 75 6e 74 3a 66 75 6e 63 74 69 6f 6e 28 vCount:function(
+0e80: 29 7b 72 65 74 75 72 6e 28 6d 26 32 3d 3d 32 29 ){return(m&2==2)
+0e90: 3f 74 28 45 29 3a 22 22 7d 2c 73 65 74 55 4f 52 ?t(E):""},setUOR
+0ea0: 3a 66 75 6e 63 74 69 6f 6e 28 29 7b 76 61 72 20 :function(){var 
+0eb0: 61 4c 3d 74 28 61 45 29 2c 61 50 3d 22 22 2c 69 aL=t(aE),aP="",i
+0ec0: 3d 22 22 2c 61 4f 3d 22 22 2c 61 49 3d 22 22 2c ="",aO="",aI="",
+0ed0: 61 4d 3d 6a 2e 74 6f 4c 6f 77 65 72 43 61 73 65 aM=j.toLowerCase
+0ee0: 28 29 2c 44 3d 46 2e 72 65 66 65 72 72 65 72 2e (),D=F.referrer.
+0ef0: 74 6f 4c 6f 77 65 72 43 61 73 65 28 29 3b 76 61 toLowerCase();va
+0f00: 72 20 61 51 3d 2f 5b 26 7c 3f 5d 63 3d 73 70 72 r aQ=/[&|?]c=spr
+0f10: 28 5f 5b 41 2d 5a 61 2d 7a 30 2d 39 5d 7b 31 2c (_[A-Za-z0-9]{1,
+0f20: 7d 29 7b 33 2c 7d 2f 3b 76 61 72 20 61 4b 3d 6e }){3,}/;var aK=n
+0f30: 65 77 20 44 61 74 65 28 29 3b 69 66 28 61 4d 2e ew Date();if(aM.
+0f40: 6d 61 74 63 68 28 61 51 29 29 7b 61 4f 3d 61 4d match(aQ)){aO=aM
+0f50: 2e 6d 61 74 63 68 28 61 51 29 5b 30 5d 7d 65 6c .match(aQ)[0]}el
+0f60: 73 65 7b 69 66 28 44 2e 6d 61 74 63 68 28 61 51 se{if(D.match(aQ
+0f70: 29 29 7b 61 4f 3d 44 2e 6d 61 74 63 68 28 61 51 )){aO=D.match(aQ
+0f80: 29 5b 30 5d 7d 7d 69 66 28 61 4f 21 3d 22 22 29 )[0]}}if(aO!="")
+0f90: 7b 61 4f 3d 61 4f 2e 73 75 62 73 74 72 28 33 29 {aO=aO.substr(3)
+0fa0: 2b 22 3a 22 2b 61 4b 2e 67 65 74 54 69 6d 65 28 +":"+aK.getTime(
+0fb0: 29 7d 69 66 28 61 4c 3d 3d 22 22 29 7b 69 66 28 )}if(aL==""){if(
+0fc0: 74 28 50 29 3d 3d 22 22 29 7b 61 50 3d 61 6b 28 t(P)==""){aP=ak(
+0fd0: 44 29 3b 69 3d 61 6b 28 61 4d 29 7d 61 74 28 61 D);i=ak(aM)}at(a
+0fe0: 45 2c 61 50 2b 22 2c 22 2b 69 2b 22 2c 22 2b 61 E,aP+","+i+","+a
+0ff0: 4f 2c 33 36 35 29 7d 65 6c 73 65 7b 76 61 72 20 O,365)}else{var 
+1000: 61 4a 3d 30 2c 61 4e 3d 61 4c 2e 73 70 6c 69 74 aJ=0,aN=aL.split
+1010: 28 22 2c 22 29 3b 69 66 28 61 4e 2e 6c 65 6e 67 (",");if(aN.leng
+1020: 74 68 3e 3d 31 29 7b 61 50 3d 61 4e 5b 30 5d 7d th>=1){aP=aN[0]}
+1030: 69 66 28 61 4e 2e 6c 65 6e 67 74 68 3e 3d 32 29 if(aN.length>=2)
+1040: 7b 69 3d 61 4e 5b 31 5d 7d 69 66 28 61 4e 2e 6c {i=aN[1]}if(aN.l
+1050: 65 6e 67 74 68 3e 3d 33 29 7b 61 49 3d 61 4e 5b ength>=3){aI=aN[
+1060: 32 5d 7d 69 66 28 61 4f 21 3d 22 22 29 7b 61 4a 2]}if(aO!=""){aJ
+1070: 3d 31 7d 65 6c 73 65 7b 76 61 72 20 61 48 3d 61 =1}else{var aH=a
+1080: 49 2e 73 70 6c 69 74 28 22 3a 22 29 3b 69 66 28 I.split(":");if(
+1090: 61 48 2e 6c 65 6e 67 74 68 3e 3d 32 29 7b 76 61 aH.length>=2){va
+10a0: 72 20 65 3d 6e 65 77 20 44 61 74 65 28 77 69 6e r e=new Date(win
+10b0: 64 6f 77 2e 70 61 72 73 65 49 6e 74 28 61 48 5b dow.parseInt(aH[
+10c0: 31 5d 29 29 3b 69 66 28 65 2e 67 65 74 54 69 6d 1]));if(e.getTim
+10d0: 65 28 29 3c 28 61 4b 2e 67 65 74 54 69 6d 65 28 e()<(aK.getTime(
+10e0: 29 2d 38 36 34 30 30 30 30 30 2a 33 30 29 29 7b )-86400000*30)){
+10f0: 61 4a 3d 31 7d 7d 7d 69 66 28 61 4a 29 7b 61 74 aJ=1}}}if(aJ){at
+1100: 28 61 45 2c 61 50 2b 22 2c 22 2b 69 2b 22 2c 22 (aE,aP+","+i+","
+1110: 2b 61 4f 2c 33 36 35 29 7d 7d 7d 2c 73 65 74 41 +aO,365)}}},setA
+1120: 45 43 3a 66 75 6e 63 74 69 6f 6e 28 65 29 7b 69 EC:function(e){i
+1130: 66 28 22 22 3d 3d 65 29 7b 72 65 74 75 72 6e 7d f(""==e){return}
+1140: 76 61 72 20 69 3d 74 28 45 29 3b 69 66 28 69 2e var i=t(E);if(i.
+1150: 69 6e 64 65 78 4f 66 28 65 2b 22 2c 22 29 3c 30 indexOf(e+",")<0
+1160: 29 7b 69 3d 69 2b 65 2b 22 2c 22 7d 61 74 28 45 ){i=i+e+","}at(E
+1170: 2c 69 2c 37 29 7d 2c 73 73 6f 49 6e 66 6f 3a 66 ,i,7)},ssoInfo:f
+1180: 75 6e 63 74 69 6f 6e 28 29 7b 76 61 72 20 44 3d unction(){var D=
+1190: 75 6e 65 73 63 61 70 65 28 61 6a 28 74 28 22 73 unescape(aj(t("s
+11a0: 73 6f 5f 69 6e 66 6f 22 29 29 29 3b 69 66 28 44 so_info")));if(D
+11b0: 21 3d 22 22 29 7b 69 66 28 44 2e 69 6e 64 65 78 !=""){if(D.index
+11c0: 4f 66 28 22 75 69 64 3d 22 29 21 3d 2d 31 29 7b Of("uid=")!=-1){
+11d0: 76 61 72 20 69 3d 56 28 44 2c 22 75 69 64 22 2c var i=V(D,"uid",
+11e0: 22 26 22 2c 22 22 29 3b 72 65 74 75 72 6e 20 65 "&","");return e
+11f0: 73 63 61 70 65 28 22 75 69 64 3a 22 2b 69 29 7d scape("uid:"+i)}
+1200: 65 6c 73 65 7b 76 61 72 20 65 3d 56 28 44 2c 22 else{var e=V(D,"
+1210: 75 22 2c 22 26 22 2c 22 22 29 3b 72 65 74 75 72 u","&","");retur
+1220: 6e 20 65 73 63 61 70 65 28 22 75 3a 22 2b 75 6e n escape("u:"+un
+1230: 65 73 63 61 70 65 28 65 29 29 7d 7d 65 6c 73 65 escape(e))}}else
+1240: 7b 72 65 74 75 72 6e 22 22 7d 7d 2c 73 75 62 70 {return""}},subp
+1250: 3a 66 75 6e 63 74 69 6f 6e 28 29 7b 72 65 74 75 :function(){retu
+1260: 72 6e 20 74 28 22 53 55 42 50 22 29 7d 7d 3b 76 rn t("SUBP")}};v
+1270: 61 72 20 61 69 3d 7b 43 49 3a 66 75 6e 63 74 69 ar ai={CI:functi
+1280: 6f 6e 28 29 7b 76 61 72 20 65 3d 5b 22 73 7a 3a on(){var e=["sz:
+1290: 22 2b 61 70 2e 73 63 72 65 65 6e 53 69 7a 65 28 "+ap.screenSize(
+12a0: 29 2c 22 64 70 3a 22 2b 61 70 2e 63 6f 6c 6f 72 ),"dp:"+ap.color
+12b0: 44 65 70 74 68 28 29 2c 22 61 63 3a 22 2b 61 70 Depth(),"ac:"+ap
+12c0: 2e 61 70 70 43 6f 64 65 28 29 2c 22 61 6e 3a 22 .appCode(),"an:"
+12d0: 2b 61 70 2e 61 70 70 4e 61 6d 65 28 29 2c 22 63 +ap.appName(),"c
+12e0: 70 75 3a 22 2b 61 70 2e 63 70 75 28 29 2c 22 70 pu:"+ap.cpu(),"p
+12f0: 66 3a 22 2b 61 70 2e 70 6c 61 74 66 6f 72 6d 28 f:"+ap.platform(
+1300: 29 2c 22 6a 76 3a 22 2b 61 70 2e 6a 73 56 65 72 ),"jv:"+ap.jsVer
+1310: 28 29 2c 22 63 74 3a 22 2b 61 70 2e 6e 65 74 77 (),"ct:"+ap.netw
+1320: 6f 72 6b 28 29 2c 22 6c 67 3a 22 2b 61 70 2e 6c ork(),"lg:"+ap.l
+1330: 61 6e 67 75 61 67 65 28 29 2c 22 74 7a 3a 22 2b anguage(),"tz:"+
+1340: 61 70 2e 74 69 6d 65 7a 6f 6e 65 28 29 2c 22 66 ap.timezone(),"f
+1350: 76 3a 22 2b 61 70 2e 66 6c 61 73 68 56 65 72 28 v:"+ap.flashVer(
+1360: 29 2c 22 6a 61 3a 22 2b 61 70 2e 6a 61 76 61 45 ),"ja:"+ap.javaE
+1370: 6e 61 62 6c 65 64 28 29 5d 3b 72 65 74 75 72 6e nabled()];return
+1380: 22 43 49 3d 22 2b 65 2e 6a 6f 69 6e 28 22 7c 22 "CI="+e.join("|"
+1390: 29 7d 2c 50 49 3a 66 75 6e 63 74 69 6f 6e 28 65 )},PI:function(e
+13a0: 29 7b 76 61 72 20 69 3d 5b 22 70 69 64 3a 22 2b ){var i=["pid:"+
+13b0: 61 64 2e 70 61 67 65 49 64 28 65 29 2c 22 73 74 ad.pageId(e),"st
+13c0: 3a 22 2b 61 64 2e 73 65 73 73 69 6f 6e 43 6f 75 :"+ad.sessionCou
+13d0: 6e 74 28 29 2c 22 65 74 3a 22 2b 61 64 2e 65 78 nt(),"et:"+ad.ex
+13e0: 63 75 74 65 43 6f 75 6e 74 28 29 2c 22 72 65 66 cuteCount(),"ref
+13f0: 3a 22 2b 61 64 2e 72 65 66 65 72 72 65 72 28 29 :"+ad.referrer()
+1400: 2c 22 68 70 3a 22 2b 61 64 2e 69 73 48 6f 6d 65 ,"hp:"+ad.isHome
+1410: 70 61 67 65 28 29 2c 22 50 47 4c 53 3a 22 2b 61 page(),"PGLS:"+a
+1420: 64 2e 50 47 4c 53 28 29 2c 22 5a 54 3a 22 2b 61 d.PGLS(),"ZT:"+a
+1430: 64 2e 5a 54 28 29 2c 22 4d 54 3a 22 2b 61 64 2e d.ZT(),"MT:"+ad.
+1440: 6d 65 64 69 61 54 79 70 65 28 29 2c 22 6b 65 79 mediaType(),"key
+1450: 73 3a 22 2c 22 64 6f 6d 3a 22 2b 61 64 2e 64 6f s:","dom:"+ad.do
+1460: 6d 43 6f 75 6e 74 28 29 2c 22 69 66 72 3a 22 2b mCount(),"ifr:"+
+1470: 61 64 2e 69 66 72 61 6d 65 43 6f 75 6e 74 28 29 ad.iframeCount()
+1480: 5d 3b 72 65 74 75 72 6e 22 50 49 3d 22 2b 69 2e ];return"PI="+i.
+1490: 6a 6f 69 6e 28 22 7c 22 29 7d 2c 55 49 3a 66 75 join("|")},UI:fu
+14a0: 6e 63 74 69 6f 6e 28 29 7b 76 61 72 20 65 3d 5b nction(){var e=[
+14b0: 22 76 69 64 3a 22 2b 61 76 2e 76 69 73 69 74 6f "vid:"+av.visito
+14c0: 72 49 64 28 29 2c 22 73 69 64 3a 22 2b 61 76 2e rId(),"sid:"+av.
+14d0: 73 65 73 73 69 6f 6e 49 64 28 29 2c 22 6c 76 3a sessionId(),"lv:
+14e0: 22 2b 61 76 2e 6c 61 73 74 56 69 73 69 74 28 29 "+av.lastVisit()
+14f0: 2c 22 75 6e 3a 22 2b 61 76 2e 75 73 65 72 4e 69 ,"un:"+av.userNi
+1500: 63 6b 28 29 2c 22 75 6f 3a 22 2b 61 76 2e 75 73 ck(),"uo:"+av.us
+1510: 65 72 4f 72 69 67 69 6e 28 29 2c 22 61 65 3a 22 erOrigin(),"ae:"
+1520: 2b 61 76 2e 61 64 76 43 6f 75 6e 74 28 29 2c 22 +av.advCount(),"
+1530: 6c 75 3a 22 2b 61 76 2e 66 76 69 73 69 74 6f 72 lu:"+av.fvisitor
+1540: 49 64 28 29 2c 22 73 69 3a 22 2b 61 76 2e 73 73 Id(),"si:"+av.ss
+1550: 6f 49 6e 66 6f 28 29 2c 22 72 73 3a 22 2b 28 6e oInfo(),"rs:"+(n
+1560: 3f 31 3a 30 29 2c 22 64 6d 3a 22 2b 28 42 3f 31 ?1:0),"dm:"+(B?1
+1570: 3a 30 29 2c 22 73 75 3a 22 2b 61 76 2e 73 75 62 :0),"su:"+av.sub
+1580: 70 28 29 5d 3b 72 65 74 75 72 6e 22 55 49 3d 22 p()];return"UI="
+1590: 2b 65 2e 6a 6f 69 6e 28 22 7c 22 29 7d 2c 45 58 +e.join("|")},EX
+15a0: 3a 66 75 6e 63 74 69 6f 6e 28 69 2c 65 29 7b 69 :function(i,e){i
+15b0: 66 28 6d 26 31 21 3d 31 29 7b 72 65 74 75 72 6e f(m&1!=1){return
+15c0: 22 22 7d 69 3d 28 6e 75 6c 6c 21 3d 69 29 3f 69 ""}i=(null!=i)?i
+15d0: 7c 7c 22 22 3a 62 3b 65 3d 28 6e 75 6c 6c 21 3d ||"":b;e=(null!=
+15e0: 65 29 3f 65 7c 7c 22 22 3a 61 3b 72 65 74 75 72 e)?e||"":a;retur
+15f0: 6e 22 45 58 3d 65 78 31 3a 22 2b 69 2b 22 7c 65 n"EX=ex1:"+i+"|e
+1600: 78 32 3a 22 2b 65 7d 2c 4d 54 3a 66 75 6e 63 74 x2:"+e},MT:funct
+1610: 69 6f 6e 28 29 7b 72 65 74 75 72 6e 22 4d 54 3d ion(){return"MT=
+1620: 22 2b 61 46 28 29 2e 6a 6f 69 6e 28 22 7c 22 29 "+aF().join("|")
+1630: 7d 2c 56 3a 66 75 6e 63 74 69 6f 6e 28 29 7b 72 },V:function(){r
+1640: 65 74 75 72 6e 20 61 6e 7d 2c 52 3a 66 75 6e 63 eturn an},R:func
+1650: 74 69 6f 6e 28 29 7b 72 65 74 75 72 6e 22 67 55 tion(){return"gU
+1660: 69 64 5f 22 2b 6e 65 77 20 44 61 74 65 28 29 2e id_"+new Date().
+1670: 67 65 74 54 69 6d 65 28 29 7d 7d 3b 66 75 6e 63 getTime()}};func
+1680: 74 69 6f 6e 20 61 78 28 29 7b 76 61 72 20 61 4b tion ax(){var aK
+1690: 3d 22 2d 22 2c 61 48 3d 46 2e 72 65 66 65 72 72 ="-",aH=F.referr
+16a0: 65 72 2e 74 6f 4c 6f 77 65 72 43 61 73 65 28 29 er.toLowerCase()
+16b0: 2c 44 3d 6a 2e 74 6f 4c 6f 77 65 72 43 61 73 65 ,D=j.toLowerCase
+16c0: 28 29 3b 69 66 28 22 22 3d 3d 74 28 58 29 29 7b ();if(""==t(X)){
+16d0: 69 66 28 22 22 21 3d 61 48 29 7b 61 4b 3d 61 6b if(""!=aH){aK=ak
+16e0: 28 61 48 29 7d 61 74 28 58 2c 61 4b 2c 22 22 2c (aH)}at(X,aK,"",
+16f0: 22 77 65 69 62 6f 2e 63 6f 6d 22 29 7d 76 61 72 "weibo.com")}var
+1700: 20 61 49 3d 2f 77 65 69 62 6f 2e 63 6f 6d 5c 2f  aI=/weibo.com\/
+1710: 72 65 67 2e 70 68 70 2f 3b 69 66 28 44 2e 6d 61 reg.php/;if(D.ma
+1720: 74 63 68 28 61 49 29 29 7b 76 61 72 20 61 4a 3d tch(aI)){var aJ=
+1730: 56 28 75 6e 65 73 63 61 70 65 28 44 29 2c 22 73 V(unescape(D),"s
+1740: 68 61 72 65 68 6f 73 74 22 2c 22 26 22 2c 22 22 harehost","&",""
+1750: 29 3b 76 61 72 20 69 3d 56 28 75 6e 65 73 63 61 );var i=V(unesca
+1760: 70 65 28 44 29 2c 22 61 70 70 6b 65 79 22 2c 22 pe(D),"appkey","
+1770: 26 22 2c 22 22 29 3b 69 66 28 22 22 21 3d 61 4a &","");if(""!=aJ
+1780: 29 7b 61 74 28 58 2c 61 4a 2c 22 22 2c 22 77 65 ){at(X,aJ,"","we
+1790: 69 62 6f 2e 63 6f 6d 22 29 7d 61 74 28 22 61 70 ibo.com")}at("ap
+17a0: 70 6b 65 79 22 2c 69 2c 22 22 2c 22 77 65 69 62 pkey",i,"","weib
+17b0: 6f 2e 63 6f 6d 22 29 7d 7d 66 75 6e 63 74 69 6f o.com")}}functio
+17c0: 6e 20 64 28 65 2c 69 29 7b 47 28 65 2c 69 29 7d n d(e,i){G(e,i)}
+17d0: 66 75 6e 63 74 69 6f 6e 20 47 28 69 2c 44 29 7b function G(i,D){
+17e0: 44 3d 44 7c 7c 7b 7d 3b 76 61 72 20 65 3d 6e 65 D=D||{};var e=ne
+17f0: 77 20 49 6d 61 67 65 28 29 2c 61 48 3b 69 66 28 w Image(),aH;if(
+1800: 44 26 26 44 2e 63 61 6c 6c 62 61 63 6b 26 26 74 D&&D.callback&&t
+1810: 79 70 65 6f 66 20 44 2e 63 61 6c 6c 62 61 63 6b ypeof D.callback
+1820: 3d 3d 22 66 75 6e 63 74 69 6f 6e 22 29 7b 65 2e =="function"){e.
+1830: 6f 6e 6c 6f 61 64 3d 66 75 6e 63 74 69 6f 6e 28 onload=function(
+1840: 29 7b 63 6c 65 61 72 54 69 6d 65 6f 75 74 28 61 ){clearTimeout(a
+1850: 48 29 3b 61 48 3d 6e 75 6c 6c 3b 44 2e 63 61 6c H);aH=null;D.cal
+1860: 6c 62 61 63 6b 28 74 72 75 65 29 7d 7d 53 55 44 lback(true)}}SUD
+1870: 41 2e 69 6d 67 3d 65 3b 65 2e 73 72 63 3d 69 3b A.img=e;e.src=i;
+1880: 61 48 3d 73 65 74 54 69 6d 65 6f 75 74 28 66 75 aH=setTimeout(fu
+1890: 6e 63 74 69 6f 6e 28 29 7b 69 66 28 44 26 26 44 nction(){if(D&&D
+18a0: 2e 63 61 6c 6c 62 61 63 6b 26 26 74 79 70 65 6f .callback&&typeo
+18b0: 66 20 44 2e 63 61 6c 6c 62 61 63 6b 3d 3d 22 66 f D.callback=="f
+18c0: 75 6e 63 74 69 6f 6e 22 29 7b 44 2e 63 61 6c 6c unction"){D.call
+18d0: 62 61 63 6b 28 66 61 6c 73 65 29 3b 65 2e 6f 6e back(false);e.on
+18e0: 6c 6f 61 64 3d 6e 75 6c 6c 7d 7d 2c 44 2e 74 69 load=null}},D.ti
+18f0: 6d 65 6f 75 74 7c 7c 32 30 30 30 29 7d 66 75 6e meout||2000)}fun
+1900: 63 74 69 6f 6e 20 78 28 65 2c 61 48 2c 44 2c 61 ction x(e,aH,D,a
+1910: 49 29 7b 53 55 44 41 2e 73 75 64 61 43 6f 75 6e I){SUDA.sudaCoun
+1920: 74 2b 2b 3b 69 66 28 21 61 76 2e 76 69 73 69 74 t++;if(!av.visit
+1930: 6f 72 49 64 28 29 26 26 21 4c 28 29 29 7b 69 66 orId()&&!L()){if
+1940: 28 75 3c 33 29 7b 75 2b 2b 3b 73 65 74 54 69 6d (u<3){u++;setTim
+1950: 65 6f 75 74 28 78 2c 35 30 30 29 3b 72 65 74 75 eout(x,500);retu
+1960: 72 6e 7d 7d 76 61 72 20 69 3d 4e 2b 5b 61 69 2e rn}}var i=N+[ai.
+1970: 56 28 29 2c 61 69 2e 43 49 28 29 2c 61 69 2e 50 V(),ai.CI(),ai.P
+1980: 49 28 65 29 2c 61 69 2e 55 49 28 29 2c 61 69 2e I(e),ai.UI(),ai.
+1990: 4d 54 28 29 2c 61 69 2e 45 58 28 61 48 2c 44 29 MT(),ai.EX(aH,D)
+19a0: 2c 61 69 2e 52 28 29 5d 2e 6a 6f 69 6e 28 22 26 ,ai.R()].join("&
+19b0: 22 29 3b 47 28 69 2c 61 49 29 7d 66 75 6e 63 74 ");G(i,aI)}funct
+19c0: 69 6f 6e 20 79 28 65 2c 44 2c 69 29 7b 69 66 28 ion y(e,D,i){if(
+19d0: 61 47 7c 7c 41 29 7b 72 65 74 75 72 6e 7d 69 66 aG||A){return}if
+19e0: 28 53 55 44 41 2e 73 75 64 61 43 6f 75 6e 74 21 (SUDA.sudaCount!
+19f0: 3d 30 29 7b 72 65 74 75 72 6e 7d 78 28 65 2c 44 =0){return}x(e,D
+1a00: 2c 69 29 7d 66 75 6e 63 74 69 6f 6e 20 61 62 28 ,i)}function ab(
+1a10: 65 2c 61 48 29 7b 69 66 28 28 22 22 3d 3d 65 29 e,aH){if((""==e)
+1a20: 7c 7c 28 75 6e 64 65 66 69 6e 65 64 3d 3d 65 29 ||(undefined==e)
+1a30: 29 7b 72 65 74 75 72 6e 7d 61 76 2e 73 65 74 41 ){return}av.setA
+1a40: 45 43 28 65 29 3b 69 66 28 30 3d 3d 61 48 29 7b EC(e);if(0==aH){
+1a50: 72 65 74 75 72 6e 7d 76 61 72 20 44 3d 22 41 63 return}var D="Ac
+1a60: 54 72 61 63 6b 7c 7c 22 2b 74 28 61 61 29 2b 22 Track||"+t(aa)+"
+1a70: 7c 7c 22 2b 74 28 48 29 2b 22 7c 7c 22 2b 61 76 ||"+t(H)+"||"+av
+1a80: 2e 75 73 65 72 4e 69 63 6b 28 29 2b 22 7c 7c 22 .userNick()+"||"
+1a90: 2b 65 2b 22 7c 7c 22 3b 76 61 72 20 69 3d 61 67 +e+"||";var i=ag
+1aa0: 2b 44 2b 22 26 67 55 69 64 5f 22 2b 6e 65 77 20 +D+"&gUid_"+new 
+1ab0: 44 61 74 65 28 29 2e 67 65 74 54 69 6d 65 28 29 Date().getTime()
+1ac0: 3b 64 28 69 29 7d 66 75 6e 63 74 69 6f 6e 20 61 ;d(i)}function a
+1ad0: 71 28 61 49 2c 65 2c 69 2c 61 4a 29 7b 61 4a 3d q(aI,e,i,aJ){aJ=
+1ae0: 61 4a 7c 7c 7b 7d 3b 69 66 28 21 69 29 7b 69 3d aJ||{};if(!i){i=
+1af0: 22 22 7d 65 6c 73 65 7b 69 3d 65 73 63 61 70 65 ""}else{i=escape
+1b00: 28 69 29 7d 76 61 72 20 61 48 3d 22 55 41 54 72 (i)}var aH="UATr
+1b10: 61 63 6b 7c 7c 22 2b 74 28 61 61 29 2b 22 7c 7c ack||"+t(aa)+"||
+1b20: 22 2b 74 28 48 29 2b 22 7c 7c 22 2b 61 76 2e 75 "+t(H)+"||"+av.u
+1b30: 73 65 72 4e 69 63 6b 28 29 2b 22 7c 7c 22 2b 61 serNick()+"||"+a
+1b40: 49 2b 22 7c 7c 22 2b 65 2b 22 7c 7c 22 2b 61 64 I+"||"+e+"||"+ad
+1b50: 2e 72 65 66 65 72 72 65 72 28 29 2b 22 7c 7c 22 .referrer()+"||"
+1b60: 2b 69 2b 22 7c 7c 22 2b 28 61 4a 2e 72 65 61 6c +i+"||"+(aJ.real
+1b70: 55 72 6c 7c 7c 22 22 29 2b 22 7c 7c 22 2b 28 61 Url||"")+"||"+(a
+1b80: 4a 2e 65 78 74 7c 7c 22 22 29 3b 76 61 72 20 44 J.ext||"");var D
+1b90: 3d 61 67 2b 61 48 2b 22 26 67 55 69 64 5f 22 2b =ag+aH+"&gUid_"+
+1ba0: 6e 65 77 20 44 61 74 65 28 29 2e 67 65 74 54 69 new Date().getTi
+1bb0: 6d 65 28 29 3b 64 28 44 2c 61 4a 29 7d 66 75 6e me();d(D,aJ)}fun
+1bc0: 63 74 69 6f 6e 20 61 43 28 61 4b 29 7b 76 61 72 ction aC(aK){var
+1bd0: 20 69 3d 67 28 61 4b 29 3b 76 61 72 20 61 49 3d  i=g(aK);var aI=
+1be0: 69 2e 74 61 72 67 65 74 3b 76 61 72 20 61 48 3d i.target;var aH=
+1bf0: 22 22 2c 61 4c 3d 22 22 2c 44 3d 22 22 3b 76 61 "",aL="",D="";va
+1c00: 72 20 61 4a 3b 69 66 28 61 49 21 3d 6e 75 6c 6c r aJ;if(aI!=null
+1c10: 26 26 61 49 2e 67 65 74 41 74 74 72 69 62 75 74 &&aI.getAttribut
+1c20: 65 26 26 28 21 61 49 2e 67 65 74 41 74 74 72 69 e&&(!aI.getAttri
+1c30: 62 75 74 65 28 22 73 75 64 61 2d 75 61 74 72 61 bute("suda-uatra
+1c40: 63 6b 22 29 26 26 21 61 49 2e 67 65 74 41 74 74 ck")&&!aI.getAtt
+1c50: 72 69 62 75 74 65 28 22 73 75 64 61 2d 61 63 74 ribute("suda-act
+1c60: 72 61 63 6b 22 29 26 26 21 61 49 2e 67 65 74 41 rack")&&!aI.getA
+1c70: 74 74 72 69 62 75 74 65 28 22 73 75 64 61 2d 64 ttribute("suda-d
+1c80: 61 74 61 22 29 29 29 7b 77 68 69 6c 65 28 61 49 ata"))){while(aI
+1c90: 21 3d 6e 75 6c 6c 26 26 61 49 2e 67 65 74 41 74 !=null&&aI.getAt
+1ca0: 74 72 69 62 75 74 65 26 26 28 21 21 61 49 2e 67 tribute&&(!!aI.g
+1cb0: 65 74 41 74 74 72 69 62 75 74 65 28 22 73 75 64 etAttribute("sud
+1cc0: 61 2d 75 61 74 72 61 63 6b 22 29 7c 7c 21 21 61 a-uatrack")||!!a
+1cd0: 49 2e 67 65 74 41 74 74 72 69 62 75 74 65 28 22 I.getAttribute("
+1ce0: 73 75 64 61 2d 61 63 74 72 61 63 6b 22 29 7c 7c suda-actrack")||
+1cf0: 21 21 61 49 2e 67 65 74 41 74 74 72 69 62 75 74 !!aI.getAttribut
+1d00: 65 28 22 73 75 64 61 2d 64 61 74 61 22 29 29 3d e("suda-data"))=
+1d10: 3d 66 61 6c 73 65 29 7b 69 66 28 61 49 3d 3d 46 =false){if(aI==F
+1d20: 2e 62 6f 64 79 29 7b 72 65 74 75 72 6e 7d 61 49 .body){return}aI
+1d30: 3d 61 49 2e 70 61 72 65 6e 74 4e 6f 64 65 7d 7d =aI.parentNode}}
+1d40: 69 66 28 61 49 3d 3d 6e 75 6c 6c 7c 7c 61 49 2e if(aI==null||aI.
+1d50: 67 65 74 41 74 74 72 69 62 75 74 65 3d 3d 6e 75 getAttribute==nu
+1d60: 6c 6c 29 7b 72 65 74 75 72 6e 7d 61 48 3d 61 49 ll){return}aH=aI
+1d70: 2e 67 65 74 41 74 74 72 69 62 75 74 65 28 22 73 .getAttribute("s
+1d80: 75 64 61 2d 61 63 74 72 61 63 6b 22 29 7c 7c 22 uda-actrack")||"
+1d90: 22 3b 61 4c 3d 61 49 2e 67 65 74 41 74 74 72 69 ";aL=aI.getAttri
+1da0: 62 75 74 65 28 22 73 75 64 61 2d 75 61 74 72 61 bute("suda-uatra
+1db0: 63 6b 22 29 7c 7c 61 49 2e 67 65 74 41 74 74 72 ck")||aI.getAttr
+1dc0: 69 62 75 74 65 28 22 73 75 64 61 2d 64 61 74 61 ibute("suda-data
+1dd0: 22 29 7c 7c 22 22 3b 73 75 64 61 55 72 6c 73 3d ")||"";sudaUrls=
+1de0: 61 49 2e 67 65 74 41 74 74 72 69 62 75 74 65 28 aI.getAttribute(
+1df0: 22 73 75 64 61 2d 75 72 6c 73 22 29 7c 7c 22 22 "suda-urls")||""
+1e00: 3b 69 66 28 61 4c 29 7b 61 4a 3d 4a 28 61 4c 29 ;if(aL){aJ=J(aL)
+1e10: 3b 69 66 28 61 49 2e 74 61 67 4e 61 6d 65 2e 74 ;if(aI.tagName.t
+1e20: 6f 4c 6f 77 65 72 43 61 73 65 28 29 3d 3d 22 61 oLowerCase()=="a
+1e30: 22 29 7b 44 3d 61 49 2e 68 72 65 66 7d 6f 70 74 "){D=aI.href}opt
+1e40: 73 3d 7b 7d 3b 6f 70 74 73 2e 65 78 74 3d 28 61 s={};opts.ext=(a
+1e50: 4a 2e 65 78 74 7c 7c 22 22 29 3b 61 4a 2e 6b 65 J.ext||"");aJ.ke
+1e60: 79 26 26 53 55 44 41 2e 75 61 54 72 61 63 6b 26 y&&SUDA.uaTrack&
+1e70: 26 53 55 44 41 2e 75 61 54 72 61 63 6b 28 61 4a &SUDA.uaTrack(aJ
+1e80: 2e 6b 65 79 2c 61 4a 2e 76 61 6c 75 65 7c 7c 61 .key,aJ.value||a
+1e90: 4a 2e 6b 65 79 2c 44 2c 6f 70 74 73 29 7d 69 66 J.key,D,opts)}if
+1ea0: 28 61 48 29 7b 61 4a 3d 4a 28 61 48 29 3b 61 4a (aH){aJ=J(aH);aJ
+1eb0: 2e 6b 65 79 26 26 53 55 44 41 2e 61 63 54 72 61 .key&&SUDA.acTra
+1ec0: 63 6b 26 26 53 55 44 41 2e 61 63 54 72 61 63 6b ck&&SUDA.acTrack
+1ed0: 28 61 4a 2e 6b 65 79 2c 61 4a 2e 76 61 6c 75 65 (aJ.key,aJ.value
+1ee0: 7c 7c 61 4a 2e 6b 65 79 29 7d 7d 69 66 28 77 69 ||aJ.key)}}if(wi
+1ef0: 6e 64 6f 77 2e 53 55 44 41 26 26 4f 62 6a 65 63 ndow.SUDA&&Objec
+1f00: 74 2e 70 72 6f 74 6f 74 79 70 65 2e 74 6f 53 74 t.prototype.toSt
+1f10: 72 69 6e 67 2e 63 61 6c 6c 28 77 69 6e 64 6f 77 ring.call(window
+1f20: 2e 53 55 44 41 29 3d 3d 3d 22 5b 6f 62 6a 65 63 .SUDA)==="[objec
+1f30: 74 20 41 72 72 61 79 5d 22 29 7b 66 6f 72 28 76 t Array]"){for(v
+1f40: 61 72 20 51 3d 30 2c 61 65 3d 53 55 44 41 2e 6c ar Q=0,ae=SUDA.l
+1f50: 65 6e 67 74 68 3b 51 3c 61 65 3b 51 2b 2b 29 7b ength;Q<ae;Q++){
+1f60: 73 77 69 74 63 68 28 53 55 44 41 5b 51 5d 5b 30 switch(SUDA[Q][0
+1f70: 5d 29 7b 63 61 73 65 22 73 65 74 47 61 74 68 65 ]){case"setGathe
+1f80: 72 54 79 70 65 22 3a 6d 3d 53 55 44 41 5b 51 5d rType":m=SUDA[Q]
+1f90: 5b 31 5d 3b 62 72 65 61 6b 3b 63 61 73 65 22 73 [1];break;case"s
+1fa0: 65 74 47 61 74 68 65 72 49 6e 66 6f 22 3a 72 3d etGatherInfo":r=
+1fb0: 53 55 44 41 5b 51 5d 5b 31 5d 7c 7c 72 3b 62 3d SUDA[Q][1]||r;b=
+1fc0: 53 55 44 41 5b 51 5d 5b 32 5d 7c 7c 62 3b 61 3d SUDA[Q][2]||b;a=
+1fd0: 53 55 44 41 5b 51 5d 5b 33 5d 7c 7c 61 3b 62 72 SUDA[Q][3]||a;br
+1fe0: 65 61 6b 3b 63 61 73 65 22 73 65 74 50 65 72 66 eak;case"setPerf
+1ff0: 6f 72 6d 61 6e 63 65 22 3a 5a 3d 53 55 44 41 5b ormance":Z=SUDA[
+2000: 51 5d 5b 31 5d 3b 62 72 65 61 6b 3b 63 61 73 65 Q][1];break;case
+2010: 22 73 65 74 50 65 72 66 6f 72 6d 61 6e 63 65 46 "setPerformanceF
+2020: 69 6c 74 65 72 22 3a 43 3d 53 55 44 41 5b 51 5d ilter":C=SUDA[Q]
+2030: 5b 31 5d 3b 62 72 65 61 6b 3b 63 61 73 65 22 73 [1];break;case"s
+2040: 65 74 50 65 72 66 6f 72 6d 61 6e 63 65 49 6e 74 etPerformanceInt
+2050: 65 72 76 61 6c 22 3a 4b 3d 53 55 44 41 5b 51 5d erval":K=SUDA[Q]
+2060: 5b 31 5d 2a 31 7c 7c 30 3b 4b 3d 69 73 4e 61 4e [1]*1||0;K=isNaN
+2070: 28 4b 29 3f 30 3a 4b 3b 62 72 65 61 6b 3b 63 61 (K)?0:K;break;ca
+2080: 73 65 22 73 65 74 47 61 74 68 65 72 4d 6f 72 65 se"setGatherMore
+2090: 22 3a 4d 2e 70 75 73 68 28 53 55 44 41 5b 51 5d ":M.push(SUDA[Q]
+20a0: 2e 73 6c 69 63 65 28 31 29 29 3b 62 72 65 61 6b .slice(1));break
+20b0: 3b 63 61 73 65 22 61 63 54 72 61 63 6b 22 3a 53 ;case"acTrack":S
+20c0: 2e 70 75 73 68 28 53 55 44 41 5b 51 5d 2e 73 6c .push(SUDA[Q].sl
+20d0: 69 63 65 28 31 29 29 3b 62 72 65 61 6b 3b 63 61 ice(1));break;ca
+20e0: 73 65 22 75 61 54 72 61 63 6b 22 3a 49 2e 70 75 se"uaTrack":I.pu
+20f0: 73 68 28 53 55 44 41 5b 51 5d 2e 73 6c 69 63 65 sh(SUDA[Q].slice
+2100: 28 31 29 29 3b 62 72 65 61 6b 7d 7d 7d 61 47 3d (1));break}}}aG=
+2110: 28 66 75 6e 63 74 69 6f 6e 28 44 2c 69 29 7b 69 (function(D,i){i
+2120: 66 28 61 68 2e 74 6f 70 3d 3d 61 68 29 7b 72 65 f(ah.top==ah){re
+2130: 74 75 72 6e 20 66 61 6c 73 65 7d 65 6c 73 65 7b turn false}else{
+2140: 74 72 79 7b 69 66 28 46 2e 62 6f 64 79 2e 63 6c try{if(F.body.cl
+2150: 69 65 6e 74 48 65 69 67 68 74 3d 3d 30 29 7b 72 ientHeight==0){r
+2160: 65 74 75 72 6e 20 66 61 6c 73 65 7d 72 65 74 75 eturn false}retu
+2170: 72 6e 28 28 46 2e 62 6f 64 79 2e 63 6c 69 65 6e rn((F.body.clien
+2180: 74 48 65 69 67 68 74 3e 3d 44 29 26 26 28 46 2e tHeight>=D)&&(F.
+2190: 62 6f 64 79 2e 63 6c 69 65 6e 74 57 69 64 74 68 body.clientWidth
+21a0: 3e 3d 69 29 29 3f 66 61 6c 73 65 3a 74 72 75 65 >=i))?false:true
+21b0: 7d 63 61 74 63 68 28 61 48 29 7b 72 65 74 75 72 }catch(aH){retur
+21c0: 6e 20 74 72 75 65 7d 7d 7d 29 28 33 32 30 2c 32 n true}}})(320,2
+21d0: 34 30 29 3b 41 3d 28 66 75 6e 63 74 69 6f 6e 28 40);A=(function(
+21e0: 29 7b 72 65 74 75 72 6e 20 66 61 6c 73 65 7d 29 ){return false})
+21f0: 28 29 3b 61 76 2e 73 65 74 55 4f 52 28 29 3b 76 ();av.setUOR();v
+2200: 61 72 20 61 75 3d 61 76 2e 73 65 73 73 69 6f 6e ar au=av.session
+2210: 49 64 28 29 3b 77 69 6e 64 6f 77 2e 53 55 44 41 Id();window.SUDA
+2220: 3d 77 69 6e 64 6f 77 2e 53 55 44 41 7c 7c 5b 5d =window.SUDA||[]
+2230: 3b 53 55 44 41 2e 73 75 64 61 43 6f 75 6e 74 3d ;SUDA.sudaCount=
+2240: 53 55 44 41 2e 73 75 64 61 43 6f 75 6e 74 7c 7c SUDA.sudaCount||
+2250: 30 3b 53 55 44 41 2e 6c 6f 67 3d 66 75 6e 63 74 0;SUDA.log=funct
+2260: 69 6f 6e 28 29 7b 78 2e 61 70 70 6c 79 28 6e 75 ion(){x.apply(nu
+2270: 6c 6c 2c 61 72 67 75 6d 65 6e 74 73 29 7d 3b 53 ll,arguments)};S
+2280: 55 44 41 2e 61 63 54 72 61 63 6b 3d 66 75 6e 63 UDA.acTrack=func
+2290: 74 69 6f 6e 28 29 7b 61 62 2e 61 70 70 6c 79 28 tion(){ab.apply(
+22a0: 6e 75 6c 6c 2c 61 72 67 75 6d 65 6e 74 73 29 7d null,arguments)}
+22b0: 3b 53 55 44 41 2e 75 61 54 72 61 63 6b 3d 66 75 ;SUDA.uaTrack=fu
+22c0: 6e 63 74 69 6f 6e 28 29 7b 61 71 2e 61 70 70 6c nction(){aq.appl
+22d0: 79 28 6e 75 6c 6c 2c 61 72 67 75 6d 65 6e 74 73 y(null,arguments
+22e0: 29 7d 3b 55 28 46 2e 62 6f 64 79 2c 22 63 6c 69 )};U(F.body,"cli
+22f0: 63 6b 22 2c 61 43 29 3b 77 69 6e 64 6f 77 2e 47 ck",aC);window.G
+2300: 42 5f 53 55 44 41 3d 53 55 44 41 3b 47 42 5f 53 B_SUDA=SUDA;GB_S
+2310: 55 44 41 2e 5f 53 5f 70 53 74 3d 66 75 6e 63 74 UDA._S_pSt=funct
+2320: 69 6f 6e 28 29 7b 7d 3b 47 42 5f 53 55 44 41 2e ion(){};GB_SUDA.
+2330: 5f 53 5f 61 63 54 72 61 63 6b 3d 66 75 6e 63 74 _S_acTrack=funct
+2340: 69 6f 6e 28 29 7b 61 62 2e 61 70 70 6c 79 28 6e ion(){ab.apply(n
+2350: 75 6c 6c 2c 61 72 67 75 6d 65 6e 74 73 29 7d 3b ull,arguments)};
+2360: 47 42 5f 53 55 44 41 2e 5f 53 5f 75 61 54 72 61 GB_SUDA._S_uaTra
+2370: 63 6b 3d 66 75 6e 63 74 69 6f 6e 28 29 7b 61 71 ck=function(){aq
+2380: 2e 61 70 70 6c 79 28 6e 75 6c 6c 2c 61 72 67 75 .apply(null,argu
+2390: 6d 65 6e 74 73 29 7d 3b 77 69 6e 64 6f 77 2e 5f ments)};window._
+23a0: 53 5f 70 53 74 3d 66 75 6e 63 74 69 6f 6e 28 29 S_pSt=function()
+23b0: 7b 7d 3b 77 69 6e 64 6f 77 2e 5f 53 5f 61 63 54 {};window._S_acT
+23c0: 72 61 63 6b 3d 66 75 6e 63 74 69 6f 6e 28 29 7b rack=function(){
+23d0: 61 62 2e 61 70 70 6c 79 28 6e 75 6c 6c 2c 61 72 ab.apply(null,ar
+23e0: 67 75 6d 65 6e 74 73 29 7d 3b 77 69 6e 64 6f 77 guments)};window
+23f0: 2e 5f 53 5f 75 61 54 72 61 63 6b 3d 66 75 6e 63 ._S_uaTrack=func
+2400: 74 69 6f 6e 28 29 7b 61 71 2e 61 70 70 6c 79 28 tion(){aq.apply(
+2410: 6e 75 6c 6c 2c 61 72 67 75 6d 65 6e 74 73 29 7d null,arguments)}
+2420: 3b 77 69 6e 64 6f 77 2e 5f 53 5f 50 49 44 5f 3d ;window._S_PID_=
+2430: 22 22 3b 69 66 28 21 77 69 6e 64 6f 77 2e 53 55 "";if(!window.SU
+2440: 44 41 2e 64 69 73 61 62 6c 65 43 6c 69 63 6b 73 DA.disableClicks
+2450: 74 72 65 61 6d 29 7b 79 28 29 7d 74 72 79 7b 6b tream){y()}try{k
+2460: 28 29 7d 63 61 74 63 68 28 54 29 7b 7d 7d 29 28 ()}catch(T){}})(
+2470: 29 3b 0d 0a 2f 2f 2d 2d 3e 0d 0a 3c 2f 73 63 72 );..//-->..</scr
+2480: 69 70 74 3e 20 0d 0a 3c 6e 6f 53 63 72 69 70 74 ipt> ..<noScript
+2490: 3e 20 0d 0a 3c 64 69 76 20 73 74 79 6c 65 3d 27 > ..<div style='
+24a0: 70 6f 73 69 74 69 6f 6e 3a 61 62 73 6f 6c 75 74 position:absolut
+24b0: 65 3b 74 6f 70 3a 30 3b 6c 65 66 74 3a 30 3b 77 e;top:0;left:0;w
+24c0: 69 64 74 68 3a 30 3b 68 65 69 67 68 74 3a 30 3b idth:0;height:0;
+24d0: 76 69 73 69 62 69 6c 69 74 79 3a 68 69 64 64 65 visibility:hidde
+24e0: 6e 27 3e 3c 69 6d 67 20 77 69 64 74 68 3d 30 20 n'><img width=0 
+24f0: 68 65 69 67 68 74 3d 30 20 73 72 63 3d 27 2f 2f height=0 src='//
+2500: 62 65 61 63 6f 6e 2e 73 69 6e 61 2e 63 6f 6d 2e beacon.sina.com.
+2510: 63 6e 2f 61 2e 67 69 66 3f 6e 6f 53 63 72 69 70 cn/a.gif?noScrip
+2520: 74 27 20 62 6f 72 64 65 72 3d 27 30 27 20 61 6c t' border='0' al
+2530: 74 3d 27 27 20 2f 3e 3c 2f 64 69 76 3e 20 0d 0a t='' /></div> ..
+2540: 3c 2f 6e 6f 53 63 72 69 70 74 3e 20 0d 0a 3c 21 </noScript> ..<!
+2550: 2d 2d 20 53 55 44 41 5f 43 4f 44 45 5f 45 4e 44 -- SUDA_CODE_END
+2560: 20 2d 2d 3e 0d 0a 0d 0a 3c 21 2d 2d 20 53 53 4f  -->....<!-- SSO
+2570: 5f 47 45 54 43 4f 4f 4b 49 45 5f 53 54 41 52 54 _GETCOOKIE_START
+2580: 20 2d 2d 3e 0d 0a 3c 73 63 72 69 70 74 20 74 79  -->..<script ty
+2590: 70 65 3d 22 74 65 78 74 2f 6a 61 76 61 73 63 72 pe="text/javascr
+25a0: 69 70 74 22 3e 76 61 72 20 73 69 6e 61 53 53 4f ipt">var sinaSSO
+25b0: 4d 61 6e 61 67 65 72 3d 73 69 6e 61 53 53 4f 4d Manager=sinaSSOM
+25c0: 61 6e 61 67 65 72 7c 7c 7b 7d 3b 73 69 6e 61 53 anager||{};sinaS
+25d0: 53 4f 4d 61 6e 61 67 65 72 2e 67 65 74 53 69 6e SOManager.getSin
+25e0: 61 43 6f 6f 6b 69 65 3d 66 75 6e 63 74 69 6f 6e aCookie=function
+25f0: 28 29 7b 66 75 6e 63 74 69 6f 6e 20 64 63 28 75 (){function dc(u
+2600: 29 7b 69 66 28 75 3d 3d 75 6e 64 65 66 69 6e 65 ){if(u==undefine
+2610: 64 29 7b 72 65 74 75 72 6e 22 22 7d 76 61 72 20 d){return""}var 
+2620: 64 65 63 6f 64 65 64 3d 64 65 63 6f 64 65 55 52 decoded=decodeUR
+2630: 49 43 6f 6d 70 6f 6e 65 6e 74 28 75 29 3b 72 65 IComponent(u);re
+2640: 74 75 72 6e 20 64 65 63 6f 64 65 64 3d 3d 22 6e turn decoded=="n
+2650: 75 6c 6c 22 3f 22 22 3a 64 65 63 6f 64 65 64 7d ull"?"":decoded}
+2660: 66 75 6e 63 74 69 6f 6e 20 70 73 28 73 74 72 29 function ps(str)
+2670: 7b 76 61 72 20 61 72 72 3d 73 74 72 2e 73 70 6c {var arr=str.spl
+2680: 69 74 28 22 26 22 29 3b 76 61 72 20 61 72 72 74 it("&");var arrt
+2690: 6d 70 3b 76 61 72 20 61 72 72 52 65 73 75 6c 74 mp;var arrResult
+26a0: 3d 7b 7d 3b 66 6f 72 28 76 61 72 20 69 3d 30 3b ={};for(var i=0;
+26b0: 69 3c 61 72 72 2e 6c 65 6e 67 74 68 3b 69 2b 2b i<arr.length;i++
+26c0: 29 7b 61 72 72 74 6d 70 3d 61 72 72 5b 69 5d 2e ){arrtmp=arr[i].
+26d0: 73 70 6c 69 74 28 22 3d 22 29 3b 61 72 72 52 65 split("=");arrRe
+26e0: 73 75 6c 74 5b 61 72 72 74 6d 70 5b 30 5d 5d 3d sult[arrtmp[0]]=
+26f0: 64 63 28 61 72 72 74 6d 70 5b 31 5d 29 7d 72 65 dc(arrtmp[1])}re
+2700: 74 75 72 6e 20 61 72 72 52 65 73 75 6c 74 7d 66 turn arrResult}f
+2710: 75 6e 63 74 69 6f 6e 20 67 43 28 6e 61 6d 65 29 unction gC(name)
+2720: 7b 76 61 72 20 52 65 73 3d 65 76 61 6c 28 22 2f {var Res=eval("/
+2730: 22 2b 6e 61 6d 65 2b 22 3d 28 5b 5e 3b 5d 2b 29 "+name+"=([^;]+)
+2740: 2f 22 29 2e 65 78 65 63 28 64 6f 63 75 6d 65 6e /").exec(documen
+2750: 74 2e 63 6f 6f 6b 69 65 29 3b 72 65 74 75 72 6e t.cookie);return
+2760: 20 52 65 73 3d 3d 6e 75 6c 6c 3f 6e 75 6c 6c 3a  Res==null?null:
+2770: 52 65 73 5b 31 5d 7d 76 61 72 20 73 75 70 3d 64 Res[1]}var sup=d
+2780: 63 28 67 43 28 22 53 55 50 22 29 29 3b 69 66 28 c(gC("SUP"));if(
+2790: 21 73 75 70 29 7b 73 75 70 3d 64 63 28 67 43 28 !sup){sup=dc(gC(
+27a0: 22 53 55 52 22 29 29 7d 69 66 28 21 73 75 70 29 "SUR"))}if(!sup)
+27b0: 7b 72 65 74 75 72 6e 20 6e 75 6c 6c 7d 72 65 74 {return null}ret
+27c0: 75 72 6e 20 70 73 28 73 75 70 29 7d 3b 3c 2f 73 urn ps(sup)};</s
+27d0: 63 72 69 70 74 3e 0d 0a 3c 21 2d 2d 20 53 53 4f cript>..<!-- SSO
+27e0: 5f 47 45 54 43 4f 4f 4b 49 45 5f 45 4e 44 20 2d _GETCOOKIE_END -
+27f0: 2d 3e 0d 0a 0d 0a 3c 73 63 72 69 70 74 20 74 79 ->....<script ty
+2800: 70 65 3d 22 74 65 78 74 2f 6a 61 76 61 73 63 72 pe="text/javascr
+2810: 69 70 74 22 3e 6e 65 77 20 66 75 6e 63 74 69 6f ipt">new functio
+2820: 6e 28 72 2c 73 2c 74 29 7b 74 68 69 73 2e 61 3d n(r,s,t){this.a=
+2830: 66 75 6e 63 74 69 6f 6e 28 6e 2c 74 2c 65 29 7b function(n,t,e){
+2840: 69 66 28 77 69 6e 64 6f 77 2e 61 64 64 45 76 65 if(window.addEve
+2850: 6e 74 4c 69 73 74 65 6e 65 72 29 7b 6e 2e 61 64 ntListener){n.ad
+2860: 64 45 76 65 6e 74 4c 69 73 74 65 6e 65 72 28 74 dEventListener(t
+2870: 2c 65 2c 66 61 6c 73 65 29 3b 7d 65 6c 73 65 20 ,e,false);}else 
+2880: 69 66 28 77 69 6e 64 6f 77 2e 61 74 74 61 63 68 if(window.attach
+2890: 45 76 65 6e 74 29 7b 6e 2e 61 74 74 61 63 68 45 Event){n.attachE
+28a0: 76 65 6e 74 28 22 6f 6e 22 2b 74 2c 65 29 3b 7d vent("on"+t,e);}
+28b0: 7d 3b 74 68 69 73 2e 62 3d 66 75 6e 63 74 69 6f };this.b=functio
+28c0: 6e 28 66 29 7b 76 61 72 20 74 3d 74 68 69 73 3b n(f){var t=this;
+28d0: 72 65 74 75 72 6e 20 66 75 6e 63 74 69 6f 6e 28 return function(
+28e0: 29 7b 72 65 74 75 72 6e 20 66 2e 61 70 70 6c 79 ){return f.apply
+28f0: 28 74 2c 61 72 67 75 6d 65 6e 74 73 29 3b 7d 3b (t,arguments);};
+2900: 7d 3b 74 68 69 73 2e 63 3d 66 75 6e 63 74 69 6f };this.c=functio
+2910: 6e 28 29 7b 76 61 72 20 66 3d 64 6f 63 75 6d 65 n(){var f=docume
+2920: 6e 74 2e 67 65 74 45 6c 65 6d 65 6e 74 73 42 79 nt.getElementsBy
+2930: 54 61 67 4e 61 6d 65 28 22 66 6f 72 6d 22 29 3b TagName("form");
+2940: 66 6f 72 28 76 61 72 20 69 3d 30 3b 69 3c 66 2e for(var i=0;i<f.
+2950: 6c 65 6e 67 74 68 3b 69 2b 2b 29 7b 76 61 72 20 length;i++){var 
+2960: 6f 3d 66 5b 69 5d 2e 61 63 74 69 6f 6e 3b 69 66 o=f[i].action;if
+2970: 28 74 68 69 73 2e 72 2e 74 65 73 74 28 6f 29 29 (this.r.test(o))
+2980: 7b 66 5b 69 5d 2e 61 63 74 69 6f 6e 3d 6f 2e 72 {f[i].action=o.r
+2990: 65 70 6c 61 63 65 28 74 68 69 73 2e 72 2c 74 68 eplace(this.r,th
+29a0: 69 73 2e 73 29 3b 7d 7d 7d 3b 74 68 69 73 2e 72 is.s);}}};this.r
+29b0: 3d 72 3b 74 68 69 73 2e 73 3d 73 3b 74 68 69 73 =r;this.s=s;this
+29c0: 2e 64 3d 73 65 74 49 6e 74 65 72 76 61 6c 28 74 .d=setInterval(t
+29d0: 68 69 73 2e 62 28 74 68 69 73 2e 63 29 2c 74 29 his.b(this.c),t)
+29e0: 3b 74 68 69 73 2e 61 28 77 69 6e 64 6f 77 2c 22 ;this.a(window,"
+29f0: 6c 6f 61 64 22 2c 74 68 69 73 2e 62 28 66 75 6e load",this.b(fun
+2a00: 63 74 69 6f 6e 28 29 7b 74 68 69 73 2e 63 28 29 ction(){this.c()
+2a10: 3b 63 6c 65 61 72 49 6e 74 65 72 76 61 6c 28 74 ;clearInterval(t
+2a20: 68 69 73 2e 64 29 3b 7d 29 29 3b 7d 28 2f 68 74 his.d);}));}(/ht
+2a30: 74 70 3a 5c 2f 5c 2f 77 77 77 5c 2e 67 6f 6f 67 tp:\/\/www\.goog
+2a40: 6c 65 5c 2e 63 28 6f 6d 7c 6e 29 5c 2f 73 65 61 le\.c(om|n)\/sea
+2a50: 72 63 68 2f 2c 20 22 68 74 74 70 3a 2f 2f 6b 65 rch/, "http://ke
+2a60: 79 77 6f 72 64 2e 73 69 6e 61 2e 63 6f 6d 2e 63 yword.sina.com.c
+2a70: 6e 2f 73 65 61 72 63 68 77 6f 72 64 2e 70 68 70 n/searchword.php
+2a80: 22 2c 20 32 35 30 29 3b 3c 2f 73 63 72 69 70 74 ", 250);</script
+2a90: 3e 0d 0a 3c 21 2d 2d 20 62 6f 64 79 20 63 6f 64 >..<!-- body cod
+2aa0: 65 20 65 6e 64 20 2d 2d 3e 0d 0a 0a 09 3c 64 69 e end -->....<di
+2ab0: 76 20 63 6c 61 73 73 3d 22 77 61 72 70 70 65 72 v class="warpper
+2ac0: 22 3e 0a 09 09 3c 64 69 76 20 63 6c 61 73 73 3d ">...<div class=
+2ad0: 22 74 65 78 74 22 3e 0a 09 09 09 3c 69 6d 67 20 "text">....<img 
+2ae0: 73 72 63 3d 22 68 74 74 70 73 3a 2f 2f 69 6d 61 src="https://ima
+2af0: 67 65 32 2e 73 69 6e 61 2e 63 6f 6d 2e 63 6e 2f ge2.sina.com.cn/
+2b00: 69 6d 67 2f 73 69 6e 61 2d 6c 6f 67 6f 2e 70 6e img/sina-logo.pn
+2b10: 67 22 20 63 6c 61 73 73 3d 22 6c 6f 67 6f 22 3e g" class="logo">
+2b20: 0a 09 09 09 3c 70 3e e8 87 b4 e5 b9 bf e5 a4 a7 ....<p>.........
+2b30: e5 b0 8a e6 95 ac e7 9a 84 e7 94 a8 e6 88 b7 ef ................
+2b40: bc 9a 3c 2f 70 3e 0a 09 09 09 3c 62 72 3e 0a 09 ..</p>....<br>..
+2b50: 09 09 3c 70 3e e5 be 88 e9 81 97 e6 86 be e5 9c ..<p>...........
+2b60: b0 e9 80 9a e7 9f a5 e6 82 a8 ef bc 8c e5 8d b3 ................
+2b70: e6 97 a5 e8 b5 b7 e5 8c 97 e7 be 8e e6 96 b0 e6 ................
+2b80: b5 aa e7 bd 91 e5 81 9c e6 ad a2 e6 96 b0 e9 97 ................
+2b90: bb e6 9b b4 e6 96 b0 e3 80 82 3c 2f 70 3e 0a 09 ..........</p>..
+2ba0: 09 09 3c 62 72 3e 0a 09 09 09 3c 70 3e e5 a6 82 ..<br>....<p>...
+2bb0: e9 9c 80 e6 b5 8f e8 a7 88 e6 96 b0 e9 97 bb e8 ................
+2bc0: af b7 e7 82 b9 e5 87 bb e8 b7 b3 e8 bd ac e8 87 ................
+2bd0: b3 e5 8c 97 e4 ba ac e6 96 b0 e6 b5 aa e7 bd 91 ................
+2be0: e2 80 8b e2 80 8b e2 80 8b e2 80 8b ef bc 9a 3c ...............<
+2bf0: 61 20 68 72 65 66 3d 22 68 74 74 70 73 3a 2f 2f a href="https://
+2c00: 77 77 77 2e 73 69 6e 61 2e 63 6f 6d 2e 63 6e 22 www.sina.com.cn"
+2c10: 3e 68 74 74 70 73 3a 2f 2f 77 77 77 2e 73 69 6e >https://www.sin
+2c20: 61 2e 63 6f 6d 2e 63 6e 3c 2f 61 3e 3c 2f 70 3e a.com.cn</a></p>
+2c30: 0a 09 09 09 09 09 0a 09 09 09 3c 70 3e e5 a6 82 ..........<p>...
+2c40: e6 97 a0 e4 bb bb e4 bd 95 e6 93 8d e4 bd 9c ef ................
+2c50: bc 8c e5 b0 86 e5 9c a8 3c 73 70 61 6e 20 69 64 ........<span id
+2c60: 3d 22 73 65 63 6f 6e 64 22 3e 37 3c 2f 73 70 61 ="second">7</spa
+2c70: 6e 3e e7 a7 92 e5 90 8e e8 87 aa e5 8a a8 e8 b7 n>..............
+2c80: b3 e8 bd ac 2e 2e 2e 3c 2f 70 3e 0a 09 09 09 3c .......</p>....<
+2c90: 62 72 3e 0a 09 09 09 3c 70 3e e5 8c 97 e7 be 8e br>....<p>......
+2ca0: e6 96 b0 e6 b5 aa e7 bd 91 e5 85 a8 e5 91 98 e8 ................
+2cb0: a1 b7 e5 bf 83 e6 84 9f e8 b0 a2 e6 82 a8 e5 a4 ................
+2cc0: 9a e5 b9 b4 e6 94 af e6 8c 81 e4 b8 8e e9 99 aa ................
+2cd0: e4 bc b4 ef bc 8c e5 af b9 e5 9b a0 e6 ad a4 e6 ................
+2ce0: ac a1 e8 b0 83 e6 95 b4 e7 bb 99 e6 82 a8 e5 b8 ................
+2cf0: a6 e6 9d a5 e7 9a 84 e4 b8 8d e4 be bf ef bc 8c ................
+2d00: e6 88 91 e4 bb ac e6 b7 b1 e8 a1 a8 e6 ad 89 e6 ................
+2d10: 84 8f e3 80 82 0a 09 09 09 3c 62 72 3e 0a 09 09 .........<br>...
+2d20: 09 3c 62 72 3e 0a 09 09 09 3c 70 3e 3c 61 20 68 .<br>....<p><a h
+2d30: 72 65 66 3d 22 68 74 74 70 73 3a 2f 2f 77 65 69 ref="https://wei
+2d40: 62 6f 2e 63 6f 6d 2f 73 69 6e 61 75 73 3f 73 73 bo.com/sinaus?ss
+2d50: 6c 5f 72 6e 64 3d 31 36 30 39 33 34 34 38 34 35 l_rnd=1609344845
+2d60: 2e 31 38 31 36 26 69 73 5f 61 6c 6c 3d 31 22 3e .1816&is_all=1">
+2d70: 40 e5 8c 97 e7 be 8e e6 96 b0 e6 b5 aa 20 3c 2f @............ </
+2d80: 61 3e e5 be ae e5 8d 9a e5 b0 86 e7 bb a7 e7 bb a>..............
+2d90: ad e5 8a aa e5 8a 9b e4 b8 ba e7 94 a8 e6 88 b7 ................
+2da0: e6 8f 90 e4 be 9b e4 bc 98 e8 b4 a8 e6 96 b0 e9 ................
+2db0: 97 bb e5 8f 8a e8 b5 84 e8 ae af ef bc 8c e5 9c ................
+2dc0: a8 e6 9c aa e6 9d a5 e6 9b b4 e5 a5 bd e5 9c b0 ................
+2dd0: e6 9c 8d e5 8a a1 e7 94 a8 e6 88 b7 e3 80 82 3c ...............<
+2de0: 2f 70 3e 0a 09 09 3c 2f 64 69 76 3e 0a 09 3c 2f /p>...</div>..</
+2df0: 64 69 76 3e 0a 09 3c 64 69 76 20 69 64 3d 22 66 div>..<div id="f
+2e00: 6f 6f 74 65 72 22 20 63 6c 61 73 73 3d 22 66 6f ooter" class="fo
+2e10: 6f 74 65 72 22 20 64 61 74 61 2d 73 75 64 61 63 oter" data-sudac
+2e20: 6c 69 63 6b 3d 22 62 6c 6b 5f 66 6f 6f 74 65 72 lick="blk_footer
+2e30: 22 3e 0a 09 09 3c 70 3e 3c 61 20 68 72 65 66 3d ">...<p><a href=
+2e40: 22 68 74 74 70 3a 2f 2f 63 6f 72 70 2e 73 69 6e "http://corp.sin
+2e50: 61 2e 63 6f 6d 2e 63 6e 2f 63 68 6e 2f 73 69 6e a.com.cn/chn/sin
+2e60: 61 5f 70 72 69 76 2e 68 74 6d 6c 22 20 74 61 72 a_priv.html" tar
+2e70: 67 65 74 3d 22 5f 62 6c 61 6e 6b 22 3e e9 9a 90 get="_blank">...
+2e80: e7 a7 81 e4 bf 9d e6 8a a4 3c 2f 61 3e e3 80 80 .........</a>...
+2e90: e6 96 b0 e6 b5 aa e5 85 ac e5 8f b8 e3 80 80 3c ...............<
+2ea0: 61 20 68 72 65 66 3d 22 68 74 74 70 3a 2f 2f 77 a href="http://w
+2eb0: 77 77 2e 73 69 6e 61 2e 63 6f 6d 2e 63 6e 2f 69 ww.sina.com.cn/i
+2ec0: 6e 74 72 6f 2f 63 6f 70 79 72 69 67 68 74 2e 73 ntro/copyright.s
+2ed0: 68 74 6d 6c 22 3e e7 89 88 e6 9d 83 e6 89 80 e6 html">..........
+2ee0: 9c 89 3c 2f 61 3e e3 80 80 3c 61 20 68 72 65 66 ..</a>...<a href
+2ef0: 3d 22 68 74 74 70 73 3a 2f 2f 62 65 69 61 6e 2e ="https://beian.
+2f00: 6d 69 69 74 2e 67 6f 76 2e 63 6e 2f 22 20 74 61 miit.gov.cn/" ta
+2f10: 72 67 65 74 3d 22 5f 62 6c 61 6e 6b 22 3e e4 ba rget="_blank">..
+2f20: ac 49 43 50 e8 af 81 30 30 30 30 30 37 3c 2f 61 .ICP...000007</a
+2f30: 3e 3c 2f 70 3e 0a 09 3c 2f 64 69 76 3e 0a 3c 21 ></p>..</div>.<!
+2f40: 2d 2d 20 62 6f 64 79 20 63 6f 64 65 20 62 65 67 -- body code beg
+2f50: 69 6e 20 2d 2d 3e 0a 0a 3c 21 2d 2d 20 53 53 4f in -->..<!-- SSO
+2f60: 5f 55 50 44 41 54 45 43 4f 4f 4b 49 45 5f 53 54 _UPDATECOOKIE_ST
+2f70: 41 52 54 20 2d 2d 3e 0a 3c 73 63 72 69 70 74 20 ART -->.<script 
+2f80: 74 79 70 65 3d 22 74 65 78 74 2f 6a 61 76 61 73 type="text/javas
+2f90: 63 72 69 70 74 22 3e 76 61 72 20 73 69 6e 61 53 cript">var sinaS
+2fa0: 53 4f 4d 61 6e 61 67 65 72 3d 73 69 6e 61 53 53 SOManager=sinaSS
+2fb0: 4f 4d 61 6e 61 67 65 72 7c 7c 7b 7d 3b 73 69 6e OManager||{};sin
+2fc0: 61 53 53 4f 4d 61 6e 61 67 65 72 2e 71 3d 66 75 aSSOManager.q=fu
+2fd0: 6e 63 74 69 6f 6e 28 62 29 7b 69 66 28 74 79 70 nction(b){if(typ
+2fe0: 65 6f 66 20 62 21 3d 22 6f 62 6a 65 63 74 22 29 eof b!="object")
+2ff0: 7b 72 65 74 75 72 6e 22 22 7d 76 61 72 20 61 3d {return""}var a=
+3000: 6e 65 77 20 41 72 72 61 79 28 29 3b 66 6f 72 28 new Array();for(
+3010: 6b 65 79 20 69 6e 20 62 29 7b 61 2e 70 75 73 68 key in b){a.push
+3020: 28 6b 65 79 2b 22 3d 22 2b 65 6e 63 6f 64 65 55 (key+"="+encodeU
+3030: 52 49 43 6f 6d 70 6f 6e 65 6e 74 28 62 5b 6b 65 RIComponent(b[ke
+3040: 79 5d 29 29 7d 72 65 74 75 72 6e 20 61 2e 6a 6f y]))}return a.jo
+3050: 69 6e 28 22 26 22 29 7d 3b 73 69 6e 61 53 53 4f in("&")};sinaSSO
+3060: 4d 61 6e 61 67 65 72 2e 65 73 3d 66 75 6e 63 74 Manager.es=funct
+3070: 69 6f 6e 28 66 2c 64 2c 65 29 7b 76 61 72 20 63 ion(f,d,e){var c
+3080: 3d 64 6f 63 75 6d 65 6e 74 2e 67 65 74 45 6c 65 =document.getEle
+3090: 6d 65 6e 74 73 42 79 54 61 67 4e 61 6d 65 28 22 mentsByTagName("
+30a0: 68 65 61 64 22 29 5b 30 5d 3b 76 61 72 20 61 3d head")[0];var a=
+30b0: 64 6f 63 75 6d 65 6e 74 2e 67 65 74 45 6c 65 6d document.getElem
+30c0: 65 6e 74 42 79 49 64 28 66 29 3b 69 66 28 61 29 entById(f);if(a)
+30d0: 7b 63 2e 72 65 6d 6f 76 65 43 68 69 6c 64 28 61 {c.removeChild(a
+30e0: 29 7d 76 61 72 20 62 3d 64 6f 63 75 6d 65 6e 74 )}var b=document
+30f0: 2e 63 72 65 61 74 65 45 6c 65 6d 65 6e 74 28 22 .createElement("
+3100: 73 63 72 69 70 74 22 29 3b 69 66 28 65 29 7b 62 script");if(e){b
+3110: 2e 63 68 61 72 73 65 74 3d 65 7d 65 6c 73 65 7b .charset=e}else{
+3120: 62 2e 63 68 61 72 73 65 74 3d 22 67 62 32 33 31 b.charset="gb231
+3130: 32 22 7d 62 2e 69 64 3d 66 3b 62 2e 74 79 70 65 2"}b.id=f;b.type
+3140: 3d 22 74 65 78 74 2f 6a 61 76 61 73 63 72 69 70 ="text/javascrip
+3150: 74 22 3b 64 2b 3d 28 2f 5c 3f 2f 2e 74 65 73 74 t";d+=(/\?/.test
+3160: 28 64 29 3f 22 26 22 3a 22 3f 22 29 2b 22 5f 3d (d)?"&":"?")+"_=
+3170: 22 2b 28 6e 65 77 20 44 61 74 65 28 29 29 2e 67 "+(new Date()).g
+3180: 65 74 54 69 6d 65 28 29 3b 62 2e 73 72 63 3d 64 etTime();b.src=d
+3190: 3b 63 2e 61 70 70 65 6e 64 43 68 69 6c 64 28 62 ;c.appendChild(b
+31a0: 29 7d 3b 73 69 6e 61 53 53 4f 4d 61 6e 61 67 65 )};sinaSSOManage
+31b0: 72 2e 64 6f 43 72 6f 73 73 44 6f 6d 61 69 6e 43 r.doCrossDomainC
+31c0: 61 6c 6c 42 61 63 6b 3d 66 75 6e 63 74 69 6f 6e allBack=function
+31d0: 28 61 29 7b 73 69 6e 61 53 53 4f 4d 61 6e 61 67 (a){sinaSSOManag
+31e0: 65 72 2e 63 72 6f 73 73 44 6f 6d 61 69 6e 43 6f er.crossDomainCo
+31f0: 75 6e 74 65 72 2b 2b 3b 64 6f 63 75 6d 65 6e 74 unter++;document
+3200: 2e 67 65 74 45 6c 65 6d 65 6e 74 73 42 79 54 61 .getElementsByTa
+3210: 67 4e 61 6d 65 28 22 68 65 61 64 22 29 5b 30 5d gName("head")[0]
+3220: 2e 72 65 6d 6f 76 65 43 68 69 6c 64 28 64 6f 63 .removeChild(doc
+3230: 75 6d 65 6e 74 2e 67 65 74 45 6c 65 6d 65 6e 74 ument.getElement
+3240: 42 79 49 64 28 61 2e 73 63 72 69 70 74 49 64 29 ById(a.scriptId)
+3250: 29 7d 3b 73 69 6e 61 53 53 4f 4d 61 6e 61 67 65 )};sinaSSOManage
+3260: 72 2e 63 72 6f 73 73 44 6f 6d 61 69 6e 43 61 6c r.crossDomainCal
+3270: 6c 42 61 63 6b 3d 66 75 6e 63 74 69 6f 6e 28 61 lBack=function(a
+3280: 29 7b 69 66 28 21 61 7c 7c 61 2e 72 65 74 63 6f ){if(!a||a.retco
+3290: 64 65 21 3d 30 29 7b 72 65 74 75 72 6e 20 66 61 de!=0){return fa
+32a0: 6c 73 65 7d 76 61 72 20 64 3d 61 2e 61 72 72 55 lse}var d=a.arrU
+32b0: 52 4c 3b 76 61 72 20 62 2c 66 3b 76 61 72 20 65 RL;var b,f;var e
+32c0: 3d 7b 63 61 6c 6c 62 61 63 6b 3a 22 73 69 6e 61 ={callback:"sina
+32d0: 53 53 4f 4d 61 6e 61 67 65 72 2e 64 6f 43 72 6f SSOManager.doCro
+32e0: 73 73 44 6f 6d 61 69 6e 43 61 6c 6c 42 61 63 6b ssDomainCallBack
+32f0: 22 7d 3b 73 69 6e 61 53 53 4f 4d 61 6e 61 67 65 "};sinaSSOManage
+3300: 72 2e 63 72 6f 73 73 44 6f 6d 61 69 6e 43 6f 75 r.crossDomainCou
+3310: 6e 74 65 72 3d 30 3b 69 66 28 64 2e 6c 65 6e 67 nter=0;if(d.leng
+3320: 74 68 3d 3d 30 29 7b 72 65 74 75 72 6e 20 74 72 th==0){return tr
+3330: 75 65 7d 66 6f 72 28 76 61 72 20 63 3d 30 3b 63 ue}for(var c=0;c
+3340: 3c 64 2e 6c 65 6e 67 74 68 3b 63 2b 2b 29 7b 62 <d.length;c++){b
+3350: 3d 64 5b 63 5d 3b 66 3d 22 73 73 6f 73 63 72 69 =d[c];f="ssoscri
+3360: 70 74 22 2b 63 3b 65 2e 73 63 72 69 70 74 49 64 pt"+c;e.scriptId
+3370: 3d 66 3b 62 3d 62 2b 28 2f 5c 3f 2f 2e 74 65 73 =f;b=b+(/\?/.tes
+3380: 74 28 62 29 3f 22 26 22 3a 22 3f 22 29 2b 73 69 t(b)?"&":"?")+si
+3390: 6e 61 53 53 4f 4d 61 6e 61 67 65 72 2e 71 28 65 naSSOManager.q(e
+33a0: 29 3b 73 69 6e 61 53 53 4f 4d 61 6e 61 67 65 72 );sinaSSOManager
+33b0: 2e 65 73 28 66 2c 62 29 7d 7d 3b 73 69 6e 61 53 .es(f,b)}};sinaS
+33c0: 53 4f 4d 61 6e 61 67 65 72 2e 75 70 64 61 74 65 SOManager.update
+33d0: 43 6f 6f 6b 69 65 43 61 6c 6c 42 61 63 6b 3d 66 CookieCallBack=f
+33e0: 75 6e 63 74 69 6f 6e 28 63 29 7b 76 61 72 20 64 unction(c){var d
+33f0: 3d 22 73 73 6f 43 72 6f 73 73 44 6f 6d 61 69 6e ="ssoCrossDomain
+3400: 53 63 72 69 70 74 49 64 22 3b 76 61 72 20 61 3d ScriptId";var a=
+3410: 22 68 74 74 70 3a 2f 2f 6c 6f 67 69 6e 2e 73 69 "http://login.si
+3420: 6e 61 2e 63 6f 6d 2e 63 6e 2f 73 73 6f 2f 63 72 na.com.cn/sso/cr
+3430: 6f 73 73 64 6f 6d 61 69 6e 2e 70 68 70 22 3b 69 ossdomain.php";i
+3440: 66 28 63 2e 72 65 74 63 6f 64 65 3d 3d 30 29 7b f(c.retcode==0){
+3450: 76 61 72 20 65 3d 7b 73 63 72 69 70 74 49 64 3a var e={scriptId:
+3460: 64 2c 63 61 6c 6c 62 61 63 6b 3a 22 73 69 6e 61 d,callback:"sina
+3470: 53 53 4f 4d 61 6e 61 67 65 72 2e 63 72 6f 73 73 SSOManager.cross
+3480: 44 6f 6d 61 69 6e 43 61 6c 6c 42 61 63 6b 22 2c DomainCallBack",
+3490: 61 63 74 69 6f 6e 3a 22 6c 6f 67 69 6e 22 2c 64 action:"login",d
+34a0: 6f 6d 61 69 6e 3a 22 73 69 6e 61 2e 63 6f 6d 2e omain:"sina.com.
+34b0: 63 6e 22 7d 3b 76 61 72 20 62 3d 61 2b 22 3f 22 cn"};var b=a+"?"
+34c0: 2b 73 69 6e 61 53 53 4f 4d 61 6e 61 67 65 72 2e +sinaSSOManager.
+34d0: 71 28 65 29 3b 73 69 6e 61 53 53 4f 4d 61 6e 61 q(e);sinaSSOMana
+34e0: 67 65 72 2e 65 73 28 64 2c 62 29 7d 65 6c 73 65 ger.es(d,b)}else
+34f0: 7b 7d 7d 3b 73 69 6e 61 53 53 4f 4d 61 6e 61 67 {}};sinaSSOManag
+3500: 65 72 2e 75 70 64 61 74 65 43 6f 6f 6b 69 65 3d er.updateCookie=
+3510: 66 75 6e 63 74 69 6f 6e 28 29 7b 76 61 72 20 67 function(){var g
+3520: 3d 31 38 30 30 3b 76 61 72 20 70 3d 37 32 30 30 =1800;var p=7200
+3530: 3b 76 61 72 20 62 3d 22 73 73 6f 4c 6f 67 69 6e ;var b="ssoLogin
+3540: 53 63 72 69 70 74 22 3b 76 61 72 20 68 3d 33 36 Script";var h=36
+3550: 30 30 2a 32 34 3b 76 61 72 20 69 3d 22 73 69 6e 00*24;var i="sin
+3560: 61 2e 63 6f 6d 2e 63 6e 22 3b 76 61 72 20 6d 3d a.com.cn";var m=
+3570: 31 38 30 30 3b 76 61 72 20 6c 3d 22 68 74 74 70 1800;var l="http
+3580: 3a 2f 2f 6c 6f 67 69 6e 2e 73 69 6e 61 2e 63 6f ://login.sina.co
+3590: 6d 2e 63 6e 2f 73 73 6f 2f 75 70 64 61 74 65 74 m.cn/sso/updatet
+35a0: 67 74 2e 70 68 70 22 3b 76 61 72 20 6e 3d 6e 75 gt.php";var n=nu
+35b0: 6c 6c 3b 76 61 72 20 66 3d 66 75 6e 63 74 69 6f ll;var f=functio
+35c0: 6e 28 65 29 7b 76 61 72 20 72 3d 6e 75 6c 6c 3b n(e){var r=null;
+35d0: 76 61 72 20 71 3d 6e 75 6c 6c 3b 73 77 69 74 63 var q=null;switc
+35e0: 68 28 65 29 7b 63 61 73 65 22 73 69 6e 61 2e 63 h(e){case"sina.c
+35f0: 6f 6d 2e 63 6e 22 3a 71 3d 73 69 6e 61 53 53 4f om.cn":q=sinaSSO
+3600: 4d 61 6e 61 67 65 72 2e 67 65 74 53 69 6e 61 43 Manager.getSinaC
+3610: 6f 6f 6b 69 65 28 29 3b 69 66 28 71 29 7b 72 3d ookie();if(q){r=
+3620: 71 2e 65 74 7d 62 72 65 61 6b 3b 63 61 73 65 22 q.et}break;case"
+3630: 73 69 6e 61 2e 63 6e 22 3a 71 3d 73 69 6e 61 53 sina.cn":q=sinaS
+3640: 53 4f 4d 61 6e 61 67 65 72 2e 67 65 74 53 69 6e SOManager.getSin
+3650: 61 43 6f 6f 6b 69 65 28 29 3b 69 66 28 71 29 7b aCookie();if(q){
+3660: 72 3d 71 2e 65 74 7d 62 72 65 61 6b 3b 63 61 73 r=q.et}break;cas
+3670: 65 22 35 31 75 63 2e 63 6f 6d 22 3a 71 3d 73 69 e"51uc.com":q=si
+3680: 6e 61 53 53 4f 4d 61 6e 61 67 65 72 2e 67 65 74 naSSOManager.get
+3690: 53 69 6e 61 43 6f 6f 6b 69 65 28 29 3b 69 66 28 SinaCookie();if(
+36a0: 71 29 7b 72 3d 71 2e 65 74 7d 62 72 65 61 6b 7d q){r=q.et}break}
+36b0: 72 65 74 75 72 6e 20 72 7d 3b 76 61 72 20 6a 3d return r};var j=
+36c0: 66 75 6e 63 74 69 6f 6e 28 29 7b 74 72 79 7b 72 function(){try{r
+36d0: 65 74 75 72 6e 20 66 28 69 29 7d 63 61 74 63 68 eturn f(i)}catch
+36e0: 28 65 29 7b 72 65 74 75 72 6e 20 6e 75 6c 6c 7d (e){return null}
+36f0: 7d 3b 74 72 79 7b 69 66 28 67 3e 35 29 7b 69 66 };try{if(g>5){if
+3700: 28 6e 21 3d 6e 75 6c 6c 29 7b 63 6c 65 61 72 54 (n!=null){clearT
+3710: 69 6d 65 6f 75 74 28 6e 29 7d 6e 3d 73 65 74 54 imeout(n)}n=setT
+3720: 69 6d 65 6f 75 74 28 22 73 69 6e 61 53 53 4f 4d imeout("sinaSSOM
+3730: 61 6e 61 67 65 72 2e 75 70 64 61 74 65 43 6f 6f anager.updateCoo
+3740: 6b 69 65 28 29 22 2c 67 2a 31 30 30 30 29 7d 76 kie()",g*1000)}v
+3750: 61 72 20 64 3d 6a 28 29 3b 76 61 72 20 63 3d 28 ar d=j();var c=(
+3760: 6e 65 77 20 44 61 74 65 28 29 29 2e 67 65 74 54 new Date()).getT
+3770: 69 6d 65 28 29 2f 31 30 30 30 3b 76 61 72 20 6f ime()/1000;var o
+3780: 3d 7b 7d 3b 69 66 28 64 3d 3d 6e 75 6c 6c 29 7b ={};if(d==null){
+3790: 6f 3d 7b 72 65 74 63 6f 64 65 3a 36 31 30 32 7d o={retcode:6102}
+37a0: 7d 65 6c 73 65 7b 69 66 28 64 3c 63 29 7b 6f 3d }else{if(d<c){o=
+37b0: 7b 72 65 74 63 6f 64 65 3a 36 32 30 33 7d 7d 65 {retcode:6203}}e
+37c0: 6c 73 65 7b 69 66 28 64 2d 68 2b 6d 3e 63 29 7b lse{if(d-h+m>c){
+37d0: 6f 3d 7b 72 65 74 63 6f 64 65 3a 36 31 31 30 7d o={retcode:6110}
+37e0: 7d 65 6c 73 65 7b 69 66 28 64 2d 63 3e 70 29 7b }else{if(d-c>p){
+37f0: 6f 3d 7b 72 65 74 63 6f 64 65 3a 36 31 31 31 7d o={retcode:6111}
+3800: 7d 7d 7d 7d 69 66 28 6f 2e 72 65 74 63 6f 64 65 }}}}if(o.retcode
+3810: 21 3d 3d 75 6e 64 65 66 69 6e 65 64 29 7b 72 65 !==undefined){re
+3820: 74 75 72 6e 20 66 61 6c 73 65 7d 76 61 72 20 61 turn false}var a
+3830: 3d 6c 2b 22 3f 63 61 6c 6c 62 61 63 6b 3d 73 69 =l+"?callback=si
+3840: 6e 61 53 53 4f 4d 61 6e 61 67 65 72 2e 75 70 64 naSSOManager.upd
+3850: 61 74 65 43 6f 6f 6b 69 65 43 61 6c 6c 42 61 63 ateCookieCallBac
+3860: 6b 22 3b 73 69 6e 61 53 53 4f 4d 61 6e 61 67 65 k";sinaSSOManage
+3870: 72 2e 65 73 28 62 2c 61 29 7d 63 61 74 63 68 28 r.es(b,a)}catch(
+3880: 6b 29 7b 7d 72 65 74 75 72 6e 20 74 72 75 65 7d k){}return true}
+3890: 3b 73 69 6e 61 53 53 4f 4d 61 6e 61 67 65 72 2e ;sinaSSOManager.
+38a0: 75 70 64 61 74 65 43 6f 6f 6b 69 65 28 29 3b 3c updateCookie();<
+38b0: 2f 73 63 72 69 70 74 3e 0a 3c 21 2d 2d 20 53 53 /script>.<!-- SS
+38c0: 4f 5f 55 50 44 41 54 45 43 4f 4f 4b 49 45 5f 45 O_UPDATECOOKIE_E
+38d0: 4e 44 20 2d 2d 3e 0a 0a 3c 21 2d 2d 20 62 6f 64 ND -->..<!-- bod
+38e0: 79 20 63 6f 64 65 20 65 6e 64 20 2d 2d 3e 0a 0a y code end -->..
+38f0: 3c 2f 62 6f 64 79 3e 0a 3c 73 63 72 69 70 74 20 </body>.<script 
+3900: 74 79 70 65 3d 22 74 65 78 74 2f 6a 61 76 61 73 type="text/javas
+3910: 63 72 69 70 74 22 20 3e 0a 20 20 20 20 20 20 20 cript" >.       
+3920: 20 6f 6e 6c 6f 61 64 20 3d 20 66 75 6e 63 74 69  onload = functi
+3930: 6f 6e 20 28 29 20 7b 0a 20 20 20 20 20 20 20 20 on () {.        
+3940: 20 20 20 20 76 61 72 20 73 70 61 6e 20 3d 20 64     var span = d
+3950: 6f 63 75 6d 65 6e 74 2e 67 65 74 45 6c 65 6d 65 ocument.getEleme
+3960: 6e 74 42 79 49 64 28 22 73 65 63 6f 6e 64 22 29 ntById("second")
+3970: 3b 0a 20 20 20 20 20 20 20 20 20 20 20 20 2f 2f ;.            //
+3980: 20 73 65 74 49 6e 74 65 72 76 61 6c e5 b0 b1 e6  setInterval....
+3990: 98 af e5 bc 80 e5 90 af e4 b8 80 e4 b8 aa e8 ae ................
+39a0: a1 e6 97 b6 e5 99 a8 ef bc 8c e9 87 8c e9 9d a2 ................
+39b0: e4 bc a0 e5 85 a5 e4 b8 80 e4 b8 aa e6 96 b9 e6 ................
+39c0: b3 95 e5 92 8c e4 b8 80 e4 b8 aa e6 97 b6 e9 97 ................
+39d0: b4 0a 20 20 20 20 20 20 20 20 20 20 20 20 2f 2f ..            //
+39e0: 20 e8 a1 a8 e7 a4 ba e6 af 8f e9 9a 94 e8 bf 99  ...............
+39f0: e4 b8 aa e6 97 b6 e9 97 b4 e9 97 b4 e9 9a 94 e8 ................
+3a00: b0 83 e7 94 a8 e4 b8 80 e6 ac a1 e8 bf 99 e4 b8 ................
+3a10: aa e6 96 b9 e6 b3 95 0a 20 20 20 20 20 20 20 20 ........        
+3a20: 20 20 20 20 76 61 72 20 69 6e 74 65 72 76 61 6c     var interval
+3a30: 49 64 20 3d 20 73 65 74 49 6e 74 65 72 76 61 6c Id = setInterval
+3a40: 28 66 75 6e 63 74 69 6f 6e 20 28 29 20 7b 0a 20 (function () {. 
+3a50: 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 2f                /
+3a60: 2f 20 76 61 72 20 6e 75 6d 20 3d 20 73 70 61 6e / var num = span
+3a70: 2e 69 6e 6e 65 72 48 54 4d 4c 20 2d 20 31 3b 20 .innerHTML - 1; 
+3a80: 20 20 20 2f 2f e7 ad 89 e4 bb b7 e4 b8 8b e9 9d    //...........
+3a90: a2 e4 b8 89 e8 a1 8c 0a 20 20 20 20 20 20 20 20 ........        
+3aa0: 20 20 20 20 20 20 20 20 2f 2f 69 6e 6e 65 72 48         //innerH
+3ab0: 54 4d 4c ef bc 9a e8 8e b7 e5 be 97 e6 88 96 e8 TML.............
+3ac0: ae be e7 bd ae e4 b8 80 e4 b8 aa e6 a0 87 e7 ad ................
+3ad0: be e4 b8 8b e7 9a 84 e5 86 85 e5 ae b9 ef bc 88 ................
+3ae0: e5 86 85 e5 ae b9 e5 8f af e4 bb a5 e6 98 af 48 ...............H
+3af0: 54 4d 4c e6 a0 bc e5 bc 8f e7 9a 84 ef bc 89 ef TML.............
+3b00: bc 9a 0a 20 20 20 20 20 20 20 20 20 20 20 20 20 ...             
+3b10: 20 20 20 76 61 72 20 6e 75 6d 73 74 72 20 3d 20    var numstr = 
+3b20: 73 70 61 6e 2e 69 6e 6e 65 72 48 54 4d 4c 3b 0a span.innerHTML;.
+3b30: 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20                 
+3b40: 76 61 72 20 6e 75 6d 20 3d 20 70 61 72 73 65 49 var num = parseI
+3b50: 6e 74 28 6e 75 6d 73 74 72 29 3b 0a 20 20 20 20 nt(numstr);.    
+3b60: 20 20 20 20 20 20 20 20 20 20 20 20 6e 75 6d 2d             num-
+3b70: 2d 3b 0a 20 0a 20 20 20 20 20 20 20 20 20 20 20 -;. .           
+3b80: 20 20 20 20 20 73 70 61 6e 2e 69 6e 6e 65 72 48      span.innerH
+3b90: 54 4d 4c 20 3d 20 6e 75 6d 3b 0a 20 0a 20 20 20 TML = num;. .   
+3ba0: 20 20 20 20 20 20 20 20 20 20 20 20 20 69 66 20              if 
+3bb0: 28 6e 75 6d 20 3c 3d 20 30 29 20 7b 0a 20 20 20 (num <= 0) {.   
+3bc0: 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20                 
+3bd0: 20 2f 2f 20 e5 81 9c e4 b8 8b e8 ae a1 e6 97 b6  // ............
+3be0: e5 99 a8 0a 20 20 20 20 20 20 20 20 20 20 20 20 ....            
+3bf0: 20 20 20 20 20 20 20 20 63 6c 65 61 72 49 6e 74         clearInt
+3c00: 65 72 76 61 6c 28 69 6e 74 65 72 76 61 6c 49 64 erval(intervalId
+3c10: 29 3b 0a 20 20 20 20 20 20 20 20 20 20 20 20 20 );.             
+3c20: 20 20 20 20 20 20 20 2f 2f e8 b7 b3 e8 bd ac e5        //.......
+3c30: 88 b0 e7 99 be e5 ba a6 e9 a6 96 e9 a1 b5 0a 20 ............... 
+3c40: 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20                 
+3c50: 20 20 20 77 69 6e 64 6f 77 2e 6c 6f 63 61 74 69    window.locati
+3c60: 6f 6e 2e 68 72 65 66 20 3d 20 22 68 74 74 70 73 on.href = "https
+3c70: 3a 2f 2f 77 77 77 2e 73 69 6e 61 2e 63 6f 6d 2e ://www.sina.com.
+3c80: 63 6e 22 3b 0a 20 20 20 20 20 20 20 20 20 20 20 cn";.           
+3c90: 20 20 20 20 20 7d 0a 20 20 20 20 20 20 20 20 20      }.         
+3ca0: 20 20 20 7d 2c 20 31 30 30 30 29 3b 0a 20 0a 20    }, 1000);. . 
+3cb0: 20 20 20 20 20 20 20 7d 3b 0a 3c 2f 73 63 72 69        };.</scri
+3cc0: 70 74 3e 0a 3c 2f 68 74 6d 6c 3e 0a             pt>.</html>.
+== Info: Connection #0 to host www.sina.com left intact
