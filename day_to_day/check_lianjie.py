@@ -4,7 +4,7 @@ import pymysql
 import requests
 from openpyxl import load_workbook
 from lxml import etree
-from pycharm_work.day_to_day.find_snaks import *
+from day_to_day.find_snaks import *
 from fake_useragent import UserAgent
 import re
 
@@ -13,7 +13,7 @@ import re
 LIANJ = 'M'
 # 食品名字存在的列
 NAME = 'L'
-FiLe_name = '零食.xlsx'
+FiLe_name = 'xxx.xlsx'
 
 #切换代理
 
@@ -26,7 +26,7 @@ class JudGe:
     #京东链接的提取xpath
     XPATH = '//div[@id="crumb-wrap"]//em'
     def __init__(self):
-        self.headers = {'User-Agent':str(UserAgent(verify_ssl=False).random)}
+        self.headers = {'User-Agent':str(UserAgent(verify_ssl=False).random),}
         # self.headers = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43'}
         self.db = pymysql.connect(
             host='127.0.0.1',

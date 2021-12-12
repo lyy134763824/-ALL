@@ -62,6 +62,7 @@ class JudGe:
         return html.text
 
     def get_html(self,addr):
+        self.headers.update({'Referer':str(addr)})
         html = requests.get(addr,headers=self.headers)
         if "window.location.href" in html.text and len(html.text) < 200:
             '''

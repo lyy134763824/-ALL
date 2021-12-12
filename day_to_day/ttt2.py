@@ -16,3 +16,7 @@ html = requests.get('https://www.baidu.com/',proxies=proxy,headers = headers)
 # print(html.text)
 # print(html.status_code)
 # print(html)
+a = {'a':1}
+b = {'b':1}
+a.update(b)
+print(a)

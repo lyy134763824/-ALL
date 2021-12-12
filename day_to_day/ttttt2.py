@@ -1,105 +1,85 @@
-'''
-* Created with Pycharm IDEA.
- * @Project      : lyy_styudy
- * @FileName     : ttttt.py
- * @createTime   : 2021/12/10 17:28
- * @version      : 1.0
- * @author       : Lyy
- * @Email        : 2793008966@qq.com
-'''
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+from openpyxl import load_workbook
+from day_to_day.find_snaks import *
 from fake_useragent import UserAgent
-import re
 
-from lxml import etree
-import pymysql
-import requests
-import time
-# str1 = "<script>window.location.href='http://item.jd.com/html/token.html?returnUrl=http%3A%2F%2Fitem.jd.com%2F5759121.html'</script>"
-# pattern = r"href='(.*?)'<"
-#
-# print(re.findall(pattern,str1)[0])
+
+
+# 想要校验的列
+LIANJ = 'M'
+# 食品名字存在的列
+NAME = 'L'
+FiLe_name = 'xxx.xlsx'
+
 
 class JudGe:
     #京东链接的提取xpath
-    XPATH = '//div[@id="crumb-wrap"]//em'
-    TEST_URL = 'https://www.baidu.com/'
-    MAX_TEST = 10
+    XPATH = '//div[@id="crumb-wrap"]'
     def __init__(self):
         self.headers = {'User-Agent':str(UserAgent(verify_ssl=False).random)}
-        # self.headers = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43'}
-        self.db = pymysql.connect(
-            host='127.0.0.1',
-            user='root',
-            passwd='123456',
-            database='proxy_db',
-            charset='utf8',
-        )
-        self.cursor = self.db.cursor()
-        self.count =0
-
-    def use_proxy(self):
-        ins = 'select * from proxy_ip order by rand() limit 1;'
-        self.cursor.execute(ins)
-        data = self.cursor.fetchall()
-        proxies = {data[0][3]:data[0][0]+":"+data[0][1]}
-        res = requests.get(JudGe.TEST_URL, proxies=proxies, timeout=5, headers=self.headers)
-        if res.status_code == 200 :
-           return proxies
-        else:
-            proxies = self.use_proxy()
-            return proxies
-
-
-    def get_html2(self, addr):
-        if self.count > JudGe.MAX_TEST:
-            return None
-        proxies = self.use_proxy()
-        print(proxies)
-        html = requests.get(addr, headers=self.headers,proxies=proxies)
-        if "验证页" in html.text:
-            self.count += 1
-            self.get_html2(addr)
-        return html.text
+        options = Options()
+        options.add_argument('--headless')
+        self.driver = webdriver.Chrome(options=options)
+        # self.driver = webdriver.Chrome()
+        self.timeout = WebDriverWait(driver=self.driver,timeout=10)
 
     def get_html(self,addr):
-        self.headers.update({'Referer':str(addr)})
-        html = requests.get(addr,headers=self.headers)
-        if "window.location.href" in html.text and len(html.text) < 200:
-            '''
-            进入此地，说明需要介入代理ip
-            '''
-            temp = html.text
-            pattern = r"href='(.*?)'<"
-            addr2 = re.findall(pattern=pattern,string=temp)[0]
-            # print(addr2)
-            time.sleep(2)
-            tt = self.get_html2(addr2)
-            print(tt)
-            return tt
-        else:
-            # print(html.text)
-            time.sleep(2)
-            return html.text
+        self.driver.get(addr)
+        self.timeout.until(EC.presence_of_element_located((By.ID,"crumb-wrap")))
 
-    def parse_html(self,addr):
-        html = self.get_html(addr)
-        if not html:
-            return None
-        htmlElement  = etree.HTML(html)
+        innerText = self.driver.find_element_by_xpath(JudGe.XPATH).get_attribute('innerText')
+        # innerText = self.driver.find_element_by_xpath(JudGe.XPATH).get_attribute('textContent')
+        res = innerText.strip().replace('\n','')
+        return res
 
-        text =htmlElement.xpath(JudGe.XPATH)
-        if not text:
-            return None
-        text = text[0].text.strip()
-        return text
+
 
     def run(self,addr):
-        content = self.parse_html(addr)
+        content = self.get_html(addr)
         if not content:
-            return "验证页过不去"
+            return False
         elif   '自营' in content :
             return True
         else:
             return False
-J = JudGe()
-print(J.run('https://item.jd.com/859557.html'))
+
+
+class Auto:
+    def __init__(self):
+        self.j = JudGe()
+
+    def run(self):
+        wb = load_workbook(FiLe_name)
+        sheets = wb.worksheets
+        sheet1 = sheets[0]
+        #索引下表从0 开始计算8行到10行 3 行  不取10
+        n = len(sheet1[LIANJ])
+        item = {}
+        for i in range(n):
+            if sheet1[LIANJ][i].value == None:
+                continue
+            if "https" in sheet1[LIANJ][i].value:
+                if self.j.run(sheet1[LIANJ][i].value):
+                    pass
+                else:
+                    print(f"行数是{i+1}{sheet1[NAME][i].value} 的链接是: {sheet1[LIANJ][i].value} 为非自营店")
+                    item[sheet1[NAME][i].value] = sheet1[LIANJ][i].value
+        return item
+
+
+'''
+# J = JudGe()
+# print(J.run('https://item.jd.com/859557.html'))
+# J.run('https://item.jd.com/69942152195.html')
+食品饮料>休闲食品>休闲零食>零食大礼包>良品铺子 >良品铺子 猪事顺利巨型零食大礼包猪饲料礼包 零食大礼包送女友25包零食生日礼物送女友节日送礼团购 【14款荤素分享包】小时刻零食大礼包1426g x1袋良品铺子官方旗舰店联系客服关注店铺
+
+食品饮料>休闲食品>休闲零食>果冻/布丁>喜之郎 >喜之郎果冻自营喜之郎京东自营旗舰店关注店铺
+'''
+if __name__ == '__main__':
+    a = Auto()
+    a.run()
+
