@@ -1,0 +1,8 @@
+'''
+模板擦
+1 先找外面 2 按照安装的app顺序找
+但是 可以解决：
+在templates/news/index.html即可
+
+
+'''

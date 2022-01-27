@@ -1,5 +1,16 @@
 from django.http import HttpResponse,HttpResponseRedirect
 from django.http import request
+from django.shortcuts import render
+from django.urls import reverse
+
+def a():
+    return ('a hhh')
+
+class A(object):
+    def __init__(self):
+        pass
+    def say(self):
+        return ('A 我会说')
 
 def pagen_view(request,page):
 
@@ -67,16 +78,59 @@ def test_post(request):
         return HttpResponse('暂时不支持此功能')
 
 
+def test_render(request):
+    divt = {"username":"lyy","age":"18"}
+    return render(request,'login2.html',divt)
+
+def test_render2(request):
+    divt = {"username":"lyy","age":"18"}
+    divt['dict'] = {'d':1}
+    divt['l']= [1,2,3]
+    divt['func'] = a
+    divt['class_obj'] = A()
+    divt['script'] = "<script >alert(1111)</script>"
+    return render(request,'params.html',divt)
+
+def mycal(request):
+    if request.method =='GET':
+        return render(request,'bq.html')
+    elif request.method =='POST':
+        x = float(request.POST.get('x'))
+        y = float(request.POST.get('y'))
+        op = request.POST.get('op')
+        if op =='add':
+            res = x+y
+        elif op =='mul':
+            res = x*y
+        elif op =='div':
+            res = x/y
+        else:
+            res = x - y
+        return render(request,'bq.html',locals())
 
 
+def base_view(request):
+    return render(request,'base.html')
+
+def music_view(request):
+    return render(request,'music.html')
+
+def sport_view(request):
+    return render(request,'sport.html')
+
+def reverse_view(request):
+    url = reverse('person',args=[10,20])
+    # url = reverse('person',kwargs={'name':'kk','age':20,})
+    print(url)
+    return HttpResponseRedirect(url)
 
 
+def person_view(request,age=None,name=None):
+    if request.method == 'GET':
+        return render(request,'person.html',locals())
 
 
+def static_view(request):
 
-
-
-
-
-
+    return render(request,'static.html')
 

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>cdcdd</h1>
+{%if dict.d > 10%}
+<h1>今天天气>10</h1>
+{%elif dict.d > 0%}
+<h1>{{dict.d |add:'5'}}</h1>
+{%endif%}
+<form method="post" action="/login">
+    divt['dict'] = {{dict}}
+    divt['dict']['d'] = {{dict.d}}
+    divt['l']=  {{l}}
+    divt['func'] = {{ func }}
+    divt['class_obj'] = {{ class_obj.say }}
+    divt['script'] = {{ script|safe }}
+</form>
+{% for e in l%}
+    {%if forloop.first %}
+    <h2>{{forloop.counter}}:{{e}}</h2>
+    {%elif forloop.last %}
+    <h2>{{forloop.counter}}-{{e}}</h2>
+    {%else %}
+    <h2>{{forloop.counter}}++{{e}}</h2>
+    {% endif %}
+
+{% empty %}
+    <h2>当前没数据</h2>
+{% endfor %}
+</body>
+</html>
