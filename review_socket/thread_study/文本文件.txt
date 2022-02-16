@@ -1,0 +1,113 @@
+curl https://testerhome.com/ |grep -o 'http://[a-zA-Z0-9\.\-]*'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+http://test-china.org
+http://wetest.qq.com
+http://www.infoq.com
+http://tieba.baidu.com
+http://www.itdks.com
+http://www.sendcloud.net
+100 49458    0 49458    0     0  53875      0 --:--:-- --:--:-- --:--:-- 53875
+
+curl https://testerhome.com2/dev/null |grep Appium |grep -v Python
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: testerhome.com2
+
+echo $PATH|awk 'BEGIN{RS =":"}{print $0}'
+/usr/local/sbin
+/usr/local/bin
+/usr/sbin
+/usr/bin
+/sbin
+/bin
+/usr/games
+/usr/local/games
+/snap/bin
+/usr/local/go/bin
+
+awk 'BEGIN{printf "%.f\n",3*7}'
+21
+
+seq 10 2 20|awk '$1>14{data[NR]=$1}END{for (k in data) print data[k]}'
+16
+18
+20
+
+
+seq 10|sed -n '5p'
+5
+
+seq 10|sed 's#1$#ccc#'
+ccc
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+
+echo 'borde="[330,126][750,444]"'|awk 'BEGIN{FS=",|\\[|\\]"}{print ($2+$3)/2,($5+$6)/2}'
+228 597
+
+adb shell uiautomator dump && cat dump下载的位置  :查看手机端的所有页面
+adb shell uiautomator dump --compressed && cat dump下载的位置 |sed 's#<node#^<node>#' |awk 'BEGIN{RS="^"}{print $0}' |grep '登录"'|awk 'BEGIN{FS=",|\\[|\\]"}{print ($2+$5)/2,($3+$6)/2}'
+
+
+echo "111 222a333 444b555 666"|awk 'BEGIN{RS="[a-z]+"}{print $0,RS,RT}'
+111 222 [a-z]+ 
+333 444 [a-z]+ 
+555 666
+ [a-z]+ 
+
+
+adb shell input tap 点击手机客户端的位置坐标 （44,55）
+
+
+adb shell input tap \
+$(adb shell uiautomator dump --compressed && cat dump下载的位置 \
+|sed 's#<node#^<node>#' \
+|awk 'BEGIN{RS="^"}{print $0}' \
+|grep '登录"'\
+|awk 'BEGIN{FS=",|\\[|\\]"}{print ($2+$5)/2,($3+$6)/2}'\
+|head -1
+)
+
+
+click(){
+local index = 1
+[-n "$2"]&& index =$2
+adb shell input tap \
+$(adb shell uiautomator dump --compressed && cat dump下载的位置 \
+|sed 's#<node#^<node>#' \
+|awk 'BEGIN{RS="^"}{print $0}' \
+|grep '登录"'\
+|awk 'BEGIN{FS=",|\\[|\\]"}{print ($2+$5)/2,($3+$6)/2}'\
+|sed -n "$2"p\
+)
+}
+
+for name in 我的 订单 首页;do click $name ;done
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
